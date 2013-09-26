@@ -393,7 +393,7 @@ div.logo-intro span {
 }
 .notch {
 	display:block;
-	background-image:url('../img/logo-top2.png');
+	background-image:url('/assets/img/logo-top2.png');
 	background-color: rgba(242,101,34,1.0);
 	/*background-color: rgba(255,150,0,1);*/
 	background-repeat:no-repeat;
