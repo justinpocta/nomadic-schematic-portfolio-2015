@@ -1,9 +1,9 @@
-Title: Kirby
+Title: Nomadic Schematic
 ----
-Author: Bastian Allgeier
+Author: Justin Pocta
 ----
-Description: Kirby is awesome
+Description: Justin Pocta is an independent graphic designer in Brooklyn, NY.
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
+Keywords: freelance, design, interactive, apps, product design
 ----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Copyright: © (date: Year) (link: http://nomadic-schematic.com text: Justin Pocta)

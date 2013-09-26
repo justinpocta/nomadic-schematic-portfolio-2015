@@ -8,12 +8,13 @@
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
 
-  <?php echo css('assets/styles/styles.css') ?>
+  <?php echo css('assets/css/styles.css') ?>
+  <?php echo css('assets/css/stylesheet.css') ?>
 
 </head>
 
 <body>
 
   <header>
-    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1>
+    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/img/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1>
   </header>

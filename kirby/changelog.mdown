@@ -256,7 +256,7 @@ To update from 0.9.9 to 0.9.9.1 replace the `kirby` system folder and if you did
 - added more descriptions and help to the default .htaccess file
 - removed kirby/parsers/html.php, kirby/parsers/multiline.php and kirby/parsers/xml.php and merged them all in one kirby/parsers/defaults.php file. 
 - replaced the assets/images/apple-touch-icon.png and assets/images/favicon.png with newer versions. 
-- slightly cleaned up the assets/styles/styles.css
+- slightly cleaned up the assets/css/styles.css
 - slightly changed the readme.mdown
 - slightly changed the license.mdown
 - fixed a bug in the pagination class

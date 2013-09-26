@@ -1,0 +1,121 @@
+/*  SlidesJS Optional: If you'd like to use this design  */
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      /*font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+      /*color: #232525;*/
+      /*padding-top:70px;*/
+    }
+
+    #slides,#slides2,#slides3,
+    #slides4,#slides5,#slides6 {
+      display: none;
+      /*margin-bottom:50px;*/
+    }
+    #slides ul.slidesjs-pagination {
+      display:none !important;
+      top:-1000px;}
+    .slidesjs-navigation {
+      display: none;
+    }
+
+    .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+    .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      position: absolute;
+      bottom: -20px;
+      text-align: center;
+      padding-left: 10px;
+      padding-top: 10px;
+      right: 0;
+      list-style: none;
+      background-color: #efefef;
+      width: 100%;
+      z-index: 101;
+      /*
+      display: block;
+      */
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+    }
+
+    .slidesjs-container {width:100% !important;}
+    .slidesjs-control {width:100% !important;}
+    .slidesjs-pagination li a {
+      display: -moz-inline-stack; /* for Firefox */
+      display: inline-block;
+      /*width: 22px;
+      height: 22px;*/
+      background: url(../img/pagination.png) no-repeat;
+      text-indent: -9999px;
+      border: 0;
+      cursor: pointer;
+      margin: 0 5px 5px 0;
+      width: 35px;
+      height: 12px;
+      background-position: 0 0;
+      overflow: hidden;
+
+      /*display: block;
+      padding-top: 13px;
+      background-image: url('../img/pagination.png');
+*/
+    }
+    .slidesjs-pagination a.current {
+              background-position: 0 -22px;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+    .slidesjs-slide {background-position:center top; background-size:auto; display:block; Xidth:100%; height:100%; top:0; margin:0;}
+
+    #slides a:link,#slides2 a:link,#slides3 a:link,
+    #slides4 a:link,#slides5 a:link,#slides6 a:link,
+    #slides a:visited,#slides2 a:visited,#slides3 a:visited,
+    #slides4 a:visited,#slides5 a:visited,#slides6 a:visited {
+      color: #333
+    }
+
+    #slides a:hover,#slides2 a:hover,#slides3 a:hover,
+    #slides4 a:hover,#slides5 a:hover,#slides6 a:hover,
+    #slides a:active,#slides2 a:active,#slides3 a:active,
+    #slides4 a:active,#slides5 a:active,#slides6 a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+
+/*  SlidesJS Required: These styles are required if you'd like a responsive slideshow */
+
+    #slides,#slides2,#slides3,
+    #slides4,#slides5,#slides6
+     {
+      display: none
+    }
+    .container {
+      width:100%;
+      margin:0 auto;
+    }
+    .container div {
+      max-width: 800px !important;
+      margin:0 auto;
+      
+    }
