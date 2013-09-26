@@ -2,10 +2,6 @@
 
 <section class="content">
 
-  <article>
-    <h1><?php echo html($page->title()) ?></h1>
-  </article>
-
   <div class="main-intro" id="main-intro-header">
   <div><h2>Nomadic Schematic, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="about.html">Justin Pocta</span></a>.</h2></div>
 </div>

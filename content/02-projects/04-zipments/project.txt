@@ -18,6 +18,6 @@ Created: December 2012
 
 ----
 
-Developer: Travis Brack, iOS 6
+Credits: Travis Brack, iOS Developer
 
 ----
