@@ -10,7 +10,15 @@
   <meta name="viewport" content="width=device-width, user-scalable=false;">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
+  <link id="favicon" rel="shortcut icon" href="http://www.nomadic-schematic.com/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="http://files.justinpocta.com/apple-touch-icon-01.png"/>
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/home.js"></script>
+
   <?php echo css('assets/css/stylesheet.css') ?>
+  <?php echo css('assets/css/foundation.css') ?>
 
 </head>
 
