@@ -25,5 +25,23 @@
 <body>
 
   <header>
-    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/img/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1>
+	<!-- NAV -->
+	<div class="topbar-container">
+
+		<a href="http://nomadic-schematic.com" class="nomadic-logo"></a>
+		<a id="button" class="nav-mobile show-for-small">nav</a>
+
+		<!-- MOBILE NAV -->
+		<ul class="toggler dropdown-nav" id="effect">
+			<li><a href="/app-design">App Design</a></li>
+			<li><a href="/web-design">Websites</a></li>
+			<li><a href="/branding">Branding</a></li>
+			<li><a href="/print-design">Print Design</a></li>
+			<li><a href="/illustration">Illustrations</a></li>
+			<li><a href="/justin-pocta">About Justin</a></li>
+		</ul>
+
+	</div>
+	<!-- end NAV -->
+	<!--     <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/img/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1> -->
   </header>

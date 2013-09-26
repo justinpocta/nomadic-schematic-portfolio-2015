@@ -9,11 +9,11 @@
 	  <ul class="exits">
 	    <li><a href="mailto:justin@nomadic-schematic.com">Contact Justin</a></li>
 	    <li><a href="http://resume.nomadic-schematic.com">Download Résumé</a></li>
-	    <li><a href="http://linkedin.com/in/justinpocta">LinkedIn</a></li>
-	    <li><a href="http://twitter.com/justinpocta">Twitter</a></li>
-	    <li><a href="http://dribbble.com/justinpocta">Dribbble</a></li>
-	    <li><a href="http://github.com/justinpocta">Github</a></li>
-	    <li><a href="http://instagram.com/justinpocta">Instagram</a></li>
+	    <li><a href="http://linkedin.nomadic-schematic.com">LinkedIn</a></li>
+	    <li><a href="http://twitter.nomadic-schematic.com">Twitter</a></li>
+	    <li><a href="http://dribbble.nomadic-schematic.com">Dribbble</a></li>
+	    <li><a href="http://github.nomadic-schematic.com">Github</a></li>
+	    <li><a href="http://instagram.nomadic-schematic.com">Instagram</a></li>
 	  </ul>
 
 	  <a class="show-for-small button-top" href="#start"></a>

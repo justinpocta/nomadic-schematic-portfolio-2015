@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
-<?php snippet('submenu') ?>
 
+<body id="secondary">
 <section class="content">
 
   <article>
@@ -11,4 +10,5 @@
 
 </section>
 
+<?php snippet('all-projects') ?>
 <?php snippet('footer') ?>
