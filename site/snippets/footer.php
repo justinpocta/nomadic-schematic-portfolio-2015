@@ -7,13 +7,13 @@
 	  <p>These case studies are from projects created for clients at various studios and <span class="nowrap">in-house</span> at a startup, with a few personal projects intersperse.</p>
 	  
 	  <ul class="exits">
-	    <li><a href="mailto:justin@nomadic-schematic.com">contact</a></li>
-	    <li><a href="http://resume.nomadic-schematic.com">résumé</a></li>
-	    <li><a href="http://linkedin.com/in/justinpocta">linkedin</a></li>
-	    <li><a href="http://twitter.com/justinpocta">twitter</a></li>
-	    <li><a href="http://dribbble.com/justinpocta">dribbble</a></li>
-	    <li><a href="http://github.com/justinpocta">github</a></li>
-	    <li><a href="http://instagram.com/justinpocta">instagram</a></li>
+	    <li><a href="mailto:justin@nomadic-schematic.com">Contact Justin</a></li>
+	    <li><a href="http://resume.nomadic-schematic.com">Download Résumé</a></li>
+	    <li><a href="http://linkedin.com/in/justinpocta">LinkedIn</a></li>
+	    <li><a href="http://twitter.com/justinpocta">Twitter</a></li>
+	    <li><a href="http://dribbble.com/justinpocta">Dribbble</a></li>
+	    <li><a href="http://github.com/justinpocta">Github</a></li>
+	    <li><a href="http://instagram.com/justinpocta">Instagram</a></li>
 	  </ul>
 
 	  <a class="show-for-small button-top" href="#start"></a>

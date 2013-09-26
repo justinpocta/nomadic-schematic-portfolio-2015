@@ -379,6 +379,7 @@ div.logo-intro span {
 	margin-bottom: 10px;
 	margin-right: 5px;
 	padding:5px 15px;
+	text-transform: lowercase;
 	white-space: nowrap;
 }
 .exits li a:hover {
