@@ -6,9 +6,12 @@
   <article>
 
     <h1>PROJECT: <?php echo html($page->title()) ?></h1>
+	
+	<?php echo kirbytext($page->project_type()) ?>
 
     <?php echo kirbytext($page->text()) ?>
-    <?php echo kirbytext($page->slideshow()) ?>
+    <?php echo kirbytext($page->slideshow()) ?> <!-- ? -->
+
     <?php echo kirbytext($page->created()) ?>
     <?php echo kirbytext($page->credits()) ?>
 
@@ -16,5 +19,5 @@
 
 </section>
 
-<?php snippet('projects-apps') ?>
+<?php snippet('projects-apps') ?> <!-- ($types->type()) -->
 <?php snippet('footer') ?>

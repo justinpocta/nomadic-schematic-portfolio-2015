@@ -16,5 +16,4 @@
 
 </section>
 
-<?php snippet('all-projects') ?>
 <?php snippet('footer') ?>
