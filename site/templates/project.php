@@ -20,8 +20,6 @@
 	PREV:: <a href="<?php echo $pages->previous($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
 	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
 	<BR>
-<li> <?php if ($page->hasNext) {
-		   echo html($page->next())} ?>
 <li> <?php if ($page->hasNext) 
 		   echo html($page->next()) ?>
  	<br>
