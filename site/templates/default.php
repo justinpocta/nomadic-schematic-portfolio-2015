@@ -50,7 +50,7 @@ $tags = tagcloud($blog);
 		
 		} ?>
 		<?php foreach($articles as $article): ?>
-		<li class="<?php foreach(str::split($article->tags()) as $tag): ?><?php echo $tag ?> <?php endforeach ?>">
+		<li class="link-button button-category <?php foreach(str::split($article->tags()) as $tag): ?><?php echo $tag ?> <?php endforeach ?>">
 			<a href="<?php echo $article->url() ?>" title="<?php echo html($article->title()) ?>"><?php foreach($article->images() as $image): ?><?php echo thumb($image, array('width' => 300, 'quality' => 70)) ?><?php endforeach ?><p><?php echo html($article->title()) ?></p></a></li>             
 		<?php endforeach ?>            
 		<!-- End of grid blocks -->
