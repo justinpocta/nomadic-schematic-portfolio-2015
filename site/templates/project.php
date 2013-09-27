@@ -17,7 +17,7 @@
 	TINYURL:: <?php echo $page->tinyurl() ?> <br>
 	URL:: <?php echo $page->url() ?> <br>
 	<br>
-	PREV:: <a href="<?php echo $page->prev($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
+	PREV:: <a href="<?php echo $page->previous($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
 	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
  	<br>
     LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
