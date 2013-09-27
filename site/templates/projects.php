@@ -7,7 +7,7 @@
 
 ALL THE THINGS <BR>
 <?php echo html($pages->title()) ?>
-<?php $pages->findBy('projecttype', 'App') ?>
+<?php $pages->findBy($pages->projecttype, 'App') ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
