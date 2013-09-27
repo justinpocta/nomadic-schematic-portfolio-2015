@@ -3,6 +3,33 @@
 <body id="secondary">
 <section class="content">
 
+
+<!-- hero slideshow -->
+<div class="large-12 small-12 logo-intro">
+  
+  <a class="go-home" href="indexA.html">&laquo; back to projects</a>
+  <div><a href="/" class="button-back" style="left:0;"></a>
+  <span>
+    Zipments Delivery App
+  </span>
+  <a href="/" class="button-next" style="right:0;"></a></div>
+
+</div>
+<!-- objective -->
+  <div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/zipments-tino_pohlmann.jpg'); background-size:auto 100%; background-position:center center; background-repeat:no-repeat; max-height:500px;">
+    
+    <div class="container">
+      <div id="slides">
+        <div style="background:url(/assets/img/zipments-quote_productA.png);"></div>
+        <div style="background:url(/assets/img/zipments-quote_productA.png);"></div>
+      </div>
+    </div>
+
+  </div>
+<!-- end objective -->
+
+
+
   <article>
 <h1>PROJECT: <?php echo h($page->title()) ?></h1> <br>
 	 <br>
