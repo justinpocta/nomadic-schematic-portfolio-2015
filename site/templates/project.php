@@ -21,9 +21,7 @@
 	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
 	<BR>
 <li> <?php echo $page->hasNext( $page->next() ) ?>
-<li> <?php if $page->hasNext {
-		echo $page->next()
-	}); ?>
+<li> <?php if ($page->hasNext) echo $page->next() ?>
  	<br>
     LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
     <br>
