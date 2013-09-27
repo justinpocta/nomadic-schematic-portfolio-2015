@@ -1,4 +1,6 @@
 <?php snippet('header') ?>
+<link rel="stylesheet" href="/assets/css/slides.css" />
+<script src="/assets/js/vendor/jquery.slides.min.js"></script>
 
 <body id="secondary">
 <section class="content">
@@ -8,15 +10,20 @@
 <div class="large-12 small-12 logo-intro">
   
   <a class="go-home" href="indexA.html">&laquo; back to projects</a>
-  <div><a href="/" class="button-back" style="left:0;"></a>
+  <div>
+<?php if($page->hasPrev()) { ?><a href="<?php echo $page->prev()->url() ?>" class="button-back" style="left:0;" title="Previous"></a>
+<?php } else { ?>
+<a href="/" class="button-home" style="left:0;" title="Home"></a>
+<?php }; ?>
   <span>
-    Zipments Delivery App
+    <?php echo $page->title ?> - <?php echo h($page->projecttype) ?>
   </span>
   <a href="/" class="button-next" style="right:0;"></a></div>
 
 </div>
+
 <!-- objective -->
-  <div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/zipments-tino_pohlmann.jpg'); background-size:auto 100%; background-position:center center; background-repeat:no-repeat; max-height:500px;">
+<div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/zipments-tino_pohlmann.jpg'); background-size:auto 100%; background-position:center center; background-repeat:no-repeat; max-height:500px;">
     
     <div class="container">
       <div id="slides">
@@ -28,14 +35,7 @@
   </div>
 <!-- end objective -->
 
-
-
   <article>
-<h1>PROJECT: <?php echo h($page->title()) ?></h1> <br>
-	 <br>
-	Project Type: <?php echo h($page->projecttype()) ?>
-	 <?php echo h($page->project_type()) ?> <br>
-	 <br>
     TEXT:: <?php echo kirbytext($page->text()) ?> <br>
     SLIDESHOW:: <?php echo h($page->slideshow()) ?> <br>
     CREATED:: <?php echo h($page->created()) ?> <br>
@@ -44,54 +44,29 @@
 	TINYURL:: <?php echo $page->tinyurl() ?> <br>
 	URL:: <?php echo $page->url() ?> <br>
 	<br>
-	PREV:: <a href="<?php echo $pages->previous($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
-	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
+	PREV:: <a href="<?php echo h($page->previous($sort='title', $direction='asc')) ?>">PREVIOUS</a> <br>
+	NEXT:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
 	<BR>
+<!--//
+?php $list = $page->children()->paginate(10) 
+//-->
 
-<?php $list = $page->children()->paginate(10) ?>
-
+<!--//
 <ul>
    <?php foreach($list as $item): ?>
    <li><?php echo $item->title() ?></li>
    <?php endforeach ?>
 </ul>
-
-<BR><BR>
-x
-<BR><BR>
-
-<?php if($list->pagination()->hasPages()): ?>
-
-  <?php if($list->pagination()->hasNextPage()): ?>
-  <a class="next" href="<?php echo $list->pagination()->nextPageURL() ?>">next</a>
-  <?php endif ?>
-
-  <?php if($list->pagination()->hasPrevPage()): ?>
-  <a class="prev" href="<?php echo $list->pagination()->prevPageURL() ?>">previous</a>
-  <?php endif ?>
-
-<?php endif ?>
-
+//-->
 
  	<br>
-    LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
-    <?php echo html($page->download()) ?>
-    <?php echo html($page->reference()) ?>
-    <?php echo html($page->visit()) ?>
-    <br>
+    LINK:: <?php echo h($page->AppLink()) ?><br>
+    Download:: <?php echo html($page->download()) ?><br>
+    Reference: <?php echo html($page->reference()) ?><br>
+    Visit <?php echo html($page->visit()) ?>
   </article>
 
 </section>
 
-    ALL THE THING <BR> <br>
-4a <?php echo $pages->findBy('projecttype','App') ?> <br>
-4b <?php echo $pages->findBy('projecttype','Brand') ?> <br>
-4c <?php echo $pages->findBy('projecttype','Web') ?> <br>
-4d <?php echo $pages->findBy('projecttype','Print') ?> <br>
-4e <?php echo $pages->findBy('projecttype','Illustration') ?> <br>
-
-~3 <?php echo $pages->findBy(projecttype,'App') ?> <br>
-
-
-<?php snippet('projects-apps') ?> <!-- ($types->type()) -->
+<br /><br />
 <?php snippet('footer') ?>
