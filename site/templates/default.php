@@ -2,7 +2,7 @@
 
 <?php
 
-$blog = $pages->find('articles');
+$blog = $pages->find('p');
 $tags = tagcloud($blog);
 
 ?>
@@ -33,7 +33,7 @@ $tags = tagcloud($blog);
 		-->
                 <?php if(param('tag')) {
 		
-		$articles = $pages->find('articles')
+		$projects = $pages->find('p')
 							->children()
 							->visible()
 							->filterBy('tags', param('tag'), ',')
@@ -41,7 +41,7 @@ $tags = tagcloud($blog);
 		
 		} else {
 		
-		$articles = $pages->find('articles')
+		$projects = $pages->find('p')
 							->children()
 							->visible()
 							->flip();                            
@@ -49,8 +49,8 @@ $tags = tagcloud($blog);
 		} ?>
 		<a href="#bottom" id="nomadic-schematic" class="link-button"><p></p></a>
 
-		<?php foreach($articles as $article): ?>
-		<a href="<?php echo $article->url() ?>" style="background-image:url('/assets/img/thumbnail-<?php echo $article->title ?>.png')" title="<?php echo html($article->title()) ?>" class="link-button project-mask"><p><?php echo html($article->title()) ?></p></a>
+		<?php foreach($projects as $project): ?>
+		<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumbnail-<?php echo $project->title ?>.png')" title="<?php echo html($project->title()) ?>" class="link-button project-mask"><p><?php echo html($project->title()) ?></p></a>
 
 		<?php endforeach ?>            
 		<!-- End of grid blocks -->

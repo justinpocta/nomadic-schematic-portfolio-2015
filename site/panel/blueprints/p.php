@@ -1,8 +1,8 @@
 # Blueprints for the articles overview page
 
-title: Articles overview page
+title: Projects overview page
 pages: true
-	template: article
+	template: p
 	sort: flip
 	limit: 10
 files: false

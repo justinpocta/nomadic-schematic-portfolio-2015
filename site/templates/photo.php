@@ -2,7 +2,7 @@
 
 <?php
 
-$blog = $pages->find('articles');
+$blog = $pages->find('p');
 $tags = tagcloud($blog);
 
 ?>
@@ -35,7 +35,7 @@ $tags = tagcloud($blog);
 		-->
 		<?php if(param('tag')) {
 		
-		$articles = $pages->find('articles')
+		$projects = $pages->find('p')
 							->children()
 							->visible()
 							->filterBy('tags', param('tag'), ',')
@@ -43,15 +43,15 @@ $tags = tagcloud($blog);
 		
 		} else {
 		
-		$articles = $pages->find('articles')
+		$projects = $pages->find('p')
 							->children()
 							->visible()
 							->flip();                            
 		
 		} ?>
-		<?php foreach($articles as $article): ?>
-		<li class="<?php foreach(str::split($article->tags()) as $tag): ?><?php echo $tag ?> <?php endforeach ?>">
-			<a href="<?php echo $article->url() ?>" title="<?php echo html($article->title()) ?>"><?php foreach($article->images() as $image): ?><?php echo thumb($image, array('width' => 300, 'quality' => 70)) ?><?php endforeach ?><p><?php echo html($article->title()) ?></p></a></li>             
+		<?php foreach($projects as $project): ?>
+		<li class="<?php foreach(str::split($project->tags()) as $tag): ?><?php echo $tag ?> <?php endforeach ?>">
+			<a href="<?php echo $project->url() ?>" title="<?php echo html($project->title()) ?>"><?php foreach($project->images() as $image): ?><?php echo thumb($image, array('width' => 300, 'quality' => 70)) ?><?php endforeach ?><p><?php echo html($project->title()) ?></p></a></li>             
 		<?php endforeach ?>            
 		<!-- End of grid blocks -->
 	  </ul>

@@ -1,6 +1,6 @@
-# Blueprints for an article
+# Blueprints for a project
 
-title: Article
+title: Project
 pages: false
 files: true
 fields:
