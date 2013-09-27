@@ -6,7 +6,7 @@
   <article>
 <h1>PROJECT: <?php echo html($page->title()) ?></h1> <br>
 	 <br>
-	Project Type:<?php echo html($page->projecttype()) ?>
+	Project Type: <?php echo html($page->projecttype()) ?>
 	 <?php echo kirbytext($page->project_type()) ?> <br>
 	 <br>
     TEXT:: <?php echo kirbytext($page->text()) ?> <br>
@@ -16,33 +16,23 @@
  	<br>
 	TINYURL:: <?php echo $page->tinyurl() ?> <br>
 	URL:: <?php echo $page->url() ?> <br>
-	 <br>
-	PREV 1:: <?php echo $pages->previous($sort='title', $direction='asc') ?> <br>
-	PREV 2:: <?php echo $pages->prev($sort='title', $direction='asc') ?> <br>
-	PREV 3:: <?php echo $page->prev($sort='title', $direction='asc') ?> <br>
-
+	<br>
+	PREV:: <?php echo $page->prev($sort='title', $direction='asc') ?> <br>
 	NEXT:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
-
-	NEXT x:: <?php echo $page->hasNext($sort='title', $direction='asc') ?> <br>
  	<br>
+    LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
     LINK:: <a href="<?php echo kirbytext($page->link()) ?>">APP BUTTON or LINK</a> <br>
  	<br>
   </article>
 
 </section>
 
-    ALL THE THING <BR>
-	<?php echo html($page->title()) ?>
-<?php echo $pages->findByDirname(App) ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-	<?php echo kirbytext($page->link()) ?>
-<?php echo $page->findBy($page->projecttype()) ?>
-<?php echo $pages->findBy($page->projecttype()) ?>
-<?php echo $pages->findBy(projecttype,App) ?>
-<?php echo $pages->findBy('projecttype','App') ?>
+    ALL THE THING <BR> <br>
+1 <?php echo $page->findBy(projecttype,'App') ?> <br>
+2 <?php echo $page->findBy('projecttype','App') ?> <br>
+3 <?php echo $pages->findBy(projecttype,'App') ?> <br>
+4 <?php echo $pages->findBy('projecttype','App') ?> <br>
+5 <?php echo $page->findBy($page->projecttype('App')) ?> <br>
 
 
 <?php snippet('projects-apps') ?> <!-- ($types->type()) -->
