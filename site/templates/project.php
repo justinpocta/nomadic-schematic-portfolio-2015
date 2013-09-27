@@ -4,25 +4,24 @@
 <section class="content">
 
   <article>
-<h1>PROJECT: <?php echo html($page->title()) ?></h1> <br>
+<h1>PROJECT: <?php echo h($page->title()) ?></h1> <br>
 	 <br>
-	Project Type: <?php echo html($page->projecttype()) ?>
-	 <?php echo kirbytext($page->project_type()) ?> <br>
+	Project Type: <?php echo h($page->projecttype()) ?>
+	 <?php echo h($page->project_type()) ?> <br>
 	 <br>
-    TEXT:: <?php echo kirbytext($page->text()) ?> <br>
-    SLIDESHOW:: <?php echo kirbytext($page->slideshow()) ?> <br>
-    CREATED:: <?php echo kirbytext($page->created()) ?> <br>
-    CREDITS:: <?php echo kirbytext($page->credits()) ?> <br>
+    TEXT:: <?php echo html($page->text()) ?> <br>
+    SLIDESHOW:: <?php echo h($page->slideshow()) ?> <br>
+    CREATED:: <?php echo h($page->created()) ?> <br>
+    CREDITS:: <?php echo h($page->credits()) ?> <br>
  	<br>
 	TINYURL:: <?php echo $page->tinyurl() ?> <br>
 	URL:: <?php echo $page->url() ?> <br>
 	<br>
-	PREV:: <?php echo $page->prev($sort='title', $direction='asc') ?> <br>
-	NEXT:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
+	PREV:: <a href="<?php echo $page->prev($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
+	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
  	<br>
     LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
-    LINK:: <a href="<?php echo kirbytext($page->link()) ?>">APP BUTTON or LINK</a> <br>
- 	<br>
+    <br>
   </article>
 
 </section>

@@ -27,13 +27,10 @@
 </section>
 
 ALL THE THINGS <BR>
-<?php echo html($pages->title()) ?>
-<?php $pages->findByDirname($dirname) ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php $pages->findBy($page->projecttype()) ?>
+1 <?php echo $page->findBy(projecttype,'App') ?> <br>
+2 <?php echo $page->findBy('projecttype','App') ?> <br>
+3 <?php echo $pages->findBy(projecttype,'App') ?> <br>
+4 <?php echo $pages->findBy('projecttype','App') ?> <br>
+5 <?php echo $page->findBy($page->projecttype('App')) ?> <br>
 
 <?php snippet('footer') ?>

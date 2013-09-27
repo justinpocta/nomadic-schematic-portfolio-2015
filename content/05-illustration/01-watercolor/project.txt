@@ -14,7 +14,7 @@ Link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681
 
 ----
 
-projecttype: App
+projecttype: Illustration
 
 ----
 

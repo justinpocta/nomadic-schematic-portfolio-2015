@@ -10,7 +10,11 @@ The team had our work cut out for us as we were aiming to release this within a 
 
 ----
 
-Link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681
+Link: (link: http://www.zipments.com text: Visit Website)
+
+----
+
+projecttype: Web
 
 ----
 
@@ -25,3 +29,5 @@ Credits: Travis Brack, iOS Developer
 Tags: Mobile, UI, UX, IxD, Creative Direction
 
 ----
+
+Related: ($random.project_app)*3

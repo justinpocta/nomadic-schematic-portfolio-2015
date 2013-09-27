@@ -18,6 +18,10 @@ Created: December 2012
 
 ----
 
+projecttype: Print
+
+----
+
 Credits: Travis Brack, iOS Developer
 
 ----
