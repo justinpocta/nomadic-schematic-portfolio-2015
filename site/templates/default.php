@@ -9,12 +9,12 @@ $tags = tagcloud($blog);
 
 <div id="container">
 	<header>
-		<h2>Hello my name is</h2>
+<!-- 		<h2>Hello my name is</h2>
 		<h1><?php echo html($site->name()) ?></h1>
 		<h3><?php echo html($site->address()) ?></h3>
 		<div id="info">
 			<a href="mailto:<?php echo html($site->mail()) ?>" title="Contact me"><img src="<?php echo html($site->url()) ?>/assets/images/icons/interface/info.png"></a>
-		</div>
+		</div> -->
 	</header>
 	<div id="main" role="main">
 	  
@@ -22,11 +22,11 @@ $tags = tagcloud($blog);
 	These are our filter options. The "data-filter" classes are used to identify which
 	grid items to show.
 	-->
-	<ol id="filters">
+	<!-- <ol id="filters">
 		<?php foreach($tags as $tag): ?>      	  
 			<li data-filter="<?php echo $tag->name() ?>"><?php echo $tag->name() ?></li>
 		<?php endforeach ?>	       
-	</ol>
+	</ol> -->
 
 	<ul id="tiles">
 		<!--
