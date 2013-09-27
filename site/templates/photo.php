@@ -2,7 +2,7 @@
 
 <?php
 
-$blog = $pages->find('p');
+$blog = $pages->find('projects');
 $tags = tagcloud($blog);
 
 ?>
@@ -35,7 +35,7 @@ $tags = tagcloud($blog);
 		-->
 		<?php if(param('tag')) {
 		
-		$projects = $pages->find('p')
+		$projects = $pages->find('projects')
 							->children()
 							->visible()
 							->filterBy('tags', param('tag'), ',')
@@ -43,7 +43,7 @@ $tags = tagcloud($blog);
 		
 		} else {
 		
-		$projects = $pages->find('p')
+		$projects = $pages->find('projects')
 							->children()
 							->visible()
 							->flip();                            
