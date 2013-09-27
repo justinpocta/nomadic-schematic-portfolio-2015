@@ -7,14 +7,13 @@
 
 ALL THE THINGS <BR>
 <?php echo html($pages->title()) ?>
-<?php $pages->findBy($pages->projecttype, 'App') ?>
+<?php $pages->findByDirname($dirname) ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
-<?php  ?>
-<?php  ?>
+<?php $pages->findBy($project->projecttype()) ?>
 
 
 
