@@ -16,8 +16,10 @@
 	TINYURL:: <?php echo $page->tinyurl() ?> <br>
 	URL:: <?php echo $page->url() ?> <br>
 	 <br>
-	NEXT a:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
-	NEXT b:: <?php echo $page->hasNext($sort='title', $direction='asc') ?> <br>
+	PREV:: <?php echo $page->previous($sort='title', $direction='asc') ?> <br>
+	NEXT:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
+
+	NEXT x:: <?php echo $page->hasNext($sort='title', $direction='asc') ?> <br>
  	<br>
     LINK:: <a href="<?php echo kirbytext($page->link()) ?>">APP BUTTON or LINK</a> <br>
  	<br>
@@ -26,14 +28,14 @@
 </section>
 
     ALL THE THING <BR>
-<?php echo html($pages->title()) ?>
-<?php echo $pages->findByDirname($dirname) ?>
+<?php echo html($page->title()) ?>
+<?php echo $pages->findByDirname(App) ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
 <?php echo kirbytext($page->link()) ?>
-<?php echo $pages->findBy($page->projecttype()) ?>
+<?php echo $page->findBy($page->projecttype()) ?>
 
 <?php snippet('projects-apps') ?> <!-- ($types->type()) -->
 <?php snippet('footer') ?>
