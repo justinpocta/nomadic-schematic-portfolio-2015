@@ -57,16 +57,13 @@ x
 </section>
 
     ALL THE THING <BR> <br>
-4a <?php echo $site->findBy('projecttype','App') ?> <br>
-4b <?php echo $page->findBy('projecttype','Brand') ?> <br>
+4a <?php echo $pages->findBy('projecttype','App') ?> <br>
+4b <?php echo $pages->findBy('projecttype','Brand') ?> <br>
 4c <?php echo $pages->findBy('projecttype','Web') ?> <br>
 4d <?php echo $pages->findBy('projecttype','Print') ?> <br>
 4e <?php echo $pages->findBy('projecttype','Illustration') ?> <br>
 
-1 <?php echo $page->findBy(projecttype,'App') ?> <br>
-2 <?php echo $page->findBy('projecttype','App') ?> <br>
-3 <?php echo $pages->findBy(projecttype,'App') ?> <br>
-5 <?php echo $page->findBy($page->projecttype('App')) ?> <br>
+~3 <?php echo $pages->findBy(projecttype,'App') ?> <br>
 
 
 <?php snippet('projects-apps') ?> <!-- ($types->type()) -->
