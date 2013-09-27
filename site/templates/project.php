@@ -21,6 +21,8 @@
 	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
 	<BR>
 
+<?php $list = $page->children()->paginate(10) ?>
+
 <ul>
    <?php foreach($list as $item): ?>
    <li><?php echo $item->title() ?></li>
