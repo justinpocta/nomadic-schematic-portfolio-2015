@@ -14,7 +14,7 @@ Link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681
 
 ----
 
-Project_type: App Design
+projecttype: App
 
 ----
 
@@ -27,10 +27,6 @@ Credits: Travis Brack, iOS Developer
 ----
 
 Tags: Mobile, UI, UX, IxD, Creative Direction
-
-----
-
-Type: App
 
 ----
 
