@@ -9,7 +9,7 @@
 	Project Type: <?php echo h($page->projecttype()) ?>
 	 <?php echo h($page->project_type()) ?> <br>
 	 <br>
-    TEXT:: <?php echo html($page->text()) ?> <br>
+    TEXT:: <?php echo kirbytext($page->text()) ?> <br>
     SLIDESHOW:: <?php echo h($page->slideshow()) ?> <br>
     CREATED:: <?php echo h($page->created()) ?> <br>
     CREDITS:: <?php echo h($page->credits()) ?> <br>
@@ -17,23 +17,33 @@
 	TINYURL:: <?php echo $page->tinyurl() ?> <br>
 	URL:: <?php echo $page->url() ?> <br>
 	<br>
-	PREV:: <a href="<?php echo $page->previous($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
+	PREV:: <a href="<?php echo $pages->previous($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
 	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
 	<BR>
-<li> <?php if ($page->hasNext)
+<li> <?php if ($page->hasNext) {
+		   echo html($page->next())} ?>
+<li> <?php if ($page->hasNext) 
 		   echo html($page->next()) ?>
  	<br>
     LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
+    <?php echo html($page->download()) ?>
+    <?php echo html($page->reference()) ?>
+    <?php echo html($page->visit()) ?>
     <br>
   </article>
 
 </section>
 
     ALL THE THING <BR> <br>
+4a <?php echo $pages->findBy('projecttype','App') ?> <br>
+4b <?php echo $pages->findBy('projecttype','Brand') ?> <br>
+4c <?php echo $pages->findBy('projecttype','Web') ?> <br>
+4d <?php echo $pages->findBy('projecttype','Print') ?> <br>
+4e <?php echo $pages->findBy('projecttype','Illustration') ?> <br>
+
 1 <?php echo $page->findBy(projecttype,'App') ?> <br>
 2 <?php echo $page->findBy('projecttype','App') ?> <br>
 3 <?php echo $pages->findBy(projecttype,'App') ?> <br>
-4 <?php echo $pages->findBy('projecttype','App') ?> <br>
 5 <?php echo $page->findBy($page->projecttype('App')) ?> <br>
 
 
