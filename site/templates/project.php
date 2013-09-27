@@ -20,8 +20,30 @@
 	PREV:: <a href="<?php echo $pages->previous($sort='title', $direction='asc') ?>">PREVIOUS</a> <br>
 	NEXT:: <a href="<?php echo $page->next($sort='title', $direction='asc') ?>">NEXT</a> <br>
 	<BR>
-<li> <?php if ($page->hasNext) 
-		   echo html($page->next()) ?>
+
+<ul>
+   <?php foreach($list as $item): ?>
+   <li><?php echo $item->title() ?></li>
+   <?php endforeach ?>
+</ul>
+
+<BR><BR>
+x
+<BR><BR>
+
+<?php if($list->pagination()->hasPages()): ?>
+
+  <?php if($list->pagination()->hasNextPage()): ?>
+  <a class="next" href="<?php echo $list->pagination()->nextPageURL() ?>">next</a>
+  <?php endif ?>
+
+  <?php if($list->pagination()->hasPrevPage()): ?>
+  <a class="prev" href="<?php echo $list->pagination()->prevPageURL() ?>">previous</a>
+  <?php endif ?>
+
+<?php endif ?>
+
+
  	<br>
     LINK:: <a href="<?php echo html($page->link()) ?>">APP BUTTON or LINK</a> <br>
     <?php echo html($page->download()) ?>
@@ -33,8 +55,8 @@
 </section>
 
     ALL THE THING <BR> <br>
-4a <?php echo $pages->findBy('projecttype','App') ?> <br>
-4b <?php echo $pages->findBy('projecttype','Brand') ?> <br>
+4a <?php echo $site->findBy('projecttype','App') ?> <br>
+4b <?php echo $page->findBy('projecttype','Brand') ?> <br>
 4c <?php echo $pages->findBy('projecttype','Web') ?> <br>
 4d <?php echo $pages->findBy('projecttype','Print') ?> <br>
 4e <?php echo $pages->findBy('projecttype','Illustration') ?> <br>
