@@ -13,7 +13,7 @@ ALL THE THINGS <BR>
 <?php  ?>
 <?php  ?>
 <?php  ?>
-<?php $pages->findBy($project->projecttype()) ?>
+<?php $pages->findBy($page->projecttype()) ?>
 
 
 
