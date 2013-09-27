@@ -14,11 +14,11 @@
     CREATED:: <?php echo kirbytext($page->created()) ?> <br>
     CREDITS:: <?php echo kirbytext($page->credits()) ?> <br>
  	<br>
-	TINYURL:: $page->tinyurl() <br>
-	URL:: $page->url() <br>
+	TINYURL:: <?php echo $page->tinyurl() ?> <br>
+	URL:: <?php echo $page->url() ?> <br>
 	 <br>
-	NEXT a:: $page->next($sort='title', $direction='asc') <br>
-	NEXT b:: $page->hasNext($sort='title', $direction='asc') <br>
+	NEXT a:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
+	NEXT b:: <?php echo $page->hasNext($sort='title', $direction='asc') ?> <br>
  	<br>
     LINK:: <a href="<?php echo kirbytext($page->link()) ?>">APP BUTTON or LINK</a> <br>
  	<br>
