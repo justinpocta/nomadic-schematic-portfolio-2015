@@ -28,7 +28,7 @@ $tags = tagcloud($blog);
 		<?php endforeach ?>	       
 	</ol> -->
 
-	<ul id="tiles">
+	<ul id="nav-list">
 		<!--
 		These are our grid items. Notice how each one has classes assigned that
 		are used for filtering. The classes match the "data-filter" properties above.
