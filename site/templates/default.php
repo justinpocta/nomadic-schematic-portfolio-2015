@@ -50,7 +50,7 @@ $tags = tagcloud($blog);
 		<a href="#bottom" id="nomadic-schematic" class="link-button"><p></p></a>
 
 		<?php foreach($projects as $project): ?>
-		<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumbnail-<?php echo $project->projecttype ?>_<?php echo $project->title ?>.png')" title="<?php echo html($project->title()) ?>" class="link-button project-mask"><p><?php echo html($project->title()) ?></p></a>
+		<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->title ?>.png')" title="<?php echo html($project->title()) ?>" class="link-button project-mask"><p><?php echo html($project->title()) ?></p></a>
 
 		<?php endforeach ?>            
 		<!-- End of grid blocks -->
