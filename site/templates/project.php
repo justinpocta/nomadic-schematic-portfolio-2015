@@ -27,13 +27,13 @@
 
     ALL THE THING <BR>
 <?php echo html($pages->title()) ?>
-<?php $pages->findByDirname($dirname) ?>
+<?php echo $pages->findByDirname($dirname) ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
 <?php  ?>
-<?php  ?>
-<?php $pages->findBy($page->projecttype()) ?>
+<?php echo kirbytext($page->link()) ?>
+<?php echo $pages->findBy($page->projecttype()) ?>
 
 <?php snippet('projects-apps') ?> <!-- ($types->type()) -->
 <?php snippet('footer') ?>
