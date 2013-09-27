@@ -4,18 +4,6 @@
 <section class="content">
 
   <article>
-
-    ALL THE THING <BR>
-<?php echo html($pages->title()) ?>
-<?php $pages->findByDirname($dirname) ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php $pages->findBy($page->projecttype()) ?>
-
-
 <h1>PROJECT: <?php echo html($page->title()) ?></h1> <br>
 	 <br>
 	Project Type: <?php echo kirbytext($page->project_type()) ?> <br>
@@ -36,6 +24,16 @@
   </article>
 
 </section>
+
+    ALL THE THING <BR>
+<?php echo html($pages->title()) ?>
+<?php $pages->findByDirname($dirname) ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php $pages->findBy($page->projecttype()) ?>
 
 <?php snippet('projects-apps') ?> <!-- ($types->type()) -->
 <?php snippet('footer') ?>

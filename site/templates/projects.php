@@ -5,22 +5,7 @@
 
   <article>
 
-ALL THE THINGS <BR>
-<?php echo html($pages->title()) ?>
-<?php $pages->findByDirname($dirname) ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php  ?>
-<?php $pages->findBy($page->projecttype()) ?>
-
-
-
-
-
-
-    <h1>PROJECTZ: <?php echo html($page->title()) ?></h1>
+   <h1>PROJECTZ: <?php echo html($page->title()) ?></h1>
  	<br>
     TEXT:: <?php echo kirbytext($page->text()) ?> <br>
     SLIDESHOW:: <?php echo kirbytext($page->slideshow()) ?> <br>
@@ -40,5 +25,15 @@ ALL THE THINGS <BR>
   </article>
 
 </section>
+
+ALL THE THINGS <BR>
+<?php echo html($pages->title()) ?>
+<?php $pages->findByDirname($dirname) ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php $pages->findBy($page->projecttype()) ?>
 
 <?php snippet('footer') ?>
