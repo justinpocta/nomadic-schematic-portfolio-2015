@@ -1,0 +1,3 @@
+Title: Illustration
+----
+Text: This is a collection of design case studies. I hope to dig in a bit more later, but for now wanted to give a good overview so you can see what all I've been up to the past year. If these projects match up with the kinds of problems you're working on, I'd love to hear from you.

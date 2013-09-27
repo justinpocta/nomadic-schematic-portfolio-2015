@@ -5,21 +5,37 @@
 
   <article>
 
+ALL THE THINGS <BR>
+<?php echo html($pages->title()) ?>
+<?php $pages->findBy('projecttype', 'App') ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+<?php  ?>
+
+
+
+
+
+
     <h1>PROJECTZ: <?php echo html($page->title()) ?></h1>
-
-    TEXT:: <?php echo kirbytext($page->text()) ?>
-    SLIDESHOW:: <?php echo kirbytext($page->slideshow()) ?>
-    CREATED:: <?php echo kirbytext($page->created()) ?>
-    CREDITS:: <?php echo kirbytext($page->credits()) ?>
-
-	TINYURL:: $page->tinyurl()
-	URL:: $page->url()
-	
-	NEXT a:: $page->next($sort='title', $direction='asc')
-	NEXT b:: $page->hasNext($sort='title', $direction='asc')
-
-
-	<?php $contact = $pages->findBy('projecttype', 'App') ?>
+ 	<br>
+    TEXT:: <?php echo kirbytext($page->text()) ?> <br>
+    SLIDESHOW:: <?php echo kirbytext($page->slideshow()) ?> <br>
+    CREATED:: <?php echo kirbytext($page->created()) ?> <br>
+    CREDITS:: <?php echo kirbytext($page->credits()) ?> <br>
+ 	<br>
+	TINYURL:: $page->tinyurl() <br>
+	URL:: $page->url() <br>
+	 <br>
+	NEXT a:: $page->next($sort='title', $direction='asc') <br>
+	NEXT b:: $page->hasNext($sort='title', $direction='asc') <br>
+ 	<br>
+ 	 <br>
+	<?php $contact = $pages->findBy('projecttype', 'App') ?> <br>
 
 
   </article>
