@@ -9,16 +9,19 @@
 <!-- hero slideshow -->
 <div class="large-12 small-12 logo-intro">
   
-  <a class="go-home" href="indexA.html">&laquo; back to projects</a>
+  <a class="go-home" href="/">&laquo; back to projects</a>
   <div>
 <?php if($page->hasPrev()) { ?><a href="<?php echo $page->prev()->url() ?>" class="button-back" style="left:0;" title="Previous"></a>
 <?php } else { ?>
-<a href="/" class="button-home" style="left:0;" title="Home"></a>
+<a href="/" class="button-home-left" title="Home"></a>
 <?php }; ?>
   <span>
     <?php echo $page->title ?> - <?php echo h($page->projecttype) ?>
   </span>
-  <a href="/" class="button-next" style="right:0;"></a></div>
+<?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>
+<a href="/" class="button-home-right" title="Home"></a>
+<?php }; ?>
+</div>
 
 </div>
 
@@ -69,4 +72,66 @@
 </section>
 
 <br /><br />
+
+
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="/assets/js/vendor/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides2').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          active: true,
+          effect: "fade"
+        },
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true,
+          pauseOnHover: true,
+          restartDelay: 2500
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+
+        });
+
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          active: true,
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 1
+          }
+        }
+        });
+
+    });
+  </script>
+  <!-- End SlidesJS Required -->
+
+
 <?php snippet('footer') ?>

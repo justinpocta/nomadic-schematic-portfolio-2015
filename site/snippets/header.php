@@ -28,7 +28,7 @@
 	<!-- NAV -->
 	<div class="topbar-container">
 
-		<a href="http://nomadic-schematic.com" class="nomadic-logo"></a>
+		<a href="/" class="nomadic-logo"></a>
 		<a id="button" class="nav-mobile show-for-small">nav</a>
 
 		<!-- MOBILE NAV -->

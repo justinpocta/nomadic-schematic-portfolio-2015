@@ -82,7 +82,7 @@
     .slidesjs-pagination li a:hover {
       background-position: 0 -26px
     }
-    .slidesjs-slide {background-position:center top; background-size:auto; display:block; Xidth:100%; height:100%; top:0; margin:0;}
+    .slidesjs-slide {background-position:center top; Xbackground-size:auto; display:block; Xidth:100%; height:100%; top:0; margin:0;background-size: 100% !important;}
 
     #slides a:link,#slides2 a:link,#slides3 a:link,
     #slides4 a:link,#slides5 a:link,#slides6 a:link,
@@ -117,5 +117,12 @@
     .container div {
       max-width: 800px !important;
       margin:0 auto;
-      
     }
+      
+ /* Small Displays: 768px and under */
+@media only screen and (max-width: 767px) {
+
+.container {
+}
+
+}

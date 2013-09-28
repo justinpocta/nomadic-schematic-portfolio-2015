@@ -163,7 +163,7 @@ div.main-intro a {color:#FF7E00;}
 	height:20px;
 	width:25px;
 }
-.button-back,.button-next,.button-home {
+.button-back,.button-next,.button-home-left,.button-home-right {
 	position:absolute;
 	height:65px;
 	width:65px;
@@ -181,7 +181,7 @@ div.main-intro a {color:#FF7E00;}
 	border-radius: 65px;
 
 }
-.button-back:hover,.button-next:hover,.button-home:hover {
+.button-back:hover,.button-next:hover,.button-home-left:hover,.button-home-right:hover {
 	background-color: rgba(20,20,20,1);
 	opacity: 1.0;
 	/*background-color: rgba(242,101,34,1.0);*/
@@ -206,10 +206,15 @@ div.main-intro a {color:#FF7E00;}
 	background-image:url('../img/button-next.png');
 	margin-right: 15px;
 }
-.button-home {
+.button-home-left {
 	background-image:url('../img/button-home.png');
 	margin-left: 15px;
+        left:0;
+}
+.button-home-right {
+        background-image:url('../img/button-home.png');
         margin-right: 15px;
+        right:0;
 }
 
 /* PROJECTS - CONTAINERS */
@@ -477,7 +482,7 @@ div.logo-intro span {
 	}
 	.dropdown-nav a {color:#FFF;}
 	.dropdown-nav li {
-		background-color: #595548;
+		background-color: #000; /* #595548 */
 		display: block;
 		font-size: 1.1em;
 		margin:0 -6px 0 -6px;
@@ -537,13 +542,15 @@ div.logo-intro span {
 		text-decoration: underline;
 	}
 	
-	/* PROJECT - ELEMENTS */
+	/* PROJECT - ELEMENTS MOBILE */
 	.main-nav,#nav-list {}
+
 	#nav-list {
 		width: 100%;
 		margin: 0;
 		padding: 0;
 		top: 0;
+                padding-top:90px;
 	}
 	#nav-list-box {
 		margin-top: 0;
@@ -651,7 +658,7 @@ div.logo-intro span {
 		font-size: 1em;
 		padding-top:15px;
 	}
-	.button-back,.button-next {
+	.button-back,.button-next,.button-home-left,.button-home-right {
 		background-size: 20%;
 		background-color: transparent;
 		border:0;
@@ -662,11 +669,11 @@ div.logo-intro span {
 		top:0;
 		width: 75px;
 	}
-	.button-back:hover,.button-next:hover {
+	.button-back:hover,.button-next:hover,.button-home-left:hover,.button-home-right:hover {
 		background-color: rgba(0,0,0,.2);
 	}
-	.button-back {margin-left: 0;}
-	.button-next {margin-right: 0;}
+	.button-back,.button-home-left {margin-left: 0;}
+	.button-next,.button-home-right {margin-right: 0;}
 	.project-bar {
 		text-align:center;
 		font-size:.65em;
