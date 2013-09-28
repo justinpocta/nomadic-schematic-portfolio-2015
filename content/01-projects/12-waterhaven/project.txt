@@ -1,12 +1,10 @@
-Title: Liquid Finance
+Title: Waterhaven Homes
 ----
-projecttype: App
+projecttype: Web
 ----
-AppLink: (link: https://itunes.apple.com/us/app/liquid-personal-finance-drag/id500159071 text: Download App class: download-app)
+Thumb: waterhaven
 ----
-Thumb: liquid
-----
-headercss: background-color:rgba(26,127,185,1.0);background-size:100% auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----
 Tags: Mobile, UI, UX, IxD, Art Director
 ----
@@ -16,9 +14,9 @@ We had spent a good deal of effort with the website making the request process q
 
 The team had our work cut out for us as we were aiming to release this within a month alongside ongoing web app updates because that's what startups like to do! Within a short time span, I worked with the CEO and Co-Founder/Developer to consider what features to prioritize and how these features could be implemented powerfully but quickly, as we would be simultaneously dealing with ongoing web app updates.
 ----
-Created: February 2012
+Created: XX 2010 at Dodd Creative Group
 ----
-Credits: Creative Director - Jason Franzen, 
+Credits: Charles Stone - Creative Director
 ----
 Related: ($random.project_app)*3
 

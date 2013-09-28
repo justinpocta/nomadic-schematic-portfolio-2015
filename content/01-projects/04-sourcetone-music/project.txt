@@ -16,7 +16,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: XX 2012
 ----
-Credits: 
+Credits: Creative Director - Jason Franzen
 ----
 Related: ($random.project_app)*3
 

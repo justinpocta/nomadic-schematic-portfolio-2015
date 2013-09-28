@@ -1,12 +1,12 @@
-Title: Liquid Finance
+Title: Viridian Homes
 ----
-projecttype: App
+projecttype: Web
 ----
-AppLink: (link: https://itunes.apple.com/us/app/liquid-personal-finance-drag/id500159071 text: Download App class: download-app)
+WebLink: (link: http://zipments.com text: Visit Website class: visit-web)
 ----
-Thumb: liquid
+Thumb: viridian
 ----
-headercss: background-color:rgba(26,127,185,1.0);background-size:100% auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----
 Tags: Mobile, UI, UX, IxD, Art Director
 ----
@@ -18,7 +18,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: February 2012
 ----
-Credits: Creative Director - Jason Franzen, 
+Credits: Craig Smitham - Developer/PM
 ----
 Related: ($random.project_app)*3
 
