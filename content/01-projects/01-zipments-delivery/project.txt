@@ -10,9 +10,7 @@ Thumb: zipments-delivery
 ----
 Tags: Mobile, UI, UX, IxD, Creative Direction
 ----
-Text: <b>bold</b>
-
-After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
+Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
 
 We had spent a good deal of effort with the website making the request process quick and dare I even say fun? With that, we knew native app capabilities could only help further our tool's benefits for non-office uses, and extend Zipments to more markets, such as on-the-go professionals like event planners and photographers. We knew this could also be an extremely easy to integrate opportunity for boutiques and other small shops without laptop and wi-fi connections.
 

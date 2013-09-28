@@ -44,8 +44,8 @@
   
   <div class="columns large-8 small-12"> <!-- MAIN 1 -->
     <span class="detail-title">Project Information</span>
+    <?php echo kirbytext($page->text()) ?> <br>
 
-    TEXT:: <?php echo kirbytext($page->text()) ?> <br>
     SLIDESHOW:: <?php echo h($page->slideshow()) ?> <br>
     CREATED:: <?php echo h($page->created()) ?> <br>
     CREDITS:: <?php echo h($page->credits()) ?> <br>
