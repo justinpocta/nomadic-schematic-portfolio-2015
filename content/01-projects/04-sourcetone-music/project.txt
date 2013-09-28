@@ -2,7 +2,7 @@ Title: Sourcetone Music
 ----
 projecttype: App
 ----
-Thumb: sourcetone
+Thumb: sourcetone.png
 ----
 headercss: background-color:rgba(77,192,117,1.0);background-size:100% auto;background-position: center 80%;
 ----

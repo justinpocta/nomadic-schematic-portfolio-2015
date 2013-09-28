@@ -4,7 +4,7 @@ projecttype: App
 ----
 AppLink: (link: https://itunes.apple.com/us/app/liquid-personal-finance-drag/id500159071 text: Download App class: download-app)
 ----
-Thumb: liquid
+Thumb: liquid.png
 ----
 headercss: background-color:rgba(26,127,185,1.0);background-size:100% auto;background-position: center 80%;
 ----

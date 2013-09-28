@@ -1,3 +1,0 @@
-Title: Zipments Delivery App
-----
-Text: test
