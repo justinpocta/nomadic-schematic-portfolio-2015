@@ -18,27 +18,29 @@ $tags = tagcloud($blog);
   
 <center>
 	<div id="nav-list"><div id="nav-list-box">
-                <?php if(param('tag')) {
-		
-		$projects = $pages->find('projects')
-							->children()
-							->visible()
-							->filterBy('tags', param('tags'), ',');							
-		
-		} else {
-		
-		$projects = $pages->find('projects')
-							->children()
-							->visible();
-							                            
-		
-		} ?>
+
 		<a href="#bottom" id="nomadic-schematic" class="link-button"><p></p></a>
 
-		<?php foreach($projects as $project): ?>
-		<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?>.png')" title="<?php echo html($project->title()) ?>" class="link-button project-mask"><p><?php echo html($project->title()) ?></p></a>
+	 <?php if(param('tag')) {
 
-		<?php endforeach ?>            
+		 $projects = $pages->find('projects')
+                                                        ->children()
+                                                        ->visible()
+                                                        ->filterBy('tags', param('tags'), ',')
+   							->findBy('projecttype', 'web');                                                	
+                } else {
+
+                $projects = $pages->find('projects')
+                                                        ->children()
+                                                        ->visible();
+                                                        
+	} ?>
+
+		<?php foreach($projects as $project): ?>
+		<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?>')" title="<?php echo html($project->title()) ?>" class="link-button project-mask"><p><?php echo html($project->title()) ?></p></a>
+
+		<?php endforeach ?>
+
 		<!-- End of grid blocks -->
 	  </div></div>
 	</center>  
