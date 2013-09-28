@@ -26,12 +26,11 @@
 </div>
 
 <!-- objective -->
-<div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/zipments-tino_pohlmann.jpg'); background-size:auto 100%; background-position:center center; background-repeat:no-repeat; max-height:500px;">
-    
-    <div class="container">
+<div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb ?>-bg.jpg'); background-repeat:no-repeat; max-height:500px; <?php echo $page->headercss ?>">
+        <div class="container">
       <div id="slides">
-        <div style="background:url(/assets/img/zipments-quote_productA.png);"></div>
-        <div style="background:url(/assets/img/zipments-quote_productA.png);"></div>
+        <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
+        <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
       </div>
     </div>
 

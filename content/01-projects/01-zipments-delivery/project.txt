@@ -4,6 +4,8 @@ projecttype: App
 ----
 AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681 text: Download App class: download-app)
 ----
+headercss: background-color:rgba(1,71,11,1.0);background-size:auto 100%;background-position: top center;
+----
 Thumb: zipments-delivery
 ----
 Tags: Mobile, UI, UX, IxD, Creative Direction
