@@ -2,6 +2,8 @@ Title: Zephyr Real Estate
 ----
 projecttype: App
 ----
+projecttype_button: project-mask
+----
 AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681 text: Download App class: download-app)
 ----
 Thumb: zephyr.png

@@ -2,6 +2,8 @@ Title: Zipments Responsive
 ----
 projecttype: Web
 ----
+projecttype_button: project-mask
+----
 WebLink: (link: http://zipments.com text: Visit Website class: visit-web)
 ----
 Thumb: zipments-rwd.jpg

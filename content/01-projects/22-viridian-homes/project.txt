@@ -2,6 +2,8 @@ Title: Viridian Homes
 ----
 projecttype: Web
 ----
+projecttype_button: project-mask
+----
 WebLink: (link: http://zipments.com text: Visit Website class: visit-web)
 ----
 Thumb: viridian.jpg

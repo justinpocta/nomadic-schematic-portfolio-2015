@@ -2,6 +2,8 @@ Title: Liquid Finance
 ----
 projecttype: App
 ----
+projecttype_button: project-mask
+----
 AppLink: (link: https://itunes.apple.com/us/app/liquid-personal-finance-drag/id500159071 text: Download App class: download-app)
 ----
 Thumb: liquid.png
