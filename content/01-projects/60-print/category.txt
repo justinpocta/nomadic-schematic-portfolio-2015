@@ -1,0 +1,8 @@
+Title: Print
+----
+projecttype: Category
+----
+projecttype_button: button-category
+----
+Thumb: button-print_white.png
+----
