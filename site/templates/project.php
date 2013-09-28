@@ -38,6 +38,13 @@
 <!-- end objective -->
 
   <article>
+
+<!-- content intro -->
+<div class="row" style="padding-top:25px;">
+  
+  <div class="columns large-8 small-12"> <!-- MAIN 1 -->
+    <span class="detail-title">Project Information</span>
+
     TEXT:: <?php echo kirbytext($page->text()) ?> <br>
     SLIDESHOW:: <?php echo h($page->slideshow()) ?> <br>
     CREATED:: <?php echo h($page->created()) ?> <br>
@@ -49,23 +56,43 @@
 	PREV:: <a href="<?php echo h($page->previous($sort='title', $direction='asc')) ?>">PREVIOUS</a> <br>
 	NEXT:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
 	<BR>
-<!--//
-?php $list = $page->children()->paginate(10) 
-//-->
+<div class="quotes"><!-- quote -->
+      <!-- <span class="detail-title">Quote</span> -->
+      <p>&ldquo;Lorem ipsum culpa qui officia deserunt mollit anim id est laborum.&rdquo;</p>
+</div>
+    
+</div>
 
-<!--//
-<ul>
-   <?php foreach($list as $item): ?>
-   <li><?php echo $item->title() ?></li>
-   <?php endforeach ?>
-</ul>
-//-->
+  <div id="detail-sidebar" class="columns large-4 small-12">
+    <div style="float:left"><!-- tags -->
+      <span class="detail-title">Project Tags</span>
+      <ul class="keywords-list">
+        <li>Creative Direction</li>
+        <li>UX Design</li>
+        <li>UI Design</li>
+        <li>App Design</li>
+        <li>Startup</li>
+      </ul>
+    </div><!-- end tags -->
+    <div style="float:left;margin-top:10px;">
+      <span class="detail-title">More Info</span>
+      <ul style="list-style:none;margin:0;">
+        <li><b>Created:</b> Dec 2012</li>
+        <li><b>Development:</b> Travis Brack (iOS)</li>
+        <li>&nbsp;</li>
+      </ul>
+      <a href="https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681" class="download-app">Download from App Store</a>
+
 
  	<br>
     LINK:: <?php echo h($page->AppLink()) ?><br>
     Download:: <?php echo html($page->download()) ?><br>
     Reference: <?php echo html($page->reference()) ?><br>
     Visit <?php echo html($page->visit()) ?>
+
+    </div>
+  </div>
+
   </article>
 
 </section>
