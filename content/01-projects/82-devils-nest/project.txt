@@ -1,6 +1,6 @@
 Title: Devil's Nest
 ----
-projecttype: Print
+projecttype: Illustration
 ----
 projecttype_button: project-mask
 ----

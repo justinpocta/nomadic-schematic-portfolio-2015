@@ -1,6 +1,6 @@
 Title: Butcher's Wife
 ----
-projecttype: Print
+projecttype: Illustration
 ----
 projecttype_button: project-mask
 ----
