@@ -4,7 +4,9 @@ projecttype: App
 ----
 projecttype_button: project-mask
 ----
-Thumb: sourcetone.png
+Thumb: sourcetone
+----
+Thumbtype: .png
 ----
 headercss: background-color:rgba(77,192,117,1.0);background-size:100% auto;background-position: center 80%;
 ----

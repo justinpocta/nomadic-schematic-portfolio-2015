@@ -6,7 +6,9 @@ projecttype_button: project-mask
 ----
 WebLink: (link: http://zipments.com text: Visit Website class: visit-web)
 ----
-Thumb: zipments-rwd.jpg
+Thumb: zipments-rwd
+----
+Thumbtype: .jpg
 ----
 headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----

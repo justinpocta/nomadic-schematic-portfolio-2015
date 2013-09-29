@@ -4,5 +4,7 @@ projecttype: Category
 ----
 projecttype_button: button-category
 ----
-Thumb: button-illustration_white.png
+Thumb: button-illustration_white
+----
+Thumbtype: .png
 ----
