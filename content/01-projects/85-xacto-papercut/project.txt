@@ -1,6 +1,6 @@
 Title: X-Acto Illustrations
 ----
-projecttype: Print
+projecttype: Illustration
 ----
 projecttype_button: project-mask
 ----
