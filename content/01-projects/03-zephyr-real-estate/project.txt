@@ -6,7 +6,7 @@ projecttype_button: project-mask
 ----
 AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681 text: Download App class: download-app)
 ----
-Thumb: zephyr.png
+Thumb: zephyr
 ----
 headercss: background-color:rgba(162,160,148,1.0);background-size:100% auto;background-position: center 80%;
 ----

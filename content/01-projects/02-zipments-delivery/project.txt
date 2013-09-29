@@ -4,7 +4,7 @@ projecttype: App
 ----
 projecttype_button: project-mask
 ----
-Thumb: zipments-delivery.png
+Thumb: zipments-delivery
 ----
 AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681 text: Download App class: download-app)
 ----
