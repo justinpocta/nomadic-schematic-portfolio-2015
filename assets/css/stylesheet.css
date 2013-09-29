@@ -95,7 +95,7 @@ span.nomad-intro {display: none;}
 	/*rgba(55,51,38,.8);*/
 	color:#c1c1bf;
 	margin: 0px;
-	padding: 70px 6% 140px 6%;
+	padding: 150px 6% 50px 6%; /* was 140 instead of 50px */
 	line-height: 1.4em;
 	width: 100%;
 }
