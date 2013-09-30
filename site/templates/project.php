@@ -67,11 +67,13 @@
     <div style="float:left"><!-- tags -->
       <span class="detail-title">Project Tags</span>
       <ul class="keywords-list">
-        <li>Creative Direction</li>
-        <li>UX Design</li>
-        <li>UI Design</li>
-        <li>App Design</li>
-        <li>Startup</li>
+	<?
+	  $articleTags = str::split($page->tags());
+	  $blog = $pages->find('projects');
+	?>
+	<? foreach($articleTags as $tag): ?>
+	  <li><?= $tag ?></li>
+	<? endforeach ?>
       </ul>
     </div><!-- end tags -->
     <div style="float:left;margin-top:10px;">
@@ -81,7 +83,7 @@
         <li><b>Development:</b> Travis Brack (iOS)</li>
         <li>&nbsp;</li>
       </ul>
-      <a href="https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681" class="download-app">Download from App Store</a>
+      <?php echo kirbytext($page->applink) ?>
 
 
  	<br>
