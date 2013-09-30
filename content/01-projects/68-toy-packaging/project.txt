@@ -1,6 +1,6 @@
 Title: Toy Packaging
 ----
-projecttype: Illustration
+projecttype: Print
 ----
 projecttype_button: project-mask
 ----
