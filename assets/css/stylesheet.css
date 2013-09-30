@@ -95,7 +95,7 @@ span.nomad-intro {display: none;}
 	/*rgba(55,51,38,.8);*/
 	color:#c1c1bf;
 	margin: 0px;
-	padding: 150px 6% 50px 6%; /* was 140 instead of 50px */
+	padding: 70px 6% 70px 6%; /* was 140 instead of 50px */
 	line-height: 1.4em;
 	width: 100%;
 }
@@ -107,9 +107,12 @@ span.nomad-intro {display: none;}
 	line-height: 1.5em;
 }
 div.main-intro a {color:#FF7E00;}
+#main-intro-header {
+	padding-bottom:100px;
+}
 #main-intro-header div {
 	font-size: .7em;
-	padding:0;
+	padding: 0;
 	position: absolute;
 	right: 15px;
 	text-align: right;
@@ -151,7 +154,7 @@ div.main-intro a {color:#FF7E00;}
 	background-position: top left;
 	border: 2px dotted rgba(255,255,255,.30);
 }
- .button-category:hover, #button-info:hover {
+.button-category:hover, #button-info:hover {
 	background-color: rgba(0,0,0,.65);
 	background-position: bottom left;
 	border: 2px solid rgba(0,0,0,.0);
@@ -416,7 +419,7 @@ div.logo-intro span {
     position: absolute;
     right:0;
     text-indent: -9999px;
-    bottom:225px;
+    bottom:148px;
     width: 50px;
     z-index: 100;	
 }
@@ -490,7 +493,7 @@ div.logo-intro span {
 		top:0px;
 	}
 	.dropdown-nav li:hover {
-		background-color: #595548;
+		background-color: rbga(5,5,5,.5) /*#595548*/ ;
 		color:#FFF;
 	}
 	.dropdown-nav a {
@@ -584,6 +587,10 @@ div.logo-intro span {
 	#nav-list a.button-category {
 		margin-bottom: 20px;
 	}
+	.button-return {
+		border:0 !important;
+		margin-bottom: -2px !important;
+	}
 	#nomadic-schematic {display:none !important;}
 	#nomadic-schematic:hover {display:none !important;}
 	.link-button p {
@@ -592,7 +599,7 @@ div.logo-intro span {
 	.project-mask p {
 		color: #60605b !important;
 		width: 100%;
-		font-size: .9em !important;
+		font-size: 1.5em !important;
 		line-height: 1.2em !important;
 		text-indent: 0;
 		margin-top: 135px !important;

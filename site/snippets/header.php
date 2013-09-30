@@ -33,11 +33,11 @@
 
 		<!-- MOBILE NAV -->
 		<ul class="toggler dropdown-nav" id="effect">
-			<li><a href="/app-design">App Design</a></li>
-			<li><a href="/web-design">Websites</a></li>
-			<li><a href="/branding">Branding</a></li>
-			<li><a href="/print-design">Print Design</a></li>
-			<li><a href="/illustration">Illustrations</a></li>
+			<li><a href="/projects/app">App Design</a></li>
+			<li><a href="/projects/web">Websites</a></li>
+			<li><a href="/projects/logo-design">Branding</a></li>
+			<li><a href="/projects/print">Print Design</a></li>
+			<li><a href="/projects/illustration">Illustration</a></li>
 			<li><a href="/justin-pocta">About Justin</a></li>
 		</ul>
 

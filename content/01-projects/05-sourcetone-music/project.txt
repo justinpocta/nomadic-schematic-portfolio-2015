@@ -1,6 +1,6 @@
 Title: Sourcetone Music
 ----
-projecttype: App
+projecttype: app
 ----
 projecttype_button: project-mask
 ----

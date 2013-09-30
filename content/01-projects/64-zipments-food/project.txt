@@ -1,6 +1,6 @@
 Title: Zipments Food
 ----
-projecttype: Print
+projecttype: print
 ----
 projecttype_button: project-mask
 ----

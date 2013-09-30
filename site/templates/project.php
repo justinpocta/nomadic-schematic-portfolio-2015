@@ -15,7 +15,7 @@
 <?php } else { ?>
 <a href="/" class="button-home-left" title="Home"></a>
 <?php }; ?>
-  <span>
+  <span style="text-transform:capitalize;">
     <?php echo $page->title ?> - <?php echo h($page->projecttype) ?>
   </span>
 <?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>

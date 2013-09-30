@@ -1,6 +1,6 @@
 Title: DSVC Invitation
 ----
-projecttype: Print
+projecttype: print
 ----
 projecttype_button: project-mask
 ----

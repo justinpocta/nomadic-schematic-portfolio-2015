@@ -1,6 +1,6 @@
 Title: Zipments Responsive
 ----
-projecttype: Web
+projecttype: web
 ----
 projecttype_button: project-mask
 ----

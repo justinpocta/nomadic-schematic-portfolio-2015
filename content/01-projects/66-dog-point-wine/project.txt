@@ -1,6 +1,6 @@
 Title: Dog Point
 ----
-projecttype: Print
+projecttype: print
 ----
 projecttype_button: project-mask
 ----

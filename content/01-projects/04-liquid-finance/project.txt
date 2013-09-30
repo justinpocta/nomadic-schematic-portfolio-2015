@@ -1,6 +1,6 @@
 Title: Liquid Finance
 ----
-projecttype: App
+projecttype: app
 ----
 projecttype_button: project-mask
 ----

@@ -1,6 +1,6 @@
 Title: Zephyr Real Estate
 ----
-projecttype: App
+projecttype: app
 ----
 projecttype_button: project-mask
 ----

@@ -1,6 +1,6 @@
 Title: Save The Date
 ----
-projecttype: Print
+projecttype: print
 ----
 projecttype_button: project-mask
 ----

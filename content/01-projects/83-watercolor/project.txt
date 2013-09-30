@@ -1,6 +1,6 @@
 Title: Watercolors
 ----
-projecttype: Illustration
+projecttype: illustration
 ----
 projecttype_button: project-mask
 ----

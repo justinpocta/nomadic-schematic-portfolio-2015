@@ -1,6 +1,6 @@
 Title: Stash Furniture
 ----
-projecttype: Web
+projecttype: web
 ----
 projecttype_button: project-mask
 ----
