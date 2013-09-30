@@ -273,7 +273,7 @@ div.main-nav {
 .project-mask {
 	-webkit-border-radius:150px;
 	-moz-border-radius:150px;
-	background-color: rgba(255,255,255,.75);
+	background-color: rgba(150,150,150,.35);
 	/*background-color: rgba(55,51,38,.65) !important;*/
 	background-clip:content-box;
 	background-position: center center;

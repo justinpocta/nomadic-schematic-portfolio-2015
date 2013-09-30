@@ -16,7 +16,7 @@
 	    <li><a href="http://instagram.nomadic-schematic.com">Instagram</a></li>
 	  </ul>
 
-	  <a class="show-for-small button-top" href="#start"></a>
+	  <a class="show-for-small button-top" href="#top"></a>
 
 	  <div class="nomadic-footer">
 	    <?php echo kirbytext($site->copyright()) ?>
