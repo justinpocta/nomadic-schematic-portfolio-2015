@@ -357,6 +357,13 @@ div.logo-intro span {
 	text-transform:none;
 	width:100%;
 }
+#detail-sidebar {
+	/* shut off on mobile */
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
 .detail-title {
 	color:#FF7E00;
 	display:block;

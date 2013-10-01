@@ -32,6 +32,7 @@
         <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
         <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
       </div>
+
     </div>
 
   </div>
@@ -42,15 +43,27 @@
 <!-- content intro -->
 <div class="row" style="padding-top:25px;">
   
-  <div class="columns large-8 small-12"> <!-- MAIN 1 -->
+  <div class="columns large-12 small-12"> <!-- MAIN 1 -->
 	<span class="detail-title">Project Information</span>
-	<?php echo kirbytext($page->text()) ?>
-	<?php if($page->quote()) {?>
-	<div class="quotes"><p><?php echo $page->quote() ?></p></div>
-	<?php } else {}; ?>
-  </div>
+	
+	<div class="columns large-8 small-12"><!--// content 1 - left //-->
+		<?php echo kirbytext($page->text()) ?>
+	
+		<?php if($page->quote()) {?>
+			<div class="quotes"><p><?php echo $page->quote() ?></p></div>
+		<?php } else {}; ?>
+	</div>
 
-  <div id="detail-sidebar" class="columns large-4 small-12">
+	<div class="container" style="float:left;background-coilor:#000;height:200px;">
+		<div id="slides2">
+			<div style="background:url(/assets/img/header-<?php echo $page->thumb() ?>-slides2-01.jpg);"></div>
+			<div style="background:url(/assets/img/header-<?php echo $page->thumb() ?>-slides2-01.jpg);"></div>
+		</div>
+	</div>
+
+  <!--// </div> moving sidebar inside for experiment //-->
+
+  <div id="detail-sidebar" class="columns large-4 small-12"><!--// content 2 - right : sidebar //-->
     <div style="float:left"><!-- tags -->
       <span class="detail-title">Tags</span>
       <ul class="keywords-list">
@@ -79,6 +92,8 @@
 
     </div>
   </div>
+
+	</div> <!--// end project info div //-->
 
   </article>
 
