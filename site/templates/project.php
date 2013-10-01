@@ -27,7 +27,7 @@
 
 <!-- objective -->
 <div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb ?>-bg.jpg'); background-repeat:no-repeat; max-height:500px; <?php echo $page->headercss ?>">
-        <div class="container">
+        <div class="container slidesPrimary">
       <div id="slides">
         <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
         <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
@@ -54,10 +54,10 @@
 		<?php } else {}; ?>
 	</div>
 	</div>
-	<div class="container slidesSecondary column" style="min-height:200px;">
+	<div class="container slidesSecondary cXolumn">
 		<div id="slides2">
-			<div style="background:url(/assets/img/<?php echo $page->thumb() ?>-slides2-01.jpg) no-repeat;background-size:100%;background-position:center center;"></div>
-			<div style="background:url(/assets/img/<?php echo $page->thumb() ?>-slides2-01.jpg) no-repeat;background-size:100%;background-position:center center;"></div>
+			<div style="background:url(/assets/img/<?php echo $page->thumb() ?>-slides2-01.jpg) no-repeat; background-size:auto; background-position:center center;"></div>
+			<div style="background:url(/assets/img/<?php echo $page->thumb() ?>-slides2-01.jpg) no-repeat; background-size:100%; background-position:center center;"></div>
 		</div>
 	</div>
 
@@ -121,7 +121,7 @@
           effect: "fade"
         },
         play: {
-          active: true,
+          active: false,
           auto: true,
           interval: 4000,
           swap: true,
