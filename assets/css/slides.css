@@ -56,13 +56,13 @@
       /*width: 22px;
       height: 22px;*/
       background: url(../img/pagination.png) no-repeat;
-      background-size: auto;
+      background-size: 33.3333%;
       text-indent: -9999px;
       border: 0;
       cursor: pointer;
       margin: 0 5px 5px 0;
       width: 35px;
-      height: 12px;
+      height: 11px;
       background-position: 0 0;
       overflow: hidden;
 
@@ -77,11 +77,11 @@
 
     .slidesjs-pagination li a.active,
     .slidesjs-pagination li a:hover.active {
-      background-position: 0 -13px
+      background-position: 0 -11px
     }
 
     .slidesjs-pagination li a:hover {
-      background-position: 0 -26px
+      background-position: 0 -22px
     }
     .slidesjs-slide {background-position:center top; Xbackground-size:auto; display:block; Xidth:100%; height:100%; top:0; margin:0;background-size: 100% !important;}
 
