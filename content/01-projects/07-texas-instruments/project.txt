@@ -4,13 +4,11 @@ projecttype: app
 ----
 projecttype_button: project-mask
 ----
-AppLink: (link: https://itunes.apple.com/us/app/alertometer/id422540280 text: Download App class: download-app)
-----
 Thumb: ti
 ----
 Thumbtype: .png
 ----
-headercss: background-color:rgba(87,153,152,1.0);background-size:100% auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----
 Tags: UI, UX, IxD, Art Direction
 ----
