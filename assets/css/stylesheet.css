@@ -370,6 +370,7 @@ div.logo-intro span {
 	letter-spacing:.15em;
 	padding-bottom:10px;
 	text-transform:uppercase;
+	clear:left;
 }
 .slide-backgrounder { background-position:center top; background-size:100%; display:block; width:100%; height:100%; top:0; margin:0;}
 #secondary p {
@@ -726,6 +727,21 @@ and (orientation : landscape) {
 		text-align:center;
 		font-size:.65em;
 	}
+	#detail-sidebar {
+        	/* shut off */
+        	float: none;
+        	position: relative;
+        	top: 20px;
+        	right: 0px;
+		padding-bottom:100px;
+	}
+	#detail-sidebar div {
+		float:none !important;
+		cleXar:right !important;
+		widXth:100% !important;
+	}
+
+	.slidesjs-play,.slidesjs-stop,.slidesjs-navigation {text-indent:-9999px;}	
 	#secondary p {
 		font-size: 1.2em;
 		line-height: 1.2em;
