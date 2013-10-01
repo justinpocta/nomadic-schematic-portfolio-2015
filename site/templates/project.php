@@ -44,22 +44,10 @@
   
   <div class="columns large-8 small-12"> <!-- MAIN 1 -->
     <span class="detail-title">Project Information</span>
-    <?php echo kirbytext($page->text()) ?> <br>
-
-    SLIDESHOW:: <?php echo h($page->slideshow()) ?> <br>
-    CREATED:: <?php echo h($page->created()) ?> <br>
-    CREDITS:: <?php echo h($page->credits()) ?> <br>
- 	<br>
-	TINYURL:: <?php echo $page->tinyurl() ?> <br>
-	URL:: <?php echo $page->url() ?> <br>
-	<br>
-	PREV:: <a href="<?php echo h($page->previous($sort='title', $direction='asc')) ?>">PREVIOUS</a> <br>
-	NEXT:: <?php echo $page->next($sort='title', $direction='asc') ?> <br>
-	<BR>
-<div class="quotes"><!-- quote -->
-      <!-- <span class="detail-title">Quote</span> -->
-      <p>&ldquo;Lorem ipsum culpa qui officia deserunt mollit anim id est laborum.&rdquo;</p>
-</div>
+    <?php echo kirbytext($page->text()) ?>
+    <div class="quotes">
+      <p><?php echo $page->quote() ?></p>
+    </div>
     
 </div>
 
@@ -76,22 +64,15 @@
 	<? endforeach ?>
       </ul>
     </div><!-- end tags -->
-    <div style="float:left;margin-top:10px;">
+    <div style="float:left;margin-top:10px;width:100%;">
       <span class="detail-title">More Info</span>
       <ul style="list-style:none;margin:0;">
-        <li><b>Created:</b> Dec 2012</li>
-        <li><b>Development:</b> Travis Brack (iOS)</li>
+        <li><b>Created:</b> <?php echo h($page->created()) ?></li>
+        <li><b>Credits:</b> <?php echo h($page->credits()) ?></li>
         <li>&nbsp;</li>
       </ul>
-      <?php echo kirbytext($page->applink) ?>
-
-
- 	<br>
-    LINK:: <?php echo h($page->AppLink()) ?><br>
-    Download:: <?php echo html($page->download()) ?><br>
-    Reference: <?php echo html($page->reference()) ?><br>
-    Visit <?php echo html($page->visit()) ?>
-
+      <?php echo kirbytext($page->applink) ?><br>
+      <?php echo kirbytext($page->weblink) ?><br>
     </div>
   </div>
 

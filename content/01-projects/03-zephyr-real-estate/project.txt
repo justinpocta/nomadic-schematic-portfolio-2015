@@ -4,7 +4,7 @@ projecttype: app
 ----
 projecttype_button: project-mask
 ----
-AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681 text: Download App class: download-app)
+AppLink: (link: https://itunes.apple.com/us/app/zephyr-real-estate-search/id468658018 text: Download App class: download-app)
 ----
 Thumb: zephyr
 ----
@@ -13,6 +13,8 @@ Thumbtype: .png
 headercss: background-color:rgba(162,160,148,1.0);background-size:100% auto;background-position: center 80%;
 ----
 Tags: Mobile, UI, UX, IxD, Art Director
+----
+Quote: &rdquo;Ipsum Lipsum - dare I even say fun?&rdquo;
 ----
 Text: <b>bold</b>
 
@@ -24,7 +26,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: June 2011
 ----
-Credits: 
+Credits: Created at (link: http://xcubelabs.com text: [x]cube LABS)
 ----
 Related: ($random.project_app)*3
 

@@ -22,7 +22,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: February 2012
 ----
-Credits: Creative Director - Jason Franzen, 
+Credits: Creative Director - Jason Franzen, Initial Design - Coby Almond
 ----
 Related: ($random.project_app)*3
 
