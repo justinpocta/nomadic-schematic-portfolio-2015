@@ -127,6 +127,13 @@ div.main-intro a {color:#FF7E00;}
 	margin-bottom:15px;
 }
 .download-app:hover {opacity: .8}
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+	.download-app {
+		background-image: url('../img/app-store@2x.png');
+	}
+}
 
 /* PROJECTS - GENERAL ELEMENTS */
 .link-button {
