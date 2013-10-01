@@ -43,17 +43,16 @@
 <div class="row" style="padding-top:25px;">
   
   <div class="columns large-8 small-12"> <!-- MAIN 1 -->
-    <span class="detail-title">Project Information</span>
-    <?php echo kirbytext($page->text()) ?>
-    <div class="quotes">
-      <p><?php echo $page->quote() ?></p>
-    </div>
-    
-</div>
+	<span class="detail-title">Project Information</span>
+	<?php echo kirbytext($page->text()) ?>
+	<?php if($page->quote()) {?>
+	<div class="quotes"><p><?php echo $page->quote() ?></p></div>
+	<?php } else {}; ?>
+  </div>
 
   <div id="detail-sidebar" class="columns large-4 small-12">
     <div style="float:left"><!-- tags -->
-      <span class="detail-title">Project Tags</span>
+      <span class="detail-title">Tags</span>
       <ul class="keywords-list">
 	<?
 	  $articleTags = str::split($page->tags());
@@ -64,25 +63,26 @@
 	<? endforeach ?>
       </ul>
     </div><!-- end tags -->
-    <div style="float:left;margin-top:10px;width:100%;">
-      <span class="detail-title">More Info</span>
-      <ul style="list-style:none;margin:0;">
-        <li><b>Created:</b> <?php echo h($page->created()) ?></li>
-        <li><b>Credits:</b> <?php echo h($page->credits()) ?></li>
-        <li>&nbsp;</li>
-      </ul>
-      <?php echo kirbytext($page->applink) ?><br>
-      <?php echo kirbytext($page->weblink) ?><br>
+    <div style="float:left;margin-top:10px;width:100%;" class="project-credits">
+      <span class="detail-title">Details</span>
+	<small>Completed <?php echo h($page->created()) ?></small>	
+	
+	<?php echo kirbytext($page->credits()) ?>
+
+	<?php if($page->applink()) {?>
+        	<div style="margin-top:15px"><?php echo kirbytext($page->applink()) ?></div>
+        <?php } else {}; ?>
+
+	<?php if($page->weblink()) {?>
+                <div style="margin-top:15px"><?php echo kirbytext($page->weblink()) ?></div>
+        <?php } else {}; ?>
+
     </div>
   </div>
 
   </article>
 
 </section>
-
-<br /><br />
-
-
 
   <!-- SlidesJS Required: Link to jQuery -->
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
@@ -137,10 +137,8 @@
           }
         }
         });
-
     });
   </script>
   <!-- End SlidesJS Required -->
-
 
 <?php snippet('footer') ?>

@@ -12,7 +12,7 @@ Thumbtype: .jpg
 ----
 headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----
-Tags: Mobile, UI, UX, IxD, Art Director
+Tags: UI, UX, IxD, Creative Direction
 ----
 Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
 
@@ -22,7 +22,9 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: February 2012
 ----
-Credits: Craig Smitham - Developer/PM
+Credits: (link: http://craigsmitham.com text: Craig Smitham - Developer)
+----
+WebLink: (link: http://viridiandfw.com text: Visit Website class: button-visit)
 ----
 Related: ($random.project_app)*3
 

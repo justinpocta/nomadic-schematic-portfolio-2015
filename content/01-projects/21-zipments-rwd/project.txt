@@ -4,15 +4,13 @@ projecttype: web
 ----
 projecttype_button: project-mask
 ----
-WebLink: (link: http://zipments.com text: Visit Website class: visit-web)
-----
 Thumb: zipments-rwd
 ----
 Thumbtype: .jpg
 ----
 headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----
-Tags: Mobile, UI, UX, IxD, Art Director
+Tags: Mobile, UI, IxD, Creative Direction, RWD, HTML/CSS
 ----
 Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
 
@@ -22,7 +20,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: August 2013
 ----
-Credits: 
+Credits: Created in-house at (link: http://zipments.com text: Zipments) 
 ----
 Related: ($random.project_app)*3
 

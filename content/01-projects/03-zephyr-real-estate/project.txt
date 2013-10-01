@@ -12,9 +12,9 @@ Thumbtype: .png
 ----
 headercss: background-color:rgba(162,160,148,1.0);background-size:100% auto;background-position: center 80%;
 ----
-Tags: Mobile, UI, UX, IxD, Art Director
+Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Quote: &rdquo;Ipsum Lipsum - dare I even say fun?&rdquo;
+Quote: &ldquo;Ipsum Lipsum - dare I even say fun?&rdquo;
 ----
 Text: <b>bold</b>
 
@@ -26,7 +26,8 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: June 2011
 ----
-Credits: Created at (link: http://xcubelabs.com text: [x]cube LABS)
+Credits: Jason Franzen - Creative Director, 
+Created at (link: http://xcubelabs.com text: [x]cube LABS)
 ----
 Related: ($random.project_app)*3
 
