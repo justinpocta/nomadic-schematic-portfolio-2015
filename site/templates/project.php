@@ -27,8 +27,18 @@
 
 <!-- objective -->
 <div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb ?>-bg.jpg'); background-repeat:no-repeat; max-height:500px; <?php echo $page->headercss ?>">
-        <div class="container slidesPrimary">
+      
+      
+	<div class="container slidesPrimary" style="max-width:<?php 
+$headimager = $page->files()->find(!preg_match('^header^'));
+echo h($headimager->width()) ?>">
+      
       <div id="slides">
+
+	<?php foreach($page->images() as $image) { if(!preg_match('^header-^', $image->filename() )) continue; ?>
+        <div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:center center;"></div>
+        <?php } ?>
+
         <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
         <div style="background:url(/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb() ?>.png);"></div>
       </div>

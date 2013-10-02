@@ -117,24 +117,20 @@
       float:none;
     }
     .slidesPrimary div {
-     max-width: 800px !important; 
+     max-widthX: 800px; 
+	/* this can be written in based on images() maybe */    
     }
     .container div { 
 	margin:0 auto;
     }
     .slidesSecondary {
 	min-heighXt: 400px;
-	margin-bottom:35px;
     }
     .slidesSecondary div {
-        max-height:600px; background-position: center center;
+        max-height:6background-position: center center;00px;
     }
     .slidesSecondary .slidesjs-slide {
-	background-size: 100% !important;
-    }
-    .slidesSecondary .slidesjs-pagination {
-	margin-bottom: -35px;
-	bottom:0;
+	background-size: 90% !important;          
     }
 
  /* Small Displays: 768px and under */
