@@ -53,7 +53,7 @@
 			<div class="quotes"><p><?php echo $page->quote() ?></p></div>
 		<?php } else {}; ?>
 	
-<div style="display:block;width:286px;height:602px;background:url('./assets/img/empty-iphone.png') no-repeat;"></div>
+<div style="display:block;width:286px;height:602px;background:url('/assets/img/empty-iphone.png') no-repeat;"></div>
 
 	</div>
 	</div>
