@@ -83,7 +83,7 @@ small {font-size:75% !important;letter-spacing:.09em;text-transform:uppercase; c
 span.nomad-title {display: none;}
 span.nomad-intro {display: none;}
 .dropdown-nav a,.dropdown-nav li {display: none;}
-.project-mask p, .button-category p, #button-info p {	
+.project-mask p, .button-category p, #button-info p {
 	display:block;
 	float:left;
 	line-height: 1.3em;
@@ -132,9 +132,9 @@ div.main-intro a {color:#FF7E00;}
 	margin-bottom:15px;
 }
 .download-app:hover {opacity: .8}
-@media 
-(-webkit-min-device-pixel-ratio: 2), 
-(min-resolution: 192dpi) { 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
 	.download-app {
 		background-image: url('../img/app-store@2x.png');
 		background-size: 100%;
@@ -220,7 +220,7 @@ div.main-intro a {color:#FF7E00;}
 	-moz-border-radius-topleft: 55px;
 	-moz-border-radius-bottomleft: 55px;
 	border-top-left-radius: 55px;
-	border-bottom-left-radius: 55px; */	
+	border-bottom-left-radius: 55px; */
 	background-image:url('../img/button-next.png');
 	margin-right: 15px;
 }
@@ -396,6 +396,9 @@ div.logo-intro span {
 .keywords-list,.exits {
 	margin: 0;
 }
+.keywords-list {
+  max-width: 250px;
+}
 .keywords-list li {
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
@@ -452,18 +455,18 @@ div.logo-intro span {
     text-indent: -9999px;
     bottom:200px;
     width: 50px;
-    z-index: 100;	
+    z-index: 100;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
 and (orientation : landscape) {
 	#secondary .large-8 {padding:0 30px;}
 	#secondary .large-8 p {font-size:.65em;}
 	#secondary .quotes {text-align:center;font-size:1.75em;}
-	#detail-sidebar div ul li {font-size:.7em;}	
+	#detail-sidebar div ul li {font-size:.7em;}
 }
 
 /* Small Displays: 768px and under */
@@ -586,7 +589,7 @@ and (orientation : landscape) {
 		color:#dedede;
 		text-decoration: underline;
 	}
-	
+
 	/* PROJECT - ELEMENTS MOBILE */
 	.main-nav,#nav-list {}
 
@@ -667,7 +670,7 @@ and (orientation : landscape) {
 		border:0;
 		text-transform: uppercase;
 	}
-	.button-category:hover {	
+	.button-category:hover {
 		background-color: rgba(242,101,34,1.0);
 		background-position: -10px -10px;
 		border:0;
@@ -690,7 +693,7 @@ and (orientation : landscape) {
 	#button-print {background-image:url('../img/button-print_white.png'); }
 	#button-web {background-image:url('../img/button-web_white.png'); }
 	#button-info {background-color: #52787c; background-position: bottom center; background-size: 100%;}
-	#button-info:hover {background-color: #52787c; background-position: top center;}	
+	#button-info:hover {background-color: #52787c; background-position: top center;}
 
 	/* SECONDARY : DETAIL PAGE mobile */
 	div.logo-intro {margin-top: 50px;height:50px;background-color: rgba(0,0,0,.8);}
@@ -741,7 +744,7 @@ and (orientation : landscape) {
 		widXth:100% !important;
 	}
 
-	.slidesjs-play,.slidesjs-stop,.slidesjs-navigation {text-indent:-9999px;}	
+	.slidesjs-play,.slidesjs-stop,.slidesjs-navigation {text-indent:-9999px;}
 	#secondary p {
 		font-size: 1.2em;
 		line-height: 1.2em;
