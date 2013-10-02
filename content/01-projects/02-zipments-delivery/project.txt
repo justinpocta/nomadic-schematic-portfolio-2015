@@ -12,7 +12,7 @@ AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652
 ----
 headercss: background-color:rgba(1,71,11,1.0);background-size:auto 100%;background-position: top center;
 ----
-headerwidth: max-width:1400px;
+headerwidth: max-width:800px;
 ----
 headerheight: max-height:500px;
 ----
