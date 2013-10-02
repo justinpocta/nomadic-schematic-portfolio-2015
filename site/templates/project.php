@@ -25,14 +25,15 @@
 </div>
 
 <!-- objective -->
-<div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('/assets/img/header-<?php echo $page->projecttype() ?>_<?php echo $page->thumb ?>-bg.jpg'); background-repeat:no-repeat; <?php echo $page->headercss ?>">
+<div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('<?php echo $page->images()->find('bg.jpg')->url() ?>'); background-repeat:no-repeat; <?php echo $page->headercss ?>">
+
 
      <div class="container slidesPrimary" style="<?php echo $page->headerwidth ?>">
       <div id="slides" style="<?php echo $page->headerheight ?>">
 
 	   <?php foreach($page->images() as $image) { if(!preg_match('^header-^', $image->filename() )) continue; ?>
-        <div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:bottom center;"></div>
-      <?php } ?>
+        <div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:bottom center;<?php echo $page->headerheight ?>"></div>
+<?php } ?>
 
       </div>
     </div>
