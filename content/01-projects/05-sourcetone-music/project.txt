@@ -10,6 +10,10 @@ Thumbtype: .png
 ----
 headercss: background-color:rgba(77,192,117,1.0);background-size:100% auto;background-position: center 80%;
 ----
+headerwidth: max-width:800px;
+----
+headerheight: max-height:500px;
+----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
 Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
