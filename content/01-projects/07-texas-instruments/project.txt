@@ -8,7 +8,11 @@ Thumb: ti
 ----
 Thumbtype: .png
 ----
-headercss: background-color:rgba(216,7,2,1.0);background-size:100% auto;background-position: center 80%;background-repeat:none;
+headercss: max-hXeight:500px; background-color:rgba(216,7,2,1.0);background-size:100% auto;background-position: center 80%;background-repeat:none;
+----
+headerwidth: max-width:1440px;
+----
+headerheight: max-height:500px;
 ----
 Tags: UI, UX, IxD, Art Direction, #TexasForever
 ----
