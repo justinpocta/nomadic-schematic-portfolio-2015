@@ -120,14 +120,28 @@
      max-width: 800px !important; 
     }
     .container div { 
-      margin:0 auto;
+	margin:0 auto;
+    }
+    .slidesSecondary {
+	min-heighXt: 400px;
+	margin-bottom:35px;
+    }
+    .slidesSecondary div {
+        max-height:600px; background-position: center center;
+    }
+    .slidesSecondary .slidesjs-slide {
+	background-size: 100% !important;
+    }
+    .slidesSecondary .slidesjs-pagination {
+	margin-bottom: -35px;
+	bottom:0;
     }
 
-    .slidesSecondary {
-	min-height: 400px;
-    }      
  /* Small Displays: 768px and under */
 @media only screen and (max-width: 767px) {
+    .slidesSecondary .slidesjs-slide {
+background-size: 100% !important;          
+    }
 
 .slidesSecondary,.slidesjs-pagination {
 	background-color:#FFF;

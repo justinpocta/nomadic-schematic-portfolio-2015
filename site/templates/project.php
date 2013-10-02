@@ -56,8 +56,10 @@
 	</div>
 	<div class="container slidesSecondary cXolumn">
 		<div id="slides2">
-			<div style="background:url(/assets/img/<?php echo $page->thumb() ?>-slides2-01.jpg) no-repeat; background-size:auto; background-position:center center;"></div>
-			<div style="background:url(/assets/img/<?php echo $page->thumb() ?>-slides2-01.jpg) no-repeat; background-size:100%; background-position:center center;"></div>
+
+		<?php foreach($page->images() as $image) { if(!preg_match('^galleryA-^', $image->filename() )) continue; ?>
+		<div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:center center;"></div>
+		<?php } ?>
 		</div>
 	</div>
 
@@ -121,9 +123,9 @@
           effect: "fade"
         },
         play: {
-          active: false,
-          auto: true,
-          interval: 4000,
+          active: true,
+          auto: false,
+          interval: 8500,
           swap: true,
           pauseOnHover: true,
           restartDelay: 2500
