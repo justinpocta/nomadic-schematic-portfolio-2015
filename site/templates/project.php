@@ -52,11 +52,13 @@
 		<?php if($page->quote()) {?>
 			<div class="quotes"><p><?php echo $page->quote() ?></p></div>
 		<?php } else {}; ?>
+	
+<div style="display:block;width:286px;height:602px;background:url('./assets/img/empty-iphone.png') no-repeat;"></div>
+
 	</div>
 	</div>
 	<div class="container slidesSecondary cXolumn">
 		<div id="slides2">
-
 		<?php foreach($page->images() as $image) { if(!preg_match('^galleryA-^', $image->filename() )) continue; ?>
 		<div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:center center;"></div>
 		<?php } ?>
