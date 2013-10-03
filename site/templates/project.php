@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
 <link rel="stylesheet" href="/assets/css/slides.css" />
 <script src="/assets/js/vendor/jquery.slides.min.js"></script>
-
 <body id="secondary">
 <section class="content">
 
@@ -117,7 +116,9 @@
 
   <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
   <script>
-    $(function() {
+var paginationcheck = <?php echo h($page->paginateslide()) ?>;
+
+$(function() {
       $('#slides2').slidesjs({
         width: 940,
         height: 528,
@@ -151,9 +152,18 @@
           effect: "fade"
         },
         pagination: {
-          active: true,
+          // active: this.write(paginationcheck);
+          active: false,
           effect: "fade"
         },
+play: {
+active: true,
+auto: false,
+interval: 8500,
+swap: true,
+pauseOnHover: true,
+restartDelay: 2500
+         },
         effect: {
           fade: {
             speed: 1

@@ -10,9 +10,12 @@
     #slides,#slides2,#slides3,
     #slides4,#slides5,#slides6 {
       display: none;
-      /*margin-bottom:50px;*/
+      /* margin-bottom:50px; this gets in way of footer?*/
     }
-    #slides ul.slidesjs-pagination {
+    #slides .slidesjs-navigation {
+      position: absolute; left:-9999px; top:0px; display:none !important; }
+    #slides {margin-bottom:35px;}
+    #Xslides ul.slidesjs-pagination {
       display:none !important;
       top:-1000px;}
     .slidesjs-navigation {
