@@ -14,7 +14,7 @@ headercss: background-color:rgba(162,160,148,1.0);background-size:100% auto;back
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: max-height:500px;
+headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
@@ -30,7 +30,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: June 2011
 ----
-Credits: Jason Franzen - Creative Director, 
+Credits: Jason Franzen - Creative Director,
 Created at (link: http://xcubelabs.com text: [x]cube LABS)
 ----
 Related: ($random.project_app)*3

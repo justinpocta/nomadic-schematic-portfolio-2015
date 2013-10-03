@@ -111,8 +111,8 @@
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <!-- End SlidesJS Required -->
 
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="/assets/js/vendor/jquery.slides.min.js"></script>
+  <!-- SlidesJS Required: Link to jquery.slides.js // not .min.js anymore -->
+  <script src="/assets/js/vendor/jquery.slides.js"></script>
   <!-- End SlidesJS Required -->
 
   <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->

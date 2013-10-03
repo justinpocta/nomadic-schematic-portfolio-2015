@@ -12,7 +12,7 @@ headercss: max-hXeight:500px; background-color:rgba(216,7,2,1.0);background-size
 ----
 headerwidth: max-width:900px;
 ----
-headerheight: max-height:450px;bXackground-size:110% !important;
+headerheight: max-height:450px; /* if one slide: */ left: 0 !important;
 ----
 Tags: UI, UX, IxD, Art Direction, #TexasForever
 ----

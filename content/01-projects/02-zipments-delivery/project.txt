@@ -14,7 +14,7 @@ headercss: background-color:rgba(1,71,11,1.0);background-size:auto 100%;backgrou
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: max-height:500px;
+headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
 ----
 Tags: Brand, Mobile, UI, UX, IxD, Creative Direction
 ----
