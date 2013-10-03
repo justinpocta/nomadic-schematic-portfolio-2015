@@ -15,13 +15,13 @@
 style="">
 
     <a href="/" style="background-image:url('/assets/img/thumb-Category_button-<?php echo h($section) ?>_white.png')" title="<?php echo h($section) ?>" class="link-button button-category"><p><?php echo h($section) ?></p></a>
-    <?php 
+    <?php
         $projects = $pages->find('projects')->children();
         $items = $projects->findBy('projecttype', $section);
     ?>
     <?php foreach($projects as $project) : ?>
          <?php if ($project->projecttype==$section) { ?>
-<a href="<?php echo $project->url() ?>" 
+<a href="<?php echo $project->url() ?>"
 style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?><?php echo $project->thumbtype ?>')"
 title="<?php echo html($project->title()) ?>"
 class="link-button <?php echo $project->projecttype_button ?>">

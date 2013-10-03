@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <title><?php echo html($site->title()) ?> | <?php echo html($page->title()) ?></title>
   <meta charset="utf-8" />
   <meta name="description" content="<?php echo html($site->description()) ?>" />
@@ -33,11 +33,11 @@
 
 		<!-- MOBILE NAV -->
 		<ul class="toggler dropdown-nav" id="effect">
-			<li><a href="/projects/app">App Design</a></li>
-			<li><a href="/projects/web">Websites</a></li>
+			<li><a href="/apps">App Design</a></li>
+			<li><a href="/websites">Websites</a></li>
 			<li><a href="/projects/logo-design">Branding</a></li>
-			<li><a href="/projects/print">Print Design</a></li>
-			<li><a href="/projects/illustration">Illustration</a></li>
+			<li><a href="/print">Print Design</a></li>
+			<li><a href="/illustration">Illustration</a></li>
 			<li><a href="/justin-pocta">About Justin</a></li>
 		</ul>
 

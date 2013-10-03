@@ -15,7 +15,7 @@ $tags = tagcloud($blog);
 
 <div class="main-nav">
   <a href="" name="start" style="position:absolute;top:0px;"></a>
-  
+
 <center>
 	<div id="nav-list"><div id="nav-list-box">
 
@@ -32,12 +32,12 @@ $tags = tagcloud($blog);
                 $projects = $pages->find('projects')
                                                         ->children()
                                                         ->visible();
-                                                        
+
 	} ?>
 
 		<?php foreach($projects as $project): ?>
 
-<?php if ($project->projecttype=='app') { ?>		
+<?php if ($project->projecttype=='app') { ?>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?><?php echo $project->thumbtype ?>')" title="<?php echo html($project->title()) ?>" class="link-button <?php echo $project->projecttype_button ?>"><p><?php echo html($project->title()) ?></p></a>
 <?php } elseif ($project->projecttype=='web') { ?>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?><?php echo $project->thumbtype ?>')" title="<?php echo html($project->title()) ?>" class="link-button <?php echo $project->projecttype_button ?>"><p><?php echo html($project->title()) ?></p></a>
@@ -61,9 +61,19 @@ $tags = tagcloud($blog);
 		<?php }
 endforeach ?>
 
+<!--//
+<a href="/apps" style="background-image:url('/assets/img/thumb-Category_button-app_white.png')" title="Apps" class="link-button button-category"><p>Apps</p></a>
+<a href="/websites" style="background-image:url('/assets/img/thumb-Category_button-web_white.png')" title="Websites" class="link-button button-category"><p>Websites</p></a>
+<a href="/brand" style="background-image:url('/assets/img/thumb-Category_button-brand_white.png')" title="Brand" class="link-button button-category"><p>Brand</p></a>
+<a href="/print" style="background-image:url('/assets/img/thumb-Category_button-print_white.png')" title="Print" class="link-button button-category"><p>Print</p></a>
+<a href="/illustration" style="background-image:url('/assets/img/thumb-Category_button-illustration_white.png')" title="Illustration" class="link-button button-category"><p>Illustration</p></a>
+//-->
+<a href="/justin-pocta" style="background-image:url('/assets/img/button-info_white.png')" title="Info" class="link-button button-category"><p>Info</p></a>
+
+
 		<!-- End of grid blocks -->
 	  </div></div>
-	</center>  
+	</center>
 	</div>
 </div>
 
