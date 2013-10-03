@@ -10,6 +10,8 @@ Thumbtype: .png
 ----
 headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
 ----
+paginateslide: false
+----
 Tags: Print, Laser Cutting, Art Director
 ----
 Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
@@ -20,7 +22,7 @@ The team had our work cut out for us as we were aiming to release this within a 
 ----
 Created: May 2011 for Dallas Society of Visual Communicators. Frances Yllana - Creative Director.
 ----
-Credits: 
+Credits:
 ----
 Related: ($random.project_app)*3
 

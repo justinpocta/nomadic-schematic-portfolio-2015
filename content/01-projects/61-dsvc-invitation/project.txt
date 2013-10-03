@@ -14,7 +14,7 @@ headerwidth: max-width:800px;background-size:100% !important;
 ----
 headerheight: max-height:500px; background-size:auto 100% !important;background-position:top center !important;
 ----
-paginateslide: false
+paginateslide: true
 ----
 Tags: Print, Laser Cutting, Art Director
 ----
