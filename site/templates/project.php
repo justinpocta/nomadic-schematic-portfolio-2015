@@ -78,6 +78,11 @@
 
   <div id="detail-sidebar" class="column large-4 small-12"><!--// content 2 - right : sidebar //-->
     <div style="float:left"><!-- tags -->
+
+  <?php if($page->weblink()) {?>
+            <div style="float:left;padding-bottom:15px;"><?php echo kirbytext($page->weblink()) ?></div>
+                    <?php } else {}; ?>
+
       <span class="detail-title">Tags</span>
       <ul class="keywords-list">
 	<?
@@ -96,11 +101,7 @@
 	<?php echo kirbytext($page->credits()) ?>
 
 	<?php if($page->applink()) {?>
-        	<div style="margin-top:15px"><?php echo kirbytext($page->applink()) ?></div>
-        <?php } else {}; ?>
-
-	<?php if($page->weblink()) {?>
-                <div style="margin-top:15px"><?php echo kirbytext($page->weblink()) ?></div>
+                <div style="margin-top:15px"><?php echo kirbytext($page->applink()) ?></div>
         <?php } else {}; ?>
 
     </div>

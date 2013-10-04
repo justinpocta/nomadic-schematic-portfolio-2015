@@ -107,6 +107,26 @@ span.nomad-intro {display: none;}
 .button-category p, #button-info p {
 	display: none;
 }
+.button-visit {
+  -moz-border-radius: 17px;
+  -webkit-border-radius: 17px;
+  background-color: rgba(0,0,0,.45);
+  border-radius: 17px;
+  color: #FFF;
+  display: block;
+  float:left;
+  font-size: .9em;
+  padding: 6px 15px;
+  text-align: center;
+  width:175px;
+}
+.button-visit:hover {
+  background-color: #FF7E00;
+  color: #FFF;
+}
+.button-visit:after {
+  content: " »";
+}
 
 /* INTRO PAGE */
 .main-intro {
@@ -793,9 +813,10 @@ border: 2px solid rgba(0,0,0,.0);
 	}
 	#detail-sidebar div {
 		float:none !important;
-		cleXar:right !important;
-		widXth:100% !important;
 	}
+  .button-visit {
+    margin-bottom: 20px;
+  }
 
 	.slidesjs-play,.slidesjs-stop,.slidesjs-navigation {text-indent:-9999px;}
 	#secondary p {
