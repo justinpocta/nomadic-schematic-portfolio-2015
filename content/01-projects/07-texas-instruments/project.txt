@@ -33,6 +33,10 @@ One of the projects I was involved in was rethinking the UX and UI of their exis
 Add math into that equation (how I kept getting picked *me*, of all people, for math-related projects, I don't know) and you have yourself a massive jigsaw. Fortunately, we had some great folks to work with who had lots of answers for us.
 
 The following images show some approaches I took to help quiet down the background in appropriate modes, organize the toolsets, and coordinate with parallel projects' design directions.
+
+Slideshow mode allowed to skim through the lesson step-by-step, with nicely enlarged graphs to show from desktop or via projector, which we found was common and pointed to helping reduce the brightness of elements the teacher is not discussing during lecture.
+
+Many menu items also needed some polishing to give teachers access to managing classes and students without having go through tedius navigation buried in levels of dropdown menus.
 ----
 Created: December 2011
 ----
