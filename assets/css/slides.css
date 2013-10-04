@@ -14,7 +14,10 @@
     }
     #slides .slidesjs-navigation {
       position: absolute; left:-9999px; top:0px; display:none !important; }
-    #slides {margin-bottom:35px;}
+    #slides {
+     /*need better solve*/
+     mXargin-bottom:35px;
+    }
     #Xslides ul.slidesjs-pagination {
       display:none !important;
       top:-1000px;}
@@ -51,8 +54,13 @@
       float: left;
     }
 
-    .slidesjs-container {width:100% !important;}
-    .slidesjs-control {width:100% !important;}
+    .slidesjs-container {width:100%;}
+    .slidesjs-control {
+      width:100%;
+    }
+    #slides2 div, #slides3 .slidesjs-control {
+      max-height: 500px;
+    }
     .slidesjs-pagination li a {
       display: -moz-inline-stack; /* for Firefox */
       display: inline-block;
@@ -86,7 +94,7 @@
     .slidesjs-pagination li a:hover {
       background-position: 0 -22px
     }
-    .slidesjs-slide {background-position:center top; Xbackground-size:auto; display:block; Xidth:100%; height:100%; top:0; margin:0;background-size: 100% !important;}
+    .slidesjs-slide {background-position:center top; display:block; top:0; margin:0;}
 
     #slides a:link,#slides2 a:link,#slides3 a:link,
     #slides4 a:link,#slides5 a:link,#slides6 a:link,
@@ -124,16 +132,17 @@
 	/* this can be written in based on images() maybe */
     }
     .container div {
-	margin:0 auto;
+	   margin:0 auto;
+     height: 100%; /* justin - this was causing no show */
     }
     .slidesSecondary {
-	min-heighXt: 400px;
+	      min-heightX: 400px;
     }
     .slidesSecondary div {
-        max-height:6background-position: center center;00px;
+        max-heightX:600px; background-position: top center;
     }
     .slidesSecondary .slidesjs-slide {
-	background-size: 90% !important;
+	    Xbackground-size: 90% !important;
     }
 
  /* Small Displays: 768px and under */

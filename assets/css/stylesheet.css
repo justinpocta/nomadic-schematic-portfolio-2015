@@ -357,6 +357,9 @@ div.logo-intro span {
 	text-transform:none;
 	width:100%;
 }
+#detail-main {
+  min-height:330px;
+}
 #detail-sidebar {
 	/* shut off on mobile */
 	float: right;

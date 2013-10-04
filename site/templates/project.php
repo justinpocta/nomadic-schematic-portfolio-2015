@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
 <link rel="stylesheet" href="/assets/css/slides.css" />
 <script src="/assets/js/vendor/jquery.slides.min.js"></script>
+<script src="/assets/js/vendor/arrowpager.js"></script>
 <body id="secondary">
 <section class="content">
 
@@ -26,14 +27,12 @@
 <!-- objective -->
 <div class="small-12 large-12" style="background-color:rgba(1,71,11,1.0); margin:0 auto; display:block; background-image:url('<?php echo $page->images()->find('bg.jpg')->url() ?>'); background-repeat:no-repeat; <?php echo $page->headercss ?>">
 
-
+     <!--// GALLERY 1 //-->
      <div class="container slidesPrimary" style="<?php echo $page->headerwidth ?>">
       <div id="slides" style="<?php echo $page->headerheight ?>">
-
-	   <?php foreach($page->images() as $image) { if(!preg_match('^header-^', $image->filename() )) continue; ?>
-        <div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:bottom center;<?php echo $page->headerheight ?>"></div>
+  	    <?php foreach($page->images() as $image) { if(!preg_match('^header-^', $image->filename() )) continue; ?>
+        <div style="background-image:url('<?php echo $image->url() ?>'); <?php echo $page->headerheight ?>"></div>
 <?php } ?>
-
       </div>
     </div>
 
@@ -48,7 +47,7 @@
 
   <div class="large-12 small-12"> <!-- MAIN 1 -->
 	<div class="row">
-	<div class="column large-8 small-12"><!--// content 1 - left //-->
+	<div id="detail-main" class="column large-8 small-12"><!--// content 1 - left //-->
 		<span class="detail-title">Project Information</span>
 		<?php echo kirbytext($page->text()) ?>
 
@@ -56,19 +55,26 @@
 			<div class="quotes"><p><?php echo $page->quote() ?></p></div>
 		<?php } else {}; ?>
 
-<div style="display:block;width:286px;height:602px;background:url('/assets/img/empty-iphone.png') no-repeat;"></div>
+	</div>
+	</div>
 
-	</div>
-	</div>
+  <!--// GALLERY 2 //-->
 	<div class="container slidesSecondary">
-		<div id="slides2">
-		<?php foreach($page->images() as $image) { if(!preg_match('^galleryA-^', $image->filename() )) continue; ?>
-		<div style="background:url('<?php echo $image->url() ?>') no-repeat; background-size:auto; background-position:center center;"></div>
-		<?php } ?>
-		</div>
-	</div>
+		  <div id="slides2" style="<?php echo $page->slides2 ?>">
+		  <?php foreach($page->images() as $image) { if(!preg_match('^gallery2-^', $image->filename() )) continue; ?>
+      <div style="background-image:url('<?php echo $image->url() ?>'); <?php echo $page->slidesheight2 ?>"></div>
+      <?php } ?>
+      </div>
+   </div>
 
-  <!--// </div> moving sidebar inside for experiment //-->
+   <!--// GALLERY 3 //-->
+   <div class="container slidesSecondary">
+      <div id="slides3" style="<?php echo $page->slides3 ?>">
+          <?php foreach($page->images() as $image) { if(!preg_match('^gallery3-^', $image->filename() )) continue; ?>
+          <div style="background-image:url('<?php echo $image->url() ?>'); <?php echo $page->slidesheight3 ?>"></div>
+          <?php } ?>
+      </div>
+  </div>
 
   <div id="detail-sidebar" class="column large-4 small-12"><!--// content 2 - right : sidebar //-->
     <div style="float:left"><!-- tags -->
@@ -119,7 +125,35 @@
 var paginationcheck = <?php echo h($page->paginateslide()) ?>;
 
 $(function() {
-      $('#slides2').slidesjs({
+
+    $('#slides3').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          active: true,
+          effect: "fade"
+        },
+        play: {
+          active: true,
+          auto: false,
+          interval: 8500,
+          swap: true,
+          pauseOnHover: true,
+          restartDelay: 2500
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+
+        });
+
+
+     $('#slides2').slidesjs({
         width: 940,
         height: 528,
         navigation: {
