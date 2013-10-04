@@ -536,9 +536,11 @@ and (orientation : landscape) {
 	.topbar-container {
 		padding:0;
 		position: absolute;
-		top:-50px;
 		z-index: 99;
 	}
+  #secondary .topbar-container {
+    top:-50px;
+  }
 	.nomadic-logo {
 		background:url('../img/logo-top.png') no-repeat center center;
 		/*background-color:#373326;*/

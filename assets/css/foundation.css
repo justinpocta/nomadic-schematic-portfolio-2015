@@ -603,7 +603,7 @@ th.hide-for-xlarge {
     display: table-cell !important; } }
 /* X-Large Displays: 1400px and up */
 @media only screen and (min-width: 1440px) {
-  
+
   .top-bar {width:1000px;margin:0 auto;} /* JP */
 
 
@@ -2703,7 +2703,7 @@ form.custom {
           height: 0;
           /*display:block;background:url('../img/logo.png') no-repeat top right;width:90px;height:90px;*/
         -webkit-box-shadow: 0 10px 0 1px #FF7E00, 0 16px 0 1px #FF7E00, 0 22px 0 1px #FF7E00;
-          box-shadow: 0 10px 0 1px #FF7E00, 0 16px 0 1px #FF7E00, 0 22px 0 1px #FF7E00; 
+          box-shadow: 0 10px 0 1px #FF7E00, 0 16px 0 1px #FF7E00, 0 22px 0 1px #FF7E00;
         }
   .top-bar.expanded {
     height: auto;
