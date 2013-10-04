@@ -28,7 +28,7 @@ paginateslide: false
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform.
+Text: Liquid was definitely one of the heaviest projects I worked on while at [x]cube. I'm not a math guy, but had to wrap my head around this project in every way. Our developers were not based in my office, so I had to take details from client meetings and help explain our goals to help them then guide me, as both producer and designer, through proper development options.
 ----
 Created: March 2012
 ----

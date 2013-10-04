@@ -10,11 +10,19 @@ Thumbtype: .png
 ----
 AppLink: (link: https://itunes.apple.com/us/app/zipments-for-deliveries/id624652681 text: Download App class: download-app)
 ----
-headercss: background-color:rgba(1,71,11,1.0);background-size:auto 100%;background-position: top center;
+headercss: background-color:rgba(1,71,11,1.0);background-size:100% auto;background-position: top center;
 ----
 headerwidth: max-width:800px;
 ----
 headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
+----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: 90%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: 90%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
 ----
 paginateslide: false
 ----

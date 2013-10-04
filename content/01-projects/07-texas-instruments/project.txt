@@ -14,15 +14,25 @@ headerwidth: max-width:900px;
 ----
 headerheight: max-height:450px; /* if one slide: */ left: 0 !important;
 ----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: 90%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: 90%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
+----
 paginateslide: false
 ----
 Tags: UI, UX, IxD, Art Direction, #TexasForever
 ----
-Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
+Text: While wrapping up my time in Dallas to move out to New York, I got to work alongside coworkers with a large internal team at Texas Instruments. These are the kind of really smart people who are think up brilliant solutions using crazy technologies and then have to help you try and grasp what exactly they're talking about.
 
-We had spent a good deal of effort with the website making the request process quick and dare I even say fun? With that, we knew native app capabilities could only help further our tool's benefits for non-office uses, and extend Zipments to more markets, such as on-the-go professionals like event planners and photographers. We knew this could also be an extremely easy to integrate opportunity for boutiques and other small shops without laptop and wi-fi connections.
+One of the projects I was involved in was rethinking the UX and UI of their existing software. This is a sort of puzzle that involves the careful act of balancing a *massive* companies' existing and necessary pieces with your own ideas that ask "But why?" and "Can we somehow reduce this?" There are often complex reasons something is the way it is and you have to navigate your way through the weeds to work with everyone to find the best solutions.
 
-The team had our work cut out for us as we were aiming to release this within a month alongside ongoing web app updates because that's what startups like to do! Within a short time span, I worked with the CEO and Co-Founder/Developer to consider what features to prioritize and how these features could be implemented powerfully but quickly, as we would be simultaneously dealing with ongoing web app updates.
+Add math into that equation (how I kept getting picked *me*, of all people, for math-related projects, I don't know) and you have yourself a massive jigsaw. Fortunately, we had some great folks to work with who had lots of answers for us.
+
+The following images show some approaches I took to help quiet down the background in appropriate modes, organize the toolsets, and coordinate with parallel projects' design directions.
 ----
 Created: December 2011
 ----

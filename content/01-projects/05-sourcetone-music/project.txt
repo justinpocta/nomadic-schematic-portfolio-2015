@@ -14,15 +14,19 @@ headerwidth: max-width:800px;
 ----
 headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
 ----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: 90%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: 90%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
+----
 paginateslide: false
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
-
-We had spent a good deal of effort with the website making the request process quick and dare I even say fun? With that, we knew native app capabilities could only help further our tool's benefits for non-office uses, and extend Zipments to more markets, such as on-the-go professionals like event planners and photographers. We knew this could also be an extremely easy to integrate opportunity for boutiques and other small shops without laptop and wi-fi connections.
-
-The team had our work cut out for us as we were aiming to release this within a month alongside ongoing web app updates because that's what startups like to do! Within a short time span, I worked with the CEO and Co-Founder/Developer to consider what features to prioritize and how these features could be implemented powerfully but quickly, as we would be simultaneously dealing with ongoing web app updates.
+Text: As a music lover, this was a really enjoyable project to be a part of. Sourcetone came to us having their own development already ongoing in multiple realms but wanted to consider how it could reach into the mobile space. 
 ----
 Created: August 2011
 ----
