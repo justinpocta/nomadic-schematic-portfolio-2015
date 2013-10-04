@@ -200,18 +200,15 @@ div.main-intro a {color:#FF7E00;}
 	height:65px;
 	width:65px;
 	top:25%;
-	/*background-color: rgba(0,0,0,.25);*/
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 20px 27px;
 	display:inline-block;
 	z-index: 90;
-
 	border:2px solid #252525;
 	-webkit-border-radius: 65px;
 	-moz-border-radius: 65px;
 	border-radius: 65px;
-
 }
 .button-back:hover,.button-next:hover,.button-home-left:hover,.button-home-right:hover {
 	background-color: rgba(20,20,20,1);
@@ -645,6 +642,9 @@ and (orientation : landscape) {
 		padding:0;
 		margin:0 5px;
 	}
+  .project-mask:hover {
+    background-size:auto 100% !important;
+  }
 	#nav-list a {
 		margin-bottom: 70px;
 	}
@@ -675,7 +675,7 @@ and (orientation : landscape) {
 		-webkit-border-radius:  0;
 		background-color: transparent;
 		padding:0px;
-	}
+  }
 	.MOBILEbutton-category {
 		border-radius: 0;
 		background-size: auto 150px;
@@ -705,6 +705,38 @@ and (orientation : landscape) {
 	.MOBILEbutton-category p:hover {
 		text-decoration: underline;
 	}
+
+/* while i have the other cat buttons on vacation */
+#nav-list a.info-cat {
+color: #60605b;
+display: inline-block;
+height: 125px !important;
+margin-bottom: 70px;
+width: 125px !important;
+}
+/* .link-button p */
+.info-cat p {
+color: #60605b !important;
+text-indent: 0;
+margin-top: 135px !important;
+text-align: center;
+display:block;
+float:left;
+line-height: 1.3em;
+text-align: center;
+width:auto;
+}
+.info-cat {
+background-color: rgba(86,112,115,1.0);
+background-position: top left;
+border: 2px dotted rgba(255,255,255,.30);
+}
+.info-cat:hover {
+background-color: rgba(0,0,0,.65);
+background-position: bottom left;
+border: 2px solid rgba(0,0,0,.0);
+}
+
 	#button-app {background-image:url('../img/button-app_white.png'); }
 	#button-brand {background-image:url('../img/button-brand_white.png'); }
 	#button-illos {background-image:url('../img/button-illos_white.png'); }
