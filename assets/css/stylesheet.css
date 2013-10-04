@@ -492,12 +492,12 @@ and (orientation : landscape) {
 	/* GENERAL */
 	body {
 		border-top: 0px;
-    padding-top:20px !important;
 	}
   span.tooltip {display:none !important;}
   span.tooltip > .nub {display:none !important;}
 	#secondary {
 		border-top: 0px;
+    padding-top:0px !important;
 	}
 	.go-home {display: none;}
 
@@ -617,7 +617,7 @@ and (orientation : landscape) {
 		margin: 0;
 		padding: 0;
 		top: 0;
-                padding-top:50px;
+    padding-top:70px;
 	}
 	#nav-list-box {
 		margin-top: 0;
@@ -748,7 +748,10 @@ and (orientation : landscape) {
 		text-align:center;
 		font-size:.65em;
 	}
-	#detail-sidebar {
+  #detail-main {
+    min-height:0;
+  }
+  #detail-sidebar {
         	/* shut off */
         	float: none;
         	position: relative;
