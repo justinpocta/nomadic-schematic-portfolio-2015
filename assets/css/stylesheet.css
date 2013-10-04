@@ -524,8 +524,9 @@ and (orientation : landscape) {
 	body {
 		border-top: 0px;
 	}
-  span.tooltip {display:none !important;z-index:0 !important;}
-  span.tooltip > .nub {display:none !important;z-index:0 !important;}
+  .tooltip {z-index: 0 !important;}
+  span.tooltip {left:-9999;display:none !important;z-index:0 !important;}
+  span.tooltip > .nub {left:-9999px;display:none !important;z-index:0 !important;}
 	#secondary {
 		border-top: 0px;
     padding-top:0px !important;
@@ -657,15 +658,6 @@ and (orientation : landscape) {
 		position: relative;
 		display: block;
 	}
-	/* this is for later if i decide on scrolling boxes for categories instead*/
-	.project-box {
-		width:100%;
-		overflow-y: hidden;
-		overflow-x: scroll;
-		height: 150px;
-		margin-bottom: 50px;
-	}
-
 	#nav-list div {}
 	#nav-list div a {}
 	#nav-list a > p {margin-top: 0;}
@@ -677,6 +669,7 @@ and (orientation : landscape) {
 		width:125px !important;
 		padding:0;
 		margin:0 5px;
+    z-index:999;
 	}
   .project-mask:hover {
     background-size:auto 100% !important;
@@ -697,6 +690,7 @@ and (orientation : landscape) {
 	.link-button p {
 		color: #FFF !important;
 	}
+  a.project-mask, a.project-mask p {z-index:999;}
 	.project-mask p {
 		color: #60605b !important;
 		width: 100%;

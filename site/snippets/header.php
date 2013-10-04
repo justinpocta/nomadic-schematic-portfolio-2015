@@ -2,9 +2,6 @@
 <html lang="en">
 <head>
 
-  <script type="text/javascript" src="//use.typekit.net/qii5wec.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
   <title><?php echo html($site->title()) ?> | <?php echo html($page->title()) ?></title>
   <meta charset="utf-8" />
   <meta name="description" content="<?php echo html($site->description()) ?>" />
@@ -15,7 +12,6 @@
 
   <link id="favicon" rel="shortcut icon" href="http://www.nomadic-schematic.com/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="http://files.justinpocta.com/apple-touch-icon-01.png"/>
-  <link rel="stylesheet" media="screen" href="/assets/css/jquery.tooltip.css" />
 
   <script src="/assets/js/vendor/custom.modernizr.js"></script>
   <script src="/assets/js/vendor/jquery.js"></script>

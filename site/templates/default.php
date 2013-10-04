@@ -5,7 +5,7 @@ $tags = tagcloud($blog);
 ?>
 
 <div class="main-intro" id="main-intro-header">
-  <div><h2><a class="tk-jubilat" href="/" style="color:#FFF;text-decoration:none">Nomadic Schematic</a>, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="about.html">Justin Pocta</span></a>.</h2></div>
+  <div><h2><a href="/" style="color:#FFF;text-decoration:none">Nomadic Schematic</a>, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="about.html">Justin Pocta</span></a>.</h2></div>
 </div>
 
 <div class="main-nav">
