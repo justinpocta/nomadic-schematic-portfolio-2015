@@ -64,7 +64,7 @@ endforeach ?>
 <a href="/print" style="background-image:url('/assets/img/thumb-Category_button-print_white.png')" title="Print" class="link-button button-category" data-tooltip="<?php echo $project->title ?>"><p>Print</p></a>
 <a href="/illustration" style="background-image:url('/assets/img/thumb-Category_button-illustration_white.png')" title="Illustration" class="link-button button-category" data-tooltip="<?php echo $project->title ?>"><p>Illustration</p></a>
 //-->
-<a href="/justin-pocta" style="background-image:url('/assets/img/button-info_white.png')" title="About Justin" class="link-button button-category info-cat" data-tooltip="About Justin"><p>Info</p></a>
+<a href="/justin-pocta" style="background-image:url('/assets/img/button-info_white.png')" title="About Justin" class="info-cat" id="button-info" data-tooltip="About Justin"><p>Info</p></a>
 
 		<!-- End of grid blocks -->
 	  </div></div>

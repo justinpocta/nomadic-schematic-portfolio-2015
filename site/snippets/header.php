@@ -17,7 +17,6 @@
   <link rel="apple-touch-icon-precomposed" href="http://files.justinpocta.com/apple-touch-icon-01.png"/>
   <link rel="stylesheet" media="screen" href="/assets/css/jquery.tooltip.css" />
 
-  <script src="/assets/js/vendor/jquery.tooltip.js"></script>
   <script src="/assets/js/vendor/custom.modernizr.js"></script>
   <script src="/assets/js/vendor/jquery.js"></script>
   <script src="/assets/js/home.js"></script>
