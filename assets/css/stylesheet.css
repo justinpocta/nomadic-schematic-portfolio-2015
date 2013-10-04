@@ -91,6 +91,7 @@ span.tooltip > .nub {
 
 
 /* TOP MENU - ELEMENTS */
+.main-intro a {font-family: "jubilat",sans-serif !important;}
 .nomadic-title {display: none;}
 .nomadic-logo {display: none;}
 span.nomad-title {display: none;}
@@ -491,8 +492,10 @@ and (orientation : landscape) {
 	/* GENERAL */
 	body {
 		border-top: 0px;
-		padding-top:50px;
+    padding-top:20px !important;
 	}
+  span.tooltip {display:none !important;}
+  span.tooltip > .nub {display:none !important;}
 	#secondary {
 		border-top: 0px;
 	}
@@ -673,7 +676,7 @@ and (orientation : landscape) {
 		background-color: transparent;
 		padding:0px;
 	}
-	.button-category {
+	.MOBILEbutton-category {
 		border-radius: 0;
 		background-size: auto 150px;
 		background-position: -10px -10px;
@@ -686,13 +689,12 @@ and (orientation : landscape) {
 		border:0;
 		text-transform: uppercase;
 	}
-	.button-category:hover {
+	.MOBILEbutton-category:hover {
 		background-color: rgba(242,101,34,1.0);
 		background-position: -10px -10px;
 		border:0;
 	}
-
-	.button-category p {
+	.MOBILEbutton-category p {
 		display: block;
 		text-indent: 0;
 		text-align: left;
@@ -700,7 +702,7 @@ and (orientation : landscape) {
 		padding-top:13px !important;
 		width: 100%;
 	}
-	.button-category p:hover {
+	.MOBILEbutton-category p:hover {
 		text-decoration: underline;
 	}
 	#button-app {background-image:url('../img/button-app_white.png'); }

@@ -1,20 +1,14 @@
 <?php snippet('header') ?>
-
 <?php
-
 $blog = $pages->find('projects');
 $tags = tagcloud($blog);
-
 ?>
 
-<!-- <div id="container"> -->
-
 <div class="main-intro" id="main-intro-header">
-  <div><h2><a href="/" style="color:#FFF;text-decoration:none">Nomadic Schematic</a>, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="about.html">Justin Pocta</span></a>.</h2></div>
+  <div><h2><a class="tk-jubilat" href="/" style="color:#FFF;text-decoration:none">Nomadic Schematic</a>, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="about.html">Justin Pocta</span></a>.</h2></div>
 </div>
 
 <div class="main-nav">
-  <a href="" name="start" style="position:absolute;top:0px;"></a>
 
 <center>
 	<div id="nav-list"><div id="nav-list-box">
@@ -48,12 +42,12 @@ $tags = tagcloud($blog);
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_hebron.png')" title="Hebron Station" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Hebron Station"><p>Hebron Station</p></a>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_lakeofstars.png')" title="Lake of Stars" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Lake of Stars"><p>Lake of Stars</p></a>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_rei.png')" title="REI" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="REI"><p>REI</p></a>
-<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_kroger.png')" title="Kroger" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Kroger"><p>Kroger</p></a>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_sandbox.png')" title="Sandbox" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Sandbox"><p>Sandbox</p></a>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_midtown.png')" title="Midtown" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Midtown"><p>Midtown</p></a>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_dogpoint.png')" title="Dog Point" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Dog Point"><p>Dog Point</p></a>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_cameronbreen.png')" title="Cameron Breen" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Cameron Breen"><p>Cameron Breen</p></a>
-<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_cameronbreen.png')" title="Culture Club" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Culture Club"><p>Culture Club</p></a>
+<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_kroger.png')" title="Kroger" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Kroger"><p>Kroger</p></a>
+<a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_c3.png')" title="Culture Club" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="Culture Club"><p>Culture Club</p></a>
 <?php } elseif ($project->projecttype=='print') { ?>
 <a href="<?php echo $project->url() ?>" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?><?php echo $project->thumbtype ?>')" title="<?php echo html($project->title()) ?>" class="link-button <?php echo $project->projecttype_button ?>" data-tooltip="<?php echo $project->title ?>" data-tooltip="<?php echo $project->title ?>"><p><?php echo html($project->title()) ?></p></a>
 <?php } elseif ($project->projecttype=='illustration') { ?>

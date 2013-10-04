@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 
+  <script type="text/javascript" src="//use.typekit.net/qii5wec.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
   <title><?php echo html($site->title()) ?> | <?php echo html($page->title()) ?></title>
   <meta charset="utf-8" />
   <meta name="description" content="<?php echo html($site->description()) ?>" />
@@ -25,6 +28,7 @@
 </head>
 
 <body>
+<a href="" name="start" style="position:absolute;top:-10px;"></a>
 
   <header>
 	<!-- NAV -->
