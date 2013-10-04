@@ -77,7 +77,7 @@
   </div>
 
   <div id="detail-sidebar" class="column large-4 small-12"><!--// content 2 - right : sidebar //-->
-    <div style="float:left"><!-- tags -->
+    <div style="float:left;max-width:200px;"><!-- tags -->
 
   <?php if($page->weblink()) {?>
             <div style="float:left;padding-bottom:15px;"><?php echo kirbytext($page->weblink()) ?></div>
@@ -94,7 +94,7 @@
 	<? endforeach ?>
       </ul>
     </div><!-- end tags -->
-    <div style="float:left;margin-top:10px;width:100%;" class="project-credits">
+    <div style="float:left;margin-top:10px;clear:left;" class="project-credits">
       <span class="detail-title">Details</span>
 	<small>Completed <?php echo h($page->created()) ?></small>
 
@@ -188,7 +188,7 @@ $(function() {
         },
         pagination: {
           // active: this.write(paginationcheck);
-          active: false,
+          active: true,
           effect: "fade"
         },
 play: {

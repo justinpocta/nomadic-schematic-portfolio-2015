@@ -411,6 +411,9 @@ div.logo-intro span {
 	font-size: 1.25em;
 	line-height: 1.1em;
 }
+.project-credits {
+  max-width: 250px;
+}
 .project-credits p {
 	-webkit-margin-after:5px;
 	-webkit-margin-before:0;
@@ -817,7 +820,16 @@ border: 2px solid rgba(0,0,0,.0);
   .button-visit {
     margin-bottom: 20px;
   }
-
+  #detail-sidebar div {
+    max-width:100% !important;
+  }
+  .keywords-list {
+    max-width: 100% !important;
+  }
+  .project-credits {
+    max-width:inherit;
+    width:100%;
+  }
 	.slidesjs-play,.slidesjs-stop,.slidesjs-navigation {text-indent:-9999px;}
 	#secondary p {
 		font-size: 1.2em;
