@@ -8,11 +8,19 @@ Thumb: redmountain
 ----
 Thumbtype: .jpg
 ----
-headercss: background-color:rgba(255,255,255,1.0);background-size:100% auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 100%;
 ----
-headerwidth: max-width:800px;
+headerwidth: max-width:100%;
 ----
-headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 100%; background-position: top center; max-height:500px; /* if one slide: */ left: 0 !important;
+----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: auto 100%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
 ----
 paginateslide: false
 ----
