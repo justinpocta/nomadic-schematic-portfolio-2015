@@ -172,6 +172,10 @@
 
  /* Small Displays: 768px and under */
 @media only screen and (max-width: 767px) {
+
+    .slidesjs-next {
+      display:none; /* so you scan swipe on phone */
+    }
     .slidesSecondary .slidesjs-slide {
       /* background-size: 100% !important; why?? this is weird...
       */
