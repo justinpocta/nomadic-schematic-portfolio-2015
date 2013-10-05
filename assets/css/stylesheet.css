@@ -841,8 +841,9 @@ border: 2px solid rgba(0,0,0,.0);
     max-width:inherit;
     width:100%;
   }
-	.slidesjs-play,.slidesjs-stop,.slidesjs-navigation {text-indent:-9999px;}
-	#secondary p {
+	.slidesjs-play,.slidesjs-stop {text-indent:-9999px;}
+	.slidesjs-navigation {position:absolute; }
+  #secondary p {
 		font-size: 1.2em;
 		line-height: 1.2em;
 		/*padding:0 20px;*/

@@ -8,11 +8,11 @@ Thumb: stash
 ----
 Thumbtype: .png
 ----
-headercss: background-color:rgba(255,255,255,1.0) !important;background-size:0%;background-position:top center !important; border-bottom: 3px #efefef solid; padding-bottom: 30px;
+headercss: background-color:rgba(255,255,255,1.0) !important;background-size:0%;background-position:top center !important; border-bottom: 3px #efefef solid; pXadding-bottom: 30px;
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: background-repeat: no-repeat; background-size: 85%; background-position: top center; max-height:600px; /* if one slide: */ left: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 100%; background-position: center center; max-height:600px; /* if one slide: */ lXeft: 0 !important;
 ----
 slides2: max-height: 600px;
 ----

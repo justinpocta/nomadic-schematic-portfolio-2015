@@ -8,11 +8,11 @@ Thumb: ti
 ----
 Thumbtype: .png
 ----
-headercss: max-hXeight:500px; background-color:rgba(216,7,2,1.0);background-size:1px 1px;background-position: center 80%;background-repeat:none;
+headercss: max-height:500px; background-color:rgba(216,7,2,1.0);background-size:1px 1px;background-position: center 80%;background-repeat:none;
 ----
 headerwidth: max-width:900px;
 ----
-headerheight: max-height:450px; /* if one slide: */ left: 0 !important;
+headerheight: max-height:450px; background-position: bottom center; background-size: contain; /* if one slide: */ left: 0 !important;
 ----
 slides2: max-height: 600px;
 ----

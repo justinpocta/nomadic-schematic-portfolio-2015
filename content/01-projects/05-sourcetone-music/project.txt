@@ -12,7 +12,7 @@ headercss: background-color:rgba(77,192,117,1.0);background-size:100% auto;backg
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
+headerheight: max-height:500px; background-size: contain; /* if one slide: */ left: 0 !important;
 ----
 slides2: max-height: 600px;
 ----
@@ -26,7 +26,7 @@ paginateslide: false
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Text: As a music lover, this was a really enjoyable project to be a part of. Sourcetone came to us having their own development already ongoing in multiple realms but wanted to consider how it could reach into the mobile space. 
+Text: As a music lover, this was a really enjoyable project to be a part of. Sourcetone came to us having their own development already ongoing in multiple realms but wanted to consider how it could reach into the mobile space.
 ----
 Created: August 2011
 ----

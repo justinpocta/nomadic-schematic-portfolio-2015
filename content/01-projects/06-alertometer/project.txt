@@ -14,7 +14,7 @@ headercss: background-color:rgba(87,153,152,1.0);background-size:100% auto;backg
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: max-height:500px; /* if one slide: */ left: 0 !important;
+headerheight: max-height:500px; background-size: contain; /* if one slide: */ left: 0 !important;
 ----
 slides2: max-height: 600px;
 ----

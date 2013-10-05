@@ -12,26 +12,51 @@
       display: none;
       /* margin-bottom:50px; this gets in way of footer?*/
     }
+    #slides .slidesjs-container {
+      width:100%; /*100%*/; bXorder:1px solid red;z-index:100;
+      position: relative; left:0px; toXp:270px; display:block; }
     #slides .slidesjs-navigation {
-      position: absolute; left:-9999px; top:0px; display:none !important; }
+      position:absolute;
+      width:100%;
+      z-index:999;
+    }
     #slides {
      /*need better solve*/
      mXargin-bottom:35px;
     }
-    #Xslides ul.slidesjs-pagination {
+    #slides ul.slidesjs-pagination {
       display:none !important;
       top:-1000px;}
     .slidesjs-navigation {
-      display: none;
+      display: block /*none*/ ;
     }
-
+    .slidesjs-stop, .slidesjs-play {display:none !important;}
     .slidesjs-previous {
-      margin-right: 5px;
+      /* left: 40%; */
+      margin-left: 5px;
       float: left;
+      display: none !important;
+      left:0;
+      position:relative;
+      width:50%;
+      boXrder:1px solid red;
     }
     .slidesjs-next {
-      margin-right: 5px;
+      text-align:center /* right */ ;
+      display:block;
+      position:relative;
+      boXrder:1px solid red;
+      width:100%;
+      height:100%;
+      /* left: 50%; */
+
       float: left;
+      top:0;
+      text-indent:-9999px;
+      padding-top:5px;
+      font-size:1em;
+      text-transform: uppercase;
+      right:0;
     }
 
     .slidesjs-pagination {

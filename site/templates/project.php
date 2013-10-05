@@ -131,6 +131,7 @@ $(function() {
         width: 940,
         height: 528,
         navigation: {
+          active: true,
           effect: "fade"
         },
         pagination: {
@@ -158,6 +159,7 @@ $(function() {
         width: 940,
         height: 528,
         navigation: {
+          active: true,
           effect: "fade"
         },
         pagination: {
@@ -184,17 +186,18 @@ $(function() {
         width: 940,
         height: 528,
         navigation: {
+          active: true,
           effect: "fade"
         },
-        pagination: {
+         pagination: {
           // active: this.write(paginationcheck);
-          active: true,
+          active: false,
           effect: "fade"
         },
 play: {
 active: true,
-auto: false,
-interval: 8500,
+auto: true,
+interval: 8000,
 swap: true,
 pauseOnHover: true,
 restartDelay: 2500
