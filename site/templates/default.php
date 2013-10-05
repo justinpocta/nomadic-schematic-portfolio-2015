@@ -5,7 +5,7 @@ $tags = tagcloud($blog);
 ?>
 
 <div class="main-intro" id="main-intro-header">
-  <div><h2><a href="/" style="color:#FFF;text-decoration:none">Nomadic Schematic</a>, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="about.html">Justin Pocta</span></a>.</h2></div>
+  <div><h2><a href="/" style="color:#FFF;text-decoration:none">Nomadic Schematic</a>, <span style="font-family:Baskerville;font-weight:lighter;font-style:italic;">the design portfolio of <a class="nowrap" href="projects/about">Justin Pocta</span></a>.</h2></div>
 </div>
 
 <div class="main-nav">
@@ -64,7 +64,7 @@ endforeach ?>
 <a href="/print" style="background-image:url('/assets/img/thumb-Category_button-print_white.png')" title="Print" class="link-button button-category" data-tooltip="<?php echo $project->title ?>"><p>Print</p></a>
 <a href="/illustration" style="background-image:url('/assets/img/thumb-Category_button-illustration_white.png')" title="Illustration" class="link-button button-category" data-tooltip="<?php echo $project->title ?>"><p>Illustration</p></a>
 //-->
-<a href="/justin-pocta" style="background-image:url('/assets/img/button-info_white.png')" title="About Justin" class="info-cat" id="button-info" data-tooltip="About Justin"><p>Info</p></a>
+<a href="/projects/about" style="background-image:url('/assets/img/button-info_white.png')" title="About Justin" class="info-cat" id="button-info" data-tooltip="About Justin"><p>Info</p></a>
 
 		<!-- End of grid blocks -->
 	  </div></div>

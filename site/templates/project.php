@@ -15,7 +15,7 @@
 <a href="/" class="button-home-left" title="Home"></a>
 <?php }; ?>
   <span style="text-transform:capitalize;">
-    <?php echo $page->title ?> - <?php echo h($page->projecttype) ?>
+    <?php echo $page->title ?> <?php if ($page->projecttype()) { echo "- "; echo h($page->projecttype()); } else { }; ?>
   </span>
 <?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>
   <a href="/" class="button-home-right" title="Home"></a>
