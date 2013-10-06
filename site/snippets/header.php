@@ -42,7 +42,7 @@
 			<li><a href="/projects/logo-design">Branding</a></li>
 			<li><a href="/print">Print Design</a></li>
 			<li><a href="/illustration">Illustration</a></li>
-			<li><a href="/justin-pocta">About Justin</a></li>
+			<li><a href="/projects/about">About Justin</a></li>
 		</ul>
 
 	</div>
