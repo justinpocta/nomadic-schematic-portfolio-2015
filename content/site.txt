@@ -8,4 +8,4 @@ Description: Justin Pocta is an independent graphic designer in Brooklyn, NY.
 ----
 Keywords: freelance, design, interactive, apps, product designer
 ----
-Copyright: &copy; (date: Year) (link: mailto:justinpocta@gmail.com text: Justin Pocta)
+Copyright: &copy; (date: Year) (email: justin@nomadic-schematic.com text: Justin Pocta)

@@ -91,7 +91,11 @@ span.tooltip > .nub {
 
 
 /* TOP MENU - ELEMENTS */
-.main-intro a {font-family: "jubilat",sans-serif !important;}
+.main-intro a, .main-intro span, .main-intro > *, .main-intro h2, .intro-secondary,.tk-jubilat {
+  text-transform: lowercase;
+  font-family: "jubilat",sans-serif;
+  font-weight: normal;
+}
 .nomadic-title {display: none;}
 .nomadic-logo {display: none;}
 span.nomad-title {display: none;}
@@ -338,16 +342,16 @@ div.main-nav {
 	border-radius:150px;
 	font-size: .7em;
 }
-.project-maskX:hovXer { /* LATER */
+.project-mask:hover { /* LATER */
 	background-position: center center;
-	background-size: 270px auto !important;
+	background-size: 150% auto !important;
 }
-.project-maskX:hovXer p {
+.project-mask:hover p {
 	-border-radius: 5px;
 	-moz-border-radius:  5px;
 	-webkit-border-radius:  5px;
 	background-color: transparent /* rgba(0,0,0,.8) */;
-	padding:5px;
+	paddinXg:5px;
 	text-indentX: 0;
 }
 .project-mask, .link-button {
@@ -538,7 +542,7 @@ and (orientation : landscape) {
 	.topbar-container {
 		padding:0;
 		position: absolute;
-		z-index: 99;
+		z-index: 9999;
 	}
   #secondary .topbar-container {
     top:-50px;
@@ -673,7 +677,7 @@ and (orientation : landscape) {
     z-index:999;
 	}
   .project-mask:hover {
-    background-size:auto 100% !important;
+    background-size:auto 120% !important;
   }
 	#nav-list a {
 		margin-bottom: 70px;

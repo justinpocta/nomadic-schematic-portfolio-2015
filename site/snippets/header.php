@@ -10,6 +10,9 @@
   <meta name="viewport" content="width=device-width, user-scalable=false;">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
+  <script type="text/javascript" src="//use.typekit.net/qii5wec.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
   <link id="favicon" rel="shortcut icon" href="http://www.nomadic-schematic.com/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="http://files.justinpocta.com/apple-touch-icon-01.png"/>
 
