@@ -2,19 +2,23 @@
 
 	<div class="main-intro" id="main-intro-footer">
 	  <a class="notch" name="bottom" href="#start"></a>
-	  <h2>Nomadic Schematic is the wandering studio of <a class="nowrap" href="/justin-pocta">Justin Pocta</a>, <span class="intro-secondary">an independent designer living in <span class="nowrap">Brooklyn, NY.</span></span></h2>
+	  <h2>Nomadic Schematic is the wandering studio of <a href="/justin-pocta">Justin Pocta</a>, an independent designer living in Brooklyn, NY.</h2>
 	  <hr style="border:1px dotted #FFF;opacity:.1;">
-	  <p>These case studies are from projects created for clients at various studios and <span class="nowrap">in-house</span> at a startup, with a few personal projects intersperse.</p>
+	  <p class="footer-description">These case studies are from projects created for clients at various studios and <span class="nowrap">in-house</span> at a startup, with a few personal projects intersperse.</p>
 
 	  <ul class="exits">
-	    <li><a href="mailto:justin@nomadic-schematic.com">Contact Justin</a></li>
-	    <li><a href="http://resume.nomadic-schematic.com">Download Résumé</a></li>
+	    <ul style="float:left">
+      <li><a href="/projects/about">Contact</a></li>
+	    <li><a href="http://resume.nomadic-schematic.com">Résumé</a></li>
 	    <li><a href="http://linkedin.nomadic-schematic.com">LinkedIn</a></li>
 	    <li><a href="http://twitter.nomadic-schematic.com">Twitter</a></li>
-	    <li><a href="http://dribbble.nomadic-schematic.com">Dribbble</a></li>
+	    </ul>
+      <ul style="float:left" class="hide-for-small">
+      <li><a href="http://dribbble.nomadic-schematic.com">Dribbble</a></li>
 	    <li><a href="http://github.nomadic-schematic.com">Github</a></li>
 	    <li><a href="http://instagram.nomadic-schematic.com">Instagram</a></li>
-	  </ul>
+	    </ul>
+    </ul>
 
 	  <a class="show-for-small button-top" href="#start"></a>
 

@@ -91,9 +91,9 @@ span.tooltip > .nub {
 
 
 /* TOP MENU - ELEMENTS */
-.main-intro a, .main-intro span, .main-intro > *, .main-intro h2, .intro-secondary,.tk-jubilat {
+.main-intro a, .main-intro span, .main-intro > *, .main-intro h2, .intro-secondary {
   text-transform: lowercase;
-  font-family: "jubilat",sans-serif;
+  font-family: "brandon-grotesque",sans-serif;
   font-weight: normal;
 }
 .nomadic-title {display: none;}
@@ -116,10 +116,12 @@ span.nomad-intro {display: none;}
   -webkit-border-radius: 17px;
   background-color: rgba(0,0,0,.45);
   border-radius: 17px;
+  clear:right;
   color: #FFF;
   display: block;
   float:left;
   font-size: .9em;
+  margin-bottom:10px;
   padding: 6px 15px;
   text-align: center;
   width:175px;
@@ -138,20 +140,19 @@ span.nomad-intro {display: none;}
 	/*rgba(55,51,38,.8);*/
 	color:#c1c1bf;
 	margin: 0px;
-	padding: 70px 10% 70px 6%; /* was 140 instead of 50px */
+	padding: 30px 10% 120px 6%; /* was 140 instead of 50px */
 	line-height: 1.4em;
 	width: 100%;
 }
 .main-intro h2 {
 	color:#FFF;
-	font-family:Times,Georgia,serif;
 	font-size:1.4em;
 	font-weight: normal;
 	line-height: 1.5em;
 }
 div.main-intro a {color:#FF7E00;}
 #main-intro-header {
-	padding-bottom:100px;
+	padding-bottom:150px;
 }
 #main-intro-header div {
 	font-size: .7em;
@@ -362,9 +363,10 @@ div.main-nav {
 /*.orbit-container img, .orbit-container object, .orbit-container embed {max-width: 200px !important;}*/
 
 .footer-navigation {display:none;}
+.footer-description {margin-top:-5px;}
 .nomadic-footer {
-	font-size:.85em;
-	margin:50px 0 0 0;
+	font-size:.65em;
+	margin:20px 0 0 0;
 	text-transform:uppercase;
 }
 
@@ -464,33 +466,45 @@ div.logo-intro span {
 	padding:0 15px;
 	white-space: nowrap;
 }
-.exits {margin:0 0 100px -10px;}
+.exits {
+  Xmargin:0 0 100px -10px;
+  margin-left: -15px;
+  margin-right: 15px;
+  padding-bottom:5px;
+  max-width: 400px;
+  float: left;
+ }
 .exits li {
-	float:left;
+	floatX:left;
 	list-style-type: none;
 	white-space: nowrap;
 }
+.exits ul {
+  margin-right:30px;
+}
 .exits li a {
-	-moz-border-radius: 15px;
-	-webkit-border-radius: 15px;
-	background-color: rgba(225,225,225,.35);
-	border-radius: 15px;
-	color:#353535;
-	line-height: 2.5em;
-	margin-bottom: 10px;
-	margin-right: 5px;
-	padding:5px 15px;
-	text-transform: lowercase;
-	white-space: nowrap;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  color:#efefef;
+  line-height: 1.75em;
+  paddingC:5px 15px;
 }
 .exits li a:hover {
 	color:#FFF;
-	background-color: rgba(0,0,0,.15);
+	Xbackground-color: rgba(0,0,0,.15);
+  text-decoration: underline;
 }
 
+#main-intro-footer {
+  padding: 70px 10% 40px 6%;
+}
 #main-intro-footer p {
-	display:block;
-	max-width:600px;
+	display:inline-block;
+	max-width:450px;
+  Xpadding-left:20px;
+  Xfloat:left;
+  font-size: 1.35em;
 }
 .notch {
 	display:block;
@@ -506,7 +520,7 @@ div.logo-intro span {
     position: absolute;
     right:0;
     text-indent: -9999px;
-    bottom:200px;
+    bXottom:200px;
     width: 50px;
     z-index: 100;
 }
@@ -593,7 +607,8 @@ and (orientation : landscape) {
 		font-size: 1.1em;
 		margin:0 -6px 0 -6px;
 		position:relative;
-		top:0px;
+		text-align:center;
+    top:0px;
 	}
 	.dropdown-nav li:hover {
 		background-color: rbga(5,5,5,.5) /*#595548*/ ;
@@ -638,14 +653,14 @@ and (orientation : landscape) {
 		color:#FFF;
 	}
 	.main-intro h2 {
-		font-family:"Trebuchet MS",sans-serif;
-		font-size: 1.1em;
+	  margin-left: 30px;
+		Xfont-size: 1.1em;
 		line-height: 1.75em;
 		margin-bottom: 30px;
 	}
 	.main-intro h2 a {
 		color:#dedede;
-		text-decoration: underline;
+    text-decoration: underline;
 	}
 
 	/* PROJECT - ELEMENTS MOBILE */
@@ -861,10 +876,33 @@ border: 2px solid rgba(0,0,0,.0);
 	}
   .footer-navigation {display:block;background-color:rgba(0,0,0,.45);display:block;width:100%;position:absolute;height:50px;}
 	.intro-secondary {}
-	#main-intro-footer > p,
+  .nomadic-footer p {margin:0 auto; width:100%; text-align:center;}
+  #main-intro-footer > p,
 	#main-intro-footer hr,
 	#main-intro-footer .notch {display: none;}
 	.notch {display:none;}
+  .exits {margin-right: 30px; margin-left:0; max-width:100% !important; width:100%;}
+  .exits ul {float:none !important; max-width:100% !important;}
+  .exits ul li {float:none;width:100%;max-width:100% !important}
+  .exits ul li a {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    background-color: rgba(225,225,225,.15);
+    border-radius: 20px;
+    color:#FFFFFF;
+    display:block;
+    float:none;
+    font-size: .8em;
+    font-weight:lighter;
+    line-height: 2.5em;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding:0px 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width:100%;
+  }
+
 }
 
 
