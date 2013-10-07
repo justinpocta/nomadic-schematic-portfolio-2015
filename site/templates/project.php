@@ -47,9 +47,15 @@
 
   <div class="large-12 small-12"> <!-- MAIN 1 -->
 	<div class="row">
-	<div id="detail-main" class="column large-8 small-12"><!--// content 1 - left //-->
-		<span class="detail-title">Project Information</span>
-		<?php echo kirbytext($page->text()) ?>
+	<div id="detail-main" class="column <?php if ($page->text()) { ?>large-8<? } else { ?>large-12<?php }; ?> small-12"><!--// content 1 - left //-->
+
+    <?php
+      if ($page->text()) {
+        echo kirbytext("<span class='detail-title'>Project Information</span>");
+        echo kirbytext($page->text());
+      } elseif ($page->textabout()) {
+        echo kirbytext($page->textabout());
+      } else { } ?>
 
 		<?php if($page->quote()) {?>
 			<div class="quotes"><p><?php echo $page->quote() ?></p></div>
@@ -79,30 +85,37 @@
   <div id="detail-sidebar" class="column large-4 small-12"><!--// content 2 - right : sidebar //-->
     <div style="float:left;max-width:200px;"><!-- tags -->
 
-  <?php if($page->weblink()) {?>
-            <div style="float:left;padding-bottom:15px;"><?php echo kirbytext($page->weblink()) ?></div>
-                    <?php } else {}; ?>
+    <?php if($page->weblink()) {?>
+      <div style="float:left;padding-bottom:15px;"><?php echo kirbytext($page->weblink()) ?></div>
+    <?php } else {}; ?>
 
+    <?php if ($page->tags()) { ?>
       <span class="detail-title">Tags</span>
       <ul class="keywords-list">
-	<?
-	  $articleTags = str::split($page->tags());
-	  $blog = $pages->find('projects');
-	?>
-	<? foreach($articleTags as $tag): ?>
-	  <li><?= $tag ?></li>
-	<? endforeach ?>
+	    <?
+	      $articleTags = str::split($page->tags());
+        $blog = $pages->find('projects');
+	    ?>
+	    <? foreach($articleTags as $tag): ?>
+	    <li><?= $tag ?></li>
+	    <? endforeach ?>
       </ul>
+    <?php } else {}; ?>
+
     </div><!-- end tags -->
+
+
     <div style="float:left;margin-top:10px;clear:left;" class="project-credits">
+
+    <?php if ($page->created()) { ?>
       <span class="detail-title">Details</span>
-	<small>Completed <?php echo h($page->created()) ?></small>
+	    <small>Completed <?php echo h($page->created()) ?></small>
+	    <?php echo kirbytext($page->credits()) ?>
+    <?php } else { } ?>
 
-	<?php echo kirbytext($page->credits()) ?>
-
-	<?php if($page->applink()) {?>
-                <div style="margin-top:15px"><?php echo kirbytext($page->applink()) ?></div>
-        <?php } else {}; ?>
+	  <?php if($page->applink()) {?>
+      <div style="margin-top:15px"><?php echo kirbytext($page->applink()) ?></div>
+    <?php } else {}; ?>
 
     </div>
   </div>
