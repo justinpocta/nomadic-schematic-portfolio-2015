@@ -10,6 +10,18 @@ Thumbtype: .jpg
 ----
 headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%;
 ----
+headerwidth: max-width:100%;
+----
+headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; /* if one slide: */ left: 0 !important;
+----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: auto 100%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
+----
 paginateslide: false
 ----
 Tags: Print, Illustration, Album Design, Art Direction
