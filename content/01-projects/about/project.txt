@@ -1,6 +1,7 @@
 Title: Justin Pocta, Graphic Designer
 ----
-WebLink:
+Textabout:
+Here is the about text (simple page).
 (link: http://library.justinpocta.com text: Tumblr class: button-visit)
 (link: http://dribbble.com/justinpocta text: Dribbble class: button-visit)
 (link: http://instagram.justinpocta.com text: Instagram class: button-visit)
@@ -12,7 +13,5 @@ headerwidth: max-height:500px;
 headerheight: max-height:500px; background-size: contain; /* if one slide: */ left: 0 !important;
 ----
 paginateslide: false
-----
-Text:
 ----
 Related: ($random.project_app)*3
