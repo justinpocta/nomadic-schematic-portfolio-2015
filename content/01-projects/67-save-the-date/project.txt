@@ -10,9 +10,9 @@ Thumbtype: .jpg
 ----
 headercss: background-color: rgba(0,0,0,.95); background-size: auto; background-position: center 80%; height:100%;
 ----
-headerwidth: max-width:1200px; max-height:700px;
+headerwidth: max-width:1200px; max-height:600px;
 ----
-headerheight: background-repeat: no-repeat; background-size: 100% auto; background-position: center center; max-height:700px; /* if one slide: */ left: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 100% auto; background-position: center center; max-height:600px; /* if one slide: */ left: 0 !important;
 ----
 slides2: max-height: 600px;
 ----
