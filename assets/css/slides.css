@@ -67,7 +67,7 @@
       padding-top: 10px;
       right: 0;
       list-style: none;
-      background-color: #efefef;
+      /*background-color: #efefef;*/
       width: 100%;
       z-index: 101;
       /*
@@ -176,21 +176,12 @@
     .slidesjs-next {
       display:none; /* so you scan swipe on phone */
     }
-    .slidesSecondary .slidesjs-slide {
-      /* background-size: 100% !important; why?? this is weird...
-      */
-    }
 
 .slidesSecondary,.slidesjs-pagination {
-	background-color:#FFF;
+	/* background-color:#FFF;*/
 }
 .slidesjs-pagination {
 	position: inherit;
-}
-.slidesSecondary {
-	border-top:5px solid #efefef;
-	border-bottom:5px solid #efefef;
-	min-height:200px;
 }
 .slidesSecondary .slidesjs-slide {
 	background-size:100%

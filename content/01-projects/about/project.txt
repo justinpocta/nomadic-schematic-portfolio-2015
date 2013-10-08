@@ -11,10 +11,10 @@ Thus far, I have had the pleasure of working in studios designing and hand-codin
 
 My aim is to continue sharpening my skills and working with more great people on meaningful projects.
 
-<span style="font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.75em; display:block; max-width:600px; ">I am currently interested in full-time roles and available for freelance opportunities. <a href="mailto:justin@nomadic-schematic.com" style="color:#FF7E00;">Let's chat?</a><sup>&#42;</sup></span>
-<span style="font-family:Times,Georgia; font-style:regular; font-size:.8em; color:#757575;"><sup style="font-size:1em;">&#42;</sup> No recruiting agencies, please.</span>
+<div class="profile-mask"></div>
+<span style="font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.75em; display:block;">I am currently interested in full-time roles and available for freelance opportunities. <a href="mailto:justin@nomadic-schematic.com" style="color:#FF7E00;">Let's chat?</a><sup>&#42;</sup></span>
 
-<hr>
+<hr style="position:relative;top:15px;padding-bottom:15px;" />
 
 <small style="color:#757575">I built my site using:</small>
 - (link: http://foundation.zurb.com text: Foundation - Responsive Framework)

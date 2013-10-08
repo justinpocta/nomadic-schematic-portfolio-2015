@@ -358,6 +358,8 @@ div.main-nav {
 .project-mask, .link-button {
 	margin:0 25px 50px 25px;
 }
+div.profile-mask {background:url('http://dev.nomadic-schematic.com/content/01-projects/about/justin.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; float:left; margin:0 20px 0 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px;}
+span .profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.75em; display:block; max-width:600px; padding-top:150px;}
 
 /* in progress to deal with iphone screens being MASSIVE - jp */
 /*.orbit-container img, .orbit-container object, .orbit-container embed {max-width: 200px !important;}*/
@@ -694,6 +696,9 @@ and (orientation : landscape) {
   .project-mask:hover {
     background-size:auto 120% !important;
   }
+  div.profile-mask {width:300px; height: 300px; background-size:100%; border:1px solid #efefef; float:none; margin:0 auto 15px auto;  -webkit-border-radius:300px !important; -moz-border-radius:300px !important; border-radius:300px !important;}
+  span.profile-mask {padding-top:0;}
+
 	#nav-list a {
 		margin-bottom: 70px;
     z-index:150;
