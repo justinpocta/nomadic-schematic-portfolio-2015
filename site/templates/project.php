@@ -69,13 +69,16 @@
 	</div>
 
   <!--// GALLERY 2 //-->
-	<div class="container slidesSecondary">
+
+  <?php ?>
+  <div class="container slidesSecondary">
 		  <div id="slides2" style="<?php echo $page->slides2 ?>">
 		  <?php foreach($page->images() as $image) { if(!preg_match('^gallery2-^', $image->filename() )) continue; ?>
       <div style="background-image:url('<?php echo $image->url() ?>'); <?php echo $page->slidesheight2 ?>"></div>
       <?php } ?>
       </div>
-   </div>
+  </div>
+  <?php  ?>
 
    <!--// GALLERY 3 //-->
    <div class="container slidesSecondary">
@@ -212,8 +215,8 @@ $(function() {
           effect: "fade"
         },
 play: {
-active: true,
-auto: true,
+active: false,
+auto: false,
 interval: 8000,
 swap: true,
 pauseOnHover: true,
