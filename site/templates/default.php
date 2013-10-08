@@ -13,7 +13,7 @@ $tags = tagcloud($blog);
 <center>
 	<div id="nav-list"><div id="nav-list-box">
 
-		<a href="#bottom" id="nomadic-schematic" class="link-button"><p></p></a>
+		<a href="/projects/about" id="nomadic-schematic" class="link-button"><p></p></a>
 
 	 <?php if(param('tag')) {
 
