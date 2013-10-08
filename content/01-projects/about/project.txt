@@ -2,6 +2,10 @@ Title: Justin Pocta, Graphic Designer
 ----
 Textabout:
 Here is the about text (simple page).
+
+Don't forget to explain what you used to make this!
+[find credits file or whatever...]
+
 (link: http://library.justinpocta.com text: Tumblr class: button-visit)
 (link: http://dribbble.com/justinpocta text: Dribbble class: button-visit)
 (link: http://instagram.justinpocta.com text: Instagram class: button-visit)
