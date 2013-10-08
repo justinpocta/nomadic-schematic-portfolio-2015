@@ -2,6 +2,10 @@
 <link rel="stylesheet" href="/assets/css/slides.css" />
 <script src="/assets/js/vendor/jquery.slides.min.js"></script>
 <script src="/assets/js/vendor/arrowpager.js"></script>
+<?php if($page->slidecss()) { ?><style type="text/css">
+/* FIND ME */
+<?php echo h($page->slidecss()) ?>
+</style><?php } else {}; ?>
 <body id="secondary">
 <section class="content">
 

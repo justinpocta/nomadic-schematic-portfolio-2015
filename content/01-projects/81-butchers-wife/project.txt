@@ -8,7 +8,21 @@ Thumb: butcherswife
 ----
 Thumbtype: .jpg
 ----
-headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%;
+slidecss: #slide .slidesjs-control, #slide .slidesjs-container {height:500px !important;}
+----
+headercss: width:100%; height:100%; background-color:rgba(255,255,255,1.0);background-size:auto;background-position: top center; border-bottom: 3px solid #efefef;
+----
+headerwidth: mXax-width:800px; height: 500px;
+----
+headerheight: height:500px; background-size: auto 100%; /* if one slide: */ left: 0 !important;
+----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: 90%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: 90%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
 ----
 paginateslide: false
 ----
