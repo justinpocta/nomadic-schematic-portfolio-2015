@@ -12,17 +12,13 @@ Thus far, I have had the pleasure of working in studios designing and hand-codin
 My aim is to continue sharpening my skills and working with more great people on meaningful projects.
 
 <div class="profile-mask"></div>
-<span class="profile-mask">I am currently interested in full-time roles and available for freelance opportunities. <a href="mailto:justin@nomadic-schematic.com" style="color:#FF7E00;">Let's chat?</a><sup>&#42;</sup></span>
-<span style="font-family:Times,Georgia; font-style:regular; font-size:.8em; color:#757575;"><sup style="font-size:1em;">&#42;</sup> No recruiting agencies, please.</span>
+<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> roles & freelance opportunities. <p><a href="mailto:justin@nomadic-schematic.com" class="profile-mask button primary">Send a Message</a></p></span>
 
-<hr style="position:relative;top:15px;padding-bottom:15px;" />
+<!--//<span style="font-family:Times,Georgia; font-style:regular; font-size:.8em; color:#757575;"><sup style="font-size:1em;">&#42;</sup> No recruiting agencies, please.</span>//-->
 
-<small style="color:#757575">I built my site using:</small>
-- (link: http://foundation.zurb.com text: Foundation - Responsive Framework)
-- (link: http://getkirby.com text: Kirby - Customizable CMS)
-- (link: http://slidesjs.com text: SlidesJS)
+<hr style="position:relative;top:0px;padding-bottom:15px;" />
 
-<span style="font-size:.8em;">Thanks to (link: http://jordanstephens.net text: Jordan Stephens) for development help + guidance with Git, Vim, Terminal and other random crazy hacker things.</span>
+I built my site using (link: http://foundation.zurb.com text: Foundation) Responsive Framework, (link: http://getkirby.com text: Kirby) customizable CMS, (link: http://slidesjs.com text: SlidesJS) jQuery slideshow. Thanks to (link: http://jordanstephens.net text: Jordan Stephens) for development help + guidance with Git, Vim, Terminal and other random crazy hacker things.
 ----
 headercss: background-color:rgba(0,0,0,1.0);background-size: cover;background-position: top center;
 ----
