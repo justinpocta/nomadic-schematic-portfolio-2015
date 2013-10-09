@@ -10,7 +10,7 @@ Thumb: viridian
 ----
 Thumbtype: .jpg
 ----
-headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%; border-bottom: 3px solid #efefef;
 ----
 headerwidth: max-width: 900px; max-height: 600px;
 ----
