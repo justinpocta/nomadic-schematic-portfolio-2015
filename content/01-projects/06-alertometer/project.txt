@@ -29,6 +29,13 @@ paginateslide: false
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
 Text: My very first taste of app creation involved a gamification of boring safety procedures. Sure, why not?!
+
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/06-alertometer/app-01.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/06-alertometer/app-02.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/06-alertometer/app-03.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/06-alertometer/app-04.png"></div>
+
+<div style="width:100%;float:left;"><br /><br /></div>
 ----
 Created: December 2011
 ----
