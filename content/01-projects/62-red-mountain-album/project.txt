@@ -36,7 +36,7 @@ Created: November 2007
 ----
 Credits: Created for (link: http://www.redmountainmusic.com text: Red Mountain Music)
 ----
-WebLink: (link: http://www.redmountainmusic.com text: Buy Album)
+WebLink: (link: http://www.redmountainmusic.com text: Buy Album class:button-visit)
 ----
 Related: ($random.project_app)*3
 

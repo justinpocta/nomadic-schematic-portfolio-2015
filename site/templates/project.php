@@ -98,12 +98,15 @@
       <span class="detail-title">Details</span>
 	    <small>Completed <?php echo h($page->created()) ?></small>
 	    <?php echo kirbytext($page->credits()) ?>
-    <?php } else { } ?>
+      <div style="padding-bottom:100px;"></div>
+    <?php } else { ?>
+      <div style="padding-bottom:0px;"></div>
+    <?php } ?>
 
 	  <?php if($page->applink()) {?>
-      <div style="margin-top:15px"><?php echo kirbytext($page->applink()) ?></div>
-    <?php } else {}; ?>
-
+      <div style="margin-top:15px;"><?php echo kirbytext($page->applink()) ?></div>
+    <?php } else { ?>
+      <?php }; ?>
     </div>
   </div>
 

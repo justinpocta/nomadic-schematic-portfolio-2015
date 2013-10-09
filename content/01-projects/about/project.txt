@@ -13,13 +13,11 @@ Textabout:
 <p>My aim is to continue sharpening my skills and working with more great people on meaningful projects.</p></div>
 
 <div class="profile-mask"></div>
-<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> roles & freelance opportunities. <p><a href="mailto:justin@nomadic-schematic.com" class="profile-mask button primary">Send a Message</a></p></span>
+<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> roles & freelance opportunities with startups, studios, and individual clients. <p><a href="mailto:justin@nomadic-schematic.com" class="profile-mask button primary">Send a Message</a></p></span>
 
-<!--//<span style="font-family:Times,Georgia; font-style:regular; font-size:.8em; color:#757575;"><sup style="font-size:1em;">&#42;</sup> No recruiting agencies, please.</span>//-->
+<hr class="profile-mask">
 
-<hr style="position:relative;top:0px;padding-bottom:15px;" />
-
-I built my site using (link: http://foundation.zurb.com text: Foundation) Responsive Framework, (link: http://getkirby.com text: Kirby) customizable CMS, (link: http://slidesjs.com text: SlidesJS) jQuery slideshow. Thanks to (link: http://jordanstephens.net text: Jordan Stephens) for development help + guidance with Git, Vim, Terminal and other random crazy hacker things.
+<small>I built my site using (link: http://foundation.zurb.com text: Foundation class: thanks) Responsive Framework, (link: http://getkirby.com text: Kirby class: thanks) customizable CMS, (link: http://slidesjs.com text: SlidesJS class: thanks) jQuery slideshow. Thanks to (link: http://jordanstephens.net text: Jordan Stephens class: thanks) for development help + guidance with Git, Vim, Terminal and other random crazy hacker things.</small>
 ----
 headercss: background-color:rgba(0,0,0,1.0);background-size: cover;background-position: top center;
 ----
