@@ -68,26 +68,6 @@
 	</div>
 	</div>
 
-  <!--// GALLERY 2 //-->
-
-  <?php ?>
-  <div class="container slidesSecondary">
-		  <div id="slides2" style="<?php echo $page->slides2 ?>">
-		  <?php foreach($page->images() as $image) { if(!preg_match('^gallery2-^', $image->filename() )) continue; ?>
-      <div style="background-image:url('<?php echo $image->url() ?>'); <?php echo $page->slidesheight2 ?>"></div>
-      <?php } ?>
-      </div>
-  </div>
-  <?php  ?>
-
-   <!--// GALLERY 3 //-->
-   <div class="container slidesSecondary">
-      <div id="slides3" style="<?php echo $page->slides3 ?>">
-          <?php foreach($page->images() as $image) { if(!preg_match('^gallery3-^', $image->filename() )) continue; ?>
-          <div style="background-image:url('<?php echo $image->url() ?>'); <?php echo $page->slidesheight3 ?>"></div>
-          <?php } ?>
-      </div>
-  </div>
 
   <div id="detail-sidebar" class="column large-4 small-12"><!--// content 2 - right : sidebar //-->
     <div style="float:left;max-width:200px;"><!-- tags -->
