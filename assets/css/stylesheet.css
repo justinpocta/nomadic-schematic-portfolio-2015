@@ -363,10 +363,12 @@ div.main-nav {
 	margin:0 25px 50px 25px;
 }
 div.profile-mask {background:url('http://dev.nomadic-schematic.com/content/01-projects/about/justin.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:0 20px 0 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom:50px;}
-span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.45em; line-height: 1.35em; display:block; max-width:650px; padding-top:0px; fXloat:left; }
+span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.45em; line-height: 1.35em; display:block; max-width:630px; padding-top:0px; fXloat:left; }
 a.profile-mask {padding:15px 22px !important;color:#FFF; clear:both; floatX:left; position:relative; border:0;background-color:#FF7E00; font-size: .8em; font-family:sans-serif;font-weight: lighter;font-style:normal; text-transform: uppercase; margin-top:-15px; margin-left:-5px; border-radius:30px; -webkit-border-radius: 30px;}
 a.profile-mask:hover {background-color:#454545; }
 .profile-copy {font-size:1.4em; line-height:1.35em;}
+hr.profile-mask {top:10px; position:relative; top:25px; padding-top:20px; Xpadding-bottom:15px;}
+a.thanks {color:#FF7E00;}
 
 /* in progress to deal with iphone screens being MASSIVE - jp */
 /*.orbit-container img, .orbit-container object, .orbit-container embed {max-width: 200px !important;}*/
@@ -430,6 +432,7 @@ div.logo-intro span {
 	display:block;
 	font-family:Helvetica,Verdana,sans-serif;
   letter-spacing:.15em;
+  padding-top:10px;
 	padding-bottom:10px;
 	text-transform:uppercase;
 	clear:left;
@@ -859,7 +862,7 @@ border: 2px solid rgba(0,0,0,.0);
         	position: relative;
         	top: 20px;
         	right: 0px;
-		padding-bottom:100px;
+		Xadding-bottom:100px;
 	}
 	#detail-sidebar div {
 		float:none !important;
