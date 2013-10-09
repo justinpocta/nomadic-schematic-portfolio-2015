@@ -28,9 +28,14 @@ paginateslide: false
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Quote: &ldquo;Ipsum Lipsum - dare I even say fun?&rdquo;
-----
 Text: Our team worked alongside Zephyr to create a great tool for touring through homes in the San Francisco area and keeping notes and ratings while on the road——well, not while driving, of course!.
+
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-01.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-02.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-03.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-04.png"></div>
+
+<div style="width:100%;float:left;"><br /><br /></div>
 ----
 Created: June 2011
 ----
