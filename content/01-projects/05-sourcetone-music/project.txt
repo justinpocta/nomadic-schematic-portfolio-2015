@@ -27,6 +27,16 @@ paginateslide: false
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
 Text: As a music lover, this was a really enjoyable project to be a part of. Sourcetone came to us having their own development already ongoing in multiple realms but wanted to consider how it could reach into the mobile space.
+
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-00.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-01.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-02.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-03.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-04.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-05.png"></div>
+<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/05-sourcetone-music/app-06.png"></div>
+
+<div style="width:100%;float:left;"><br /><br /></div>
 ----
 Created: August 2011
 ----
