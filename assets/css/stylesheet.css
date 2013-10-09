@@ -316,8 +316,9 @@ div.main-nav {
 }
 #nav-list a > p, #button-app a > p, #button-brand a > p, #button-illos a > p, #button-print a > p, #button-web a > p, #button-info a > p {
 	color: #FFF;
-	font-size: 1.2em;
+  font-family: "brandon-grotesque",sans-serif;
 	margin: 61px 15px 0 15px;
+  text-transform: lowercase;
 	width:80%;
 }
 
