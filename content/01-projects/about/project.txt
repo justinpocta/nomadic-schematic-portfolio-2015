@@ -1,15 +1,16 @@
 Title: Justin Pocta<span class="hide-for-small" style="display:none !important;font-size:1em;width:auto;"> - Multidisciplinary Graphic Designer</span>
 ----
 Textabout:
-Hello. Thanks for taking the time to check out my work!
+<div class="profile-copy">
+<p>Hello. Thanks for taking the time to check out my work!</p>
 
-I am a multidisciplinary designer with an interactive bent from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense while being simultaneously baffling (maybe that is the secret to its magnetism). In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I have made.
+<p>I am a multidisciplinary designer with an interactive bent from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense while being simultaneously baffling (maybe that is the secret to its magnetism). In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I have made.</p>
 
-The past 10+ years I have been soaking up design from every source I could find. I'm fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great print work.
+<p>The past 10+ years I have been soaking up design from every source I could find. I'm fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great print work.</p>
 
-Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UI and UX for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for the day.
+<p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UI and UX for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for the day.</p>
 
-My aim is to continue sharpening my skills and working with more great people on meaningful projects.
+<p>My aim is to continue sharpening my skills and working with more great people on meaningful projects.</p></div>
 
 <div class="profile-mask"></div>
 <span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> roles & freelance opportunities. <p><a href="mailto:justin@nomadic-schematic.com" class="profile-mask button primary">Send a Message</a></p></span>
