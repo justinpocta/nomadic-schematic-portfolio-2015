@@ -196,7 +196,7 @@ $(function() {
         },
          pagination: {
           // active: this.write(paginationcheck);
-          active: false,
+          active: true,
           effect: "fade"
         },
 play: {
