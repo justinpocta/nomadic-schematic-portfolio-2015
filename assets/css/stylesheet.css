@@ -1,5 +1,5 @@
 body {
-	background-image: url('../img/background-secondary.jpg');
+	background-image: url('../img/background.jpg');
   background-color: #FFF !important;
 	/*background-repeat:no-repeat;*/
 	/*background-attachment: fixed;*/
@@ -14,7 +14,9 @@ body {
 	-moz-font-smoothing: antialiased; */
 }
 #secondary {
-	/*background-color:rgba(170,170,158,.5);*/
+	background-image: url('../img/background-secondary.jpg');
+  background-position: top center;
+  /*background-color:rgba(170,170,158,.5);*/
 	border-top: #000 0px solid;
 }
 .nowrap {white-space: nowrap;}
