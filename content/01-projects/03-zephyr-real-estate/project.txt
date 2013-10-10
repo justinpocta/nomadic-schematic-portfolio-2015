@@ -34,12 +34,14 @@ Text: While at [x]cube LABS, our team had the opportunity to work alongside Zeph
 <div class="detail-imagery"><center><img src="/content/01-projects/03-zephyr-real-estate/app-02.png"></center></div>
 
 <div class="detail-description">
+We knew the listing screen would be an important one because as helpful as a mobile device can be, dealing with information in bulk with your thumb and a 4" display can be easily be a total pain. We opted to add a notched tab that could be swiped or tapped to bring out additional options for each home. We left space over the home as an identifying element, so users can open multiple tabs to quickly rate, save or just note additional details.
 </div>
 
 <div class="detail-imagery"><center><img src="/content/01-projects/03-zephyr-real-estate/app-03.png"></center></div>
 <div class="detail-imagery"><center><img src="/content/01-projects/03-zephyr-real-estate/app-04.png"></center></div>
 
 <div class="detail-description">
+From the home detail screen, a user can dig in deeper, add/change a rating, add to a saved tour of homes, and also have the option to forward to their agent if they think this could be the one.
 </div>
 
 <div style="width:100%;float:left;"><br /><br /></div>
