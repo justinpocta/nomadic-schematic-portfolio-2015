@@ -1,12 +1,12 @@
 Title: Luke & Tori
 ----
-projecttype: print
+projecttype: illustration
 ----
 projecttype_button: project-mask
 ----
 Thumb: lukeandtori
 ----
-Thumbtype: .jpg
+Thumbtype: .png
 ----
 headercss: background-color: rgba(255,255,255,1.0); background-size:auto; background-position: center 80%; max-height:600px; border: 3px solid #efefef;
 ----
