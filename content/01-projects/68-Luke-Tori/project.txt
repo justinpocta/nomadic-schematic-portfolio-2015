@@ -24,13 +24,13 @@ slidesheight3: background-size: auto 100%; background-repeat: no-repeat; backgro
 ----
 paginateslide: false
 ----
-Tags: Print, Illustration, Personal, Packaging, Art Direction
+Tags: Print, Illustration, Typography, Art Direction
 ----
 Text: Lake of Stars...
 ----
-Created: Fall 2007
+Created: Summer 2008
 ----
-Credits: School Projects
+Credits: Freelance Project
 ----
 Related: ($random.project_app)*3
 
