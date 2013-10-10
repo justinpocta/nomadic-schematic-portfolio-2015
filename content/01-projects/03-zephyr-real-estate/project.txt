@@ -28,12 +28,19 @@ paginateslide: false
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Text: Our team worked alongside Zephyr to create a great tool for touring through homes in the San Francisco area and keeping notes and ratings while on the road——well, not while driving, of course!.
+Text: While at [x]cube LABS, our team had the opportunity to work alongside Zephyr, a long standing real estate brokerage in San Francisco. They wanted to create a powerful mobile utility for their customers, as well as agents, to be able to create and manage tours of prospective homes throughout the San Francisco area.
 
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-01.png"></div>
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-02.png"></div>
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-03.png"></div>
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/03-zephyr-real-estate/app-04.png"></div>
+<div class="detail-imagery"><img src="/content/01-projects/03-zephyr-real-estate/app-01.png"></div>
+<div class="detail-imagery"><img src="/content/01-projects/03-zephyr-real-estate/app-02.png"></div>
+
+<div class="detail-description">
+</div>
+
+<div class="detail-imagery"><img src="/content/01-projects/03-zephyr-real-estate/app-03.png"></div>
+<div class="detail-imagery"><img src="/content/01-projects/03-zephyr-real-estate/app-04.png"></div>
+
+<div class="detail-description">
+</div>
 
 <div style="width:100%;float:left;"><br /><br /></div>
 ----
