@@ -79,7 +79,7 @@ headercss: background-color:rgba(0,0,0,1.0);background-size: cover;background-po
 ----
 headerwidth: max-height:500px;
 ----
-headerheight: max-height:500px; background-size: contain; /* if one slide: */ left: 0 !important;
+headerheight: max-height:500px; background-size: auto 100%; /* if one slide: */ left: 0 !important;
 ----
 paginateslide: false
 ----

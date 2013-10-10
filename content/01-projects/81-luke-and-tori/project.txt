@@ -12,7 +12,11 @@ headercss: background-color: rgba(82,39,27,1.0); background-size:auto; backgroun
 ----
 headerwidth: max-width: 1000px; max-height: 600px;
 ----
-headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; /* if one slide: */ lXeft: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; min-height:400px; /* if one slide: */ lXeft: 0 !important;
+----
+slidecss:
+#slide .slidesjs-control, #slide .slidesjs-container {min-height:500px !important;}
+.slidesjs-container {max-width:100%;min-height:400px;}
 ----
 slides2: max-height: 600px;
 ----
