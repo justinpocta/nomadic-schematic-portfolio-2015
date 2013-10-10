@@ -64,6 +64,7 @@ We found that mapping can be a bit of a pain in New York, where Avenue vs. Stree
 Pricing was a good challenge. We had to dynamically provide costs based on the users' input information which all is interconnected to draw up the right number. Here we really wanted to provide a helpful, direct quote and clarity about timing to make the experience as pleasant as possible.</div>
 
 <div class="detail-imagery"><center><img src="/content/01-projects/02-zipments-delivery/app-08.png"></center></div>
+<div class="detail-imagery"><center><img src="/content/01-projects/02-zipments-delivery/app-09.png"></center></div>
 
 <div class="detail-description">
 A nice final tally to confirm we have gotten everything needed down properly. A nice breath of fresh air to help the courier industry take out hidden costs which frustrate customers and the experience of hunting down numbers and calling around to get a quote.</div>
