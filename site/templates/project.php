@@ -29,7 +29,7 @@
 </div>
 
 <!-- objective -->
-<div class="small-12 large-12" style="margin:0 auto; display:block; background-image:url('<?php echo $page->images()->find('bg.jpg')->url() ?>'); background-repeat:no-repeat; <?php echo $page->headercss ?>">
+<div class="small-12 large-12" style="margin:0 auto; display:block; background-image:url('<?php echo $page->images()->find('bg.png')->url() ?>'); background-repeat:no-repeat; <?php echo $page->headercss ?>">
 
      <!--// GALLERY 1 //-->
      <div class="container slidesPrimary" style="<?php echo $page->headerwidth ?>">
