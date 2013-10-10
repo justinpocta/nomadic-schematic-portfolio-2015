@@ -37,30 +37,36 @@ Our team had the work cut out for ourselves as we were targeted the release to b
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-00.png"></div>
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-01.png"></div>
 
-The app led us to create features that would actually come back around to influence the main website, such as Address Book which allows users to sync contact info for easy repeatable deliveries.
+<div class="detail-description">The app led us to create features that would actually come back around to influence the main website, such as Address Book which allows users to sync contact info for easy repeatable deliveries.</div>
 
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-02.png"></div>
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-03.png"></div>
 
-One of the aspects we really tried to hammer down in the website was a set of easy to recognize and select icons representing package types. This fit very nicely into a touch environment.
+<div class="detail-description">
+While the app was made to help users request deliveries, it also was aimed to be useful to monitor delivery already posted and in progress. Peace of mind for business people running around with enough anxiety on their plate.
+<br><br>
+One of the aspects we really tried to hammer down in the website was a set of easy to recognize and select icons representing package types. This fit very nicely into a touch environment.</div>
 
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-04.png"></div>
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-05.png"></div>
 
+<div class="detail-description">
 After selecting a type, you simply input how heavy and how many of that type. From there you can add another or move to the next step.
-
-Adding lots of details about dropoff and pickup locations is probably the biggest pain point due to the amount of typing. The Address Book not only needed to be its own entity, but a tied in feature that works with users as they go through the delivery request process by allowing you to Save to Locations as you go. In the future, you just hit Add from My Locations and you're set.
+<br><br>
+Adding lots of details about dropoff and pickup locations is probably the biggest pain point due to the amount of typing. The Address Book not only needed to be its own entity, but a tied in feature that works with users as they go through the delivery request process by allowing you to Save to Locations as you go. In the future, you just hit Add from My Locations and you're set.</div>
 
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-06.png"></div>
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-07.png"></div>
 
+<div class="detail-description">
 We found that mapping can be a bit of a pain in New York, where Avenue vs. Street can mean missed delivery timeframes. To help alleviate this, we provide a visual to allow the user to know that what they typed is what they meant.
-
-Pricing was a good challenge. We had to dynamically provide costs based on the users' input information which all is interconnected to draw up the right number. Here we really wanted to provide a helpful, direct quote and clarity about timing to make the experience as pleasant as possible.
+<br><br>
+Pricing was a good challenge. We had to dynamically provide costs based on the users' input information which all is interconnected to draw up the right number. Here we really wanted to provide a helpful, direct quote and clarity about timing to make the experience as pleasant as possible.</div>
 
 <div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/02-zipments-delivery/app-08.png"></div>
 
-A nice final tally to confirm we have gotten everything needed down properly. A nice breath of fresh air to help the courier industry take out hidden costs which frustrate customers and the experience of hunting down numbers and calling around to get a quote.
+<div class="detail-description">
+A nice final tally to confirm we have gotten everything needed down properly. A nice breath of fresh air to help the courier industry take out hidden costs which frustrate customers and the experience of hunting down numbers and calling around to get a quote.</div>
 
 <div style="width:100%;float:left;"><br /><br /></div>
 ----
