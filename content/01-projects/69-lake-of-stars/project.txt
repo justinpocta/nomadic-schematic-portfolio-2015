@@ -26,7 +26,9 @@ paginateslide: false
 ----
 Tags: Print, Illustration, Personal, Packaging, Art Direction
 ----
-Text: Lake of Stars...
+Text:
+Lake Of Stars branding campaign, an annual music festival held in Malawi, Africa. Lake of Stars exists to raise funding and awareness for UNICEF’s water-well project while stimulating tourism in the Malawi economy. Excited over the possibilities, I investigated strategies to boost funds year-round, through means such as music compilations to be sold online along with other merchandise to help promote awareness. These designs visually explore the collision of African landscape and lifestyle with the energy of electronic music.
+
 ----
 Created: Fall 2007
 ----
