@@ -8,7 +8,7 @@ Thumb: sourcetone
 ----
 Thumbtype: .png
 ----
-headercss: background-color:rgba(77,192,117,1.0);background-size:100% auto;background-position: center 80%;
+headercss: background-color:rgba(77,192,118,1.0);background-size:auto;background-position: center 80%;
 ----
 headerwidth: max-width:800px;
 ----
