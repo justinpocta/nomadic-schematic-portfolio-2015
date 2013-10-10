@@ -27,10 +27,31 @@ paginateslide: false
 Tags: Brand, Identity, Logo, Illustration, Art Director
 ----
 Text:
-----
-Created: May 2011 for Dallas Society of Visual Communicators. Frances Yllana - Creative Director.
-----
-Credits:
+<small>Logo design from various studios, freelance, and personal projects.</small>
+
+<b>Cameron Breen</b> Realty advisor (Dodd Creative)
+
+<b>Sandbox Productions</b> Leadership management consultants (freelance)
+
+<b>Lake of Stars</b> Malawi non-profit music festival (student)
+
+<b>Midtown</b> Student housing (Dodd Creative)
+
+<b>Purus</b> Water filtration company (student)
+
+<b>Dog Point</b> New Zealand wine company (student)
+
+<b>Stash</b> Memphis furniture store (Deluge Studio)
+
+<b>The Villages</b> - Airforce housing (Dodd Creative)
+
+<b>REI</b> - Recreational Equipment Inc rebrand (student)
+
+<b>Kroger</b> - Large grocery rebrand (student)
+
+<b>Hebron 121 Station</b> - Apartments in Dallas (Dodd Creative)
+
+<b>Crown Heights Culture Club</b> - Youth community program (Freelance)
+<br>
 ----
 Related: ($random.project_app)*3
-

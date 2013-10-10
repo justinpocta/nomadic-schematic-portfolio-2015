@@ -8,11 +8,11 @@ Thumb: redrev
 ----
 Thumbtype: .jpg
 ----
-headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%; border-bottom:3px solid #efefef;
 ----
-headerwidth: max-width:800px;
+headerwidth: max-width:1000px; max-height:900px;
 ----
-headerheight: background-repeat: no-repeat; background-size: 87%; background-position: center center; max-height:500px; /* if one slide: */ left: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 87%; background-position:bottom center; max-height:900px; /* if one slide: */ left: 0 !important;
 ----
 slides2: max-height: 600px;
 ----
@@ -27,7 +27,7 @@ paginateslide: false
 Tags: UI, UX, IxD, Art Direction, HTML/CSS
 ----
 Text:
-
+The Red Revolution was a personal project of a good friend of mine, Adam Thomason. With a background in fashion and a heart to do something beyond simply making and selling a product, he launched an initiative to merge fashion sense with a social consciousness. We were able to piece together his branding and product with a photoshoot, simple one page design to feature the product, and Twitter feed to enable a news stream.
 ----
 Created: April 2009
 ----

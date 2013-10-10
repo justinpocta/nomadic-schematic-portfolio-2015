@@ -8,11 +8,11 @@ Thumb: stash
 ----
 Thumbtype: .jpg
 ----
-headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: center 80%; border-bottom: 3px solid #efefef;
 ----
-headerwidth: max-width:800px;
+headerwidth: max-width:800px; max-height:800px;
 ----
-headerheight: background-repeat: no-repeat; background-size: 87%; background-position: center center; max-height:500px; /* if one slide: */ lXeft: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 87%; background-position: bottom center; max-height:800px; /* if one slide: */ lXeft: 0 !important;
 ----
 slides2: max-height: 600px;
 ----
@@ -27,7 +27,8 @@ paginateslide: false
 Tags: Brand, UI, UX, IxD, Art Direction
 ----
 Text:
-
+After creating the new logo for this unique, rotating inventory furniture store, I had the opportuntity to continue directing their art direction through their website design. I created the format with randomized backgrounds to emphasize the variety of styles and daily inventory customers will find in this creative store.
+<br>
 ----
 Created: August 2009
 ----
