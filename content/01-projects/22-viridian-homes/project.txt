@@ -29,7 +29,9 @@ paginateslide: false
 Tags: UI, UX, IxD, Creative Direction
 ----
 Text:
+For a short freelance project I took on before leaving Texas, I joined with my good friend and talented developer, Craig Smitham, to develop the website art direction and a fluid, expandable system.
 
+Based off of existing brand design for the Viridian master-planned community, this website is skewed toward selling the general plans while the community is constructed. As the development of the property progresses, the website has plenty of space and a lasting framework to pass through new content as it comes in.
 ----
 Created: February 2012
 ----

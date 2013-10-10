@@ -12,56 +12,64 @@ Textabout:
 
 <p>My aim is to continue sharpening my skills and working with more great people on meaningful projects.</p></div>
 
+<hr class="profile-mask">
+<br>
 <div class="profile-mask"></div>
 
 <span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> roles & freelance opportunities with startups, studios, and individual clients. <p class="profile-links"><a href="mailto:justin@nomadic-schematic.com" style="margin-right:10px;max-width:350px;" class="profile-mask button primary">Send Message</a><a href="http://resume.nomadic-schematic.com" style="margin-right:10px;max-width:350px;" class="profile-mask button primary">Download Résumé</a></p></span>
 
+<hr class="profile-mask">
+
+<span class="detail-title">Skills</span>
+
+Adobe Photoshop (BFFs)
+Adobe Illustrator (BFFs/Close Friends)
+Adobe InDesign (Friends with a secret handshake)
+HTML/CSS (Friends)
+Javascript/jQuery (Good acquaintances, but we're awkward some days)
+
+<hr class="profile-mask">
+
 <span class="detail-title">Recognition</span>
-HOW Magazine - 2012 Interactive Design Awards
+
+<small>HOW Magazine - 2012 Interactive Design Awards</small>
 Merit, LoyalTree Rewards App - March 2012 Issue
 Art Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta
 March 2012
 
-FPO - Blog
+<small>FPO - Blog</small>
 Feature, DSVC 2011 Dallas Show Invitation
 Art Director: Frances Yllana; Designer: Justin Pocta
 February 2012
 
-The Dieline - Blog
+<small>The Dieline - Blog</small>
 Feature, DSVC 2011 Dallas Show Invitation
 Art Director: Frances Yllana; Designer: Justin Pocta
 January 2012
 
-UNT Old+New - Communication Design Alumni Retrospective Exhibition (www)
+<small>UNT Old+New - Comm. Design Alumni Retrospective Exhibition</small>
 Red Mountain Album Cover - Showcase
 Zephyr Real Estate iPhone App - Showcase
 Music iPhone App - Showcase
 October 2011
 
-W³ Awards - 2011 W³ Awards
+<small>W³ Awards - 2011 W³ Awards</small>
 Silver Award Winner, Alertometer App
 Art/Creative Director: Jason Franzen; Designer: Justin Pocta
 
-DSVC - 2011 Dallas Show
+<small>DSVC - 2011 Dallas Show</small>
 Bronze Award, LoyalTree Rewards App
 Showcase, Zephyr Real Estate App
 Art/Creative Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta
 June 2011
 
-DSVC - 2007 National Student Show
+<small>DSVC - 2007 National Student Show</small>
 Showcase, The Butcher's Wife Poster
 March 2007
 
-University of North Texas - Top 10 Portfolio
+<small>University of North Texas - Top 10 Portfolio</small>
 Sophomore Midpoint Review
 May 2006
-
-<span class="detail-title">Skills</span>
-Adobe Photoshop (BFFs)
-Adobe Illustrator (BFFs/Close Friends)
-Adobe InDesign (Friends with a secret handshake)
-HTML/CSS (Friends)
-Javascript/jQuery (Good acquaintances, but it's awkward some days)
 
 <hr class="profile-mask">
 
