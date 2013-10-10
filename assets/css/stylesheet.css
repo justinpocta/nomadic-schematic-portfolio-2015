@@ -327,7 +327,7 @@ div.main-nav {
 .info-cat {
   -webkit-border-radius:150px;
   -moz-border-radius:150px;
-  background-clip:content-box;
+  background-cliXp:content-box;
   background-position: top center;
   background-repeat: no-repeat;
   background-size:100%;
