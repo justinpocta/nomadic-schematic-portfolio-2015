@@ -182,9 +182,14 @@
       display:none; /* so you scan swipe on phone */
     }
 
-.slidesSecondary,.slidesjs-pagination {
-	/* background-color:#FFF;*/
+.slidesjs-pagination {
+  width:100% !important;
+  overflow:hidden;
+  max-height:50px !important;
+  padding: 5px 0 0 0 !important;
+  bottom:5px !important;
 }
+ul.slidesjs-pagination {margin-bottom:0 !important;}
 .slidesjs-pagination {
 	position: inherit;
 }

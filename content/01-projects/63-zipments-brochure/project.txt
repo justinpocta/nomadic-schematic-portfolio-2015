@@ -26,13 +26,12 @@ paginateslide: false
 ----
 Tags: Print, Brochure, Art Direction
 ----
-Text: After my first few months at Zipments mostly spent reworking the website and branding, the team agreed it was high time to extend our platform into the mobile space. The website excelled at many things, but we knew mobile tools could really help people explore our product in powerful ways.
+Text:
+One of the first print pieces I created for Zipments was a simple piece of collateral to introduce prospective customers to our service. It was also early on in the repositioning of our company from peer-to-peer and into the professional realm. A really big component of this shift was the guarantee. Instead of getting simply getting bids from people available to be your courier for the day, we now had connected with the courier community in New York City. Seamless and certain delivery.
 
-We had spent a good deal of effort with the website making the request process quick and dare I even say fun? With that, we knew native app capabilities could only help further our tool's benefits for non-office uses, and extend Zipments to more markets, such as on-the-go professionals like event planners and photographers. We knew this could also be an extremely easy to integrate opportunity for boutiques and other small shops without laptop and wi-fi connections.
-
-The team had our work cut out for us as we were aiming to release this within a month alongside ongoing web app updates because that's what startups like to do! Within a short time span, I worked with the CEO and Co-Founder/Developer to consider what features to prioritize and how these features could be implemented powerfully but quickly, as we would be simultaneously dealing with ongoing web app updates.
+I wanted to emphasize this connectivity and cohesiveness in the service, and being a young startup, illustration was a great way to save the budget from photography that may not fit the messaging within a year, if not 6 months even. Point A to Point B, with visible, trackable routes to ensure confidence and clarity about what is happening after your packages head out the door.
 ----
-Created: August 2013
+Created: August 2012
 ----
 Credits: Created at Zipments
 ----

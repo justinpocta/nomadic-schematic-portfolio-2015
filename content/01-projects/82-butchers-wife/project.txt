@@ -29,8 +29,11 @@ paginateslide: false
 Tags: Print, Illustration, Personal, Poster, Art Direction
 ----
 Text:
+A promotional poster for a film based on the Ang Li book, The Butcher’s Wife&mdash;an novella about a woman forced into an abusive marriage. I took up the task of retelling this haunting story and trying to capture the pain, fear, and isolation of the story.
 
-<img src="/content/01-projects/81-butchers-wife/dsvc.gif">
+The illustrations were created by hand with pen & ink and I researched the language to write accurate chinese characters for the saking of maintaining authenticity.
+
+<div style="background:url('/content/01-projects/82-butchers-wife/dsvc.gif') no-repeat;background-size:auto 100%;background-position:left center;width:100%;height:29px;display:inline-block;padding-left:40px;line-height:1.75em;"><i>Accepted in the 2007 DSVC National Student Show & Conference</i></div>
 ----
 Created: Fall 2005
 ----
