@@ -12,7 +12,7 @@ headercss: background-color:#FFF; background-size:auto; background-position: cen
 ----
 headerwidth: max-width:1000px; max-height: 700px;
 ----
-headerheight: background-repeat: no-repeat; background-size: 100%; background-position: bottom center; max-height: 700px; /* if one slide: */ lXeft: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 90%; background-position: bottom center; max-height: 700px; /* if one slide: */ lXeft: 0 !important;
 ----
 slides2: max-height: 600px;
 ----
