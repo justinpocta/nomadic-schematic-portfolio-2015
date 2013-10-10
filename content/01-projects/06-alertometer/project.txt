@@ -10,7 +10,7 @@ Thumb: alertometer
 ----
 Thumbtype: .png
 ----
-headercss: background-color:rgba(87,153,152,1.0);background-size:100% auto;background-position: center 80%;
+headercss: background-color:rgba(74,98,141,1.0);background-size:100% auto;background-position: center 80%;
 ----
 headerwidth: max-width:800px;
 ----
