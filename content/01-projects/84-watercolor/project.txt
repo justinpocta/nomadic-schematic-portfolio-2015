@@ -27,11 +27,10 @@ paginateslide: false
 Tags: Print, Illustration, Personal, Watercolor
 ----
 Text:
+Since discovering my love for watercolor several years ago, I've tried to make time for it personally, but moving about the country has slowed that down. My goal is to pour more time into it and to fill this section out. Feel free to call me out on it if this never gets updated.
 
-----
-Created:
-----
-Credits:
+More archived work to be added shortly.
+
 ----
 Related: ($random.project_app)*3
 

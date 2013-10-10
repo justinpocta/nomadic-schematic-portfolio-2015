@@ -30,11 +30,20 @@ Tags: Mobile, UI, UX, IxD, Art Direction
 ----
 Text: Liquid was definitely one of the heaviest projects I worked on while at [x]cube. I'm not a math guy, but had to wrap my head around this project in every way. Our developers were not based in my office, so I had to take details from client meetings and help explain our goals to help them then guide me, as both producer and designer, through proper development solutions. We opted for some gaming development approaches in the end due to the drag-and-drop needs which gave us a lot of flexibility and used the phone's hardware well.
 
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/04-liquid-finance/app-01.png"></div>
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/04-liquid-finance/app-02.png"></div>
+<div class="detail-imagery"><img src="/content/01-projects/04-liquid-finance/app-01.png"></div>
+<div class="detail-imagery"><img src="/content/01-projects/04-liquid-finance/app-02.png"></div>
 
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/04-liquid-finance/app-03.png"></div>
-<div style="padding:10px 15px 0 0;display:inline-block;float:left;"><img src="/content/01-projects/04-liquid-finance/app-04.png"></div>
+<div class="detail-description"></div>
+
+<div class="detail-imagery"><img src="/content/01-projects/04-liquid-finance/app-03.png"></div>
+<div class="detail-imagery"><img src="/content/01-projects/04-liquid-finance/app-04.png"></div>
+
+<div class="detail-description"></div>
+
+<div class="detail-imagery"><img src="/content/01-projects/04-liquid-finance/app-05-all.jpg"></div>
+<div class="detail-imagery"><img src="/content/01-projects/04-liquid-finance/app-06-ux.png"></div>
+
+<div class="detail-description">Oh yeah, also, the logic behind all the screen and the math was another fun challenge to convey over Skype. The UX was quite the beast, dealing with lots of "If this, then that". Dealing with sharp developers really helps you get through lots of challenges that could come up.</div>
 
 <div style="width:100%;float:left;"><br /><br /></div>
 ----

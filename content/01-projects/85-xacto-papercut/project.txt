@@ -31,7 +31,5 @@ I created this customized Moleskine for a friend. As I learned with my efforts o
 ----
 Created: September 2010
 ----
-Credits:
-----
 Related: ($random.project_app)*3
 

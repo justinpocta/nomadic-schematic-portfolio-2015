@@ -183,6 +183,7 @@
     }
 
 .slidesjs-pagination {
+  display: none !important;
   width:100% !important;
   overflow:hidden;
   max-height:50px !important;
