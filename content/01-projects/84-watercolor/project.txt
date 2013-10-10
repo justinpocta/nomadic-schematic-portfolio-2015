@@ -10,9 +10,11 @@ Thumbtype: .jpg
 ----
 headercss: background-color:rgba(0,0,0,.25);background-size:auto;background-position: center 80%; border-bottom: 3px solid #efefef;
 ----
-headerwidth: max-width:100%;
+headerwidth: max-width:100%; Xmin-height:400px; height: 100%;
 ----
-headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; /* if one slide: */ leftX: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height: 600px; /* if one slide: */ leftX: 0 !important;
+----
+slidecss: #slide .slidesjs-control, #slide .slidesjs-container {Xmin-height:400px !important; max-height:500px !important;} .slidesjs-container {Xmin-height:400px;}
 ----
 slides2: max-height: 600px;
 ----
