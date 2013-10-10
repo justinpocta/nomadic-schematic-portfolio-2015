@@ -8,7 +8,7 @@ Thumb: dogpoint
 ----
 Thumbtype: .jpg
 ----
-headerdercss: background-color: rgba(255,255,255,1.0); background-size:auto; background-position: center 80%; height:100%; border-bottom: 3px solid #ededed;
+headercss: background-color: rgba(255,255,255,1.0); background-size:auto; background-position: center 80%; height:100%; border-bottom: 3px solid #efefef;
 ----
 headerwidth: max-width: 1200px; max-height: 600px;
 ----
