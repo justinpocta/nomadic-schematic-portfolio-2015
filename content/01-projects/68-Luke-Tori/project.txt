@@ -1,0 +1,36 @@
+Title: Luke & Tori
+----
+projecttype: print
+----
+projecttype_button: project-mask
+----
+Thumb: lukeandtori
+----
+Thumbtype: .jpg
+----
+headercss: background-color: rgba(255,255,255,1.0); background-size:auto; background-position: center 80%; max-height:600px; border: 3px solid #efefef;
+----
+headerwidth: max-width: 1000px; max-height: 600px;
+----
+headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; /* if one slide: */ lXeft: 0 !important;
+----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: auto 100%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
+----
+paginateslide: false
+----
+Tags: Print, Illustration, Personal, Packaging, Art Direction
+----
+Text: Lake of Stars...
+----
+Created: Fall 2007
+----
+Credits: School Projects
+----
+Related: ($random.project_app)*3
+
