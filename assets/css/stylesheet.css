@@ -878,7 +878,7 @@ border: 2px solid rgba(0,0,0,.0);
   }
   .detail-title { font-size:.7em; }
   .detail-description {}
-  .detail-imagery {width:100%;margin:0 auto;}
+  .detail-imagery {width:100%;margin:0 auto;text-align:center; }
   #detail-sidebar {
         	/* shut off */
         	float: none;
