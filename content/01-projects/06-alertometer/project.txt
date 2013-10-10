@@ -28,7 +28,7 @@ paginateslide: false
 ----
 Tags: Mobile, UI, UX, IxD, Art Direction
 ----
-Text: My very first taste of app creation involved a gamification of, often less-than-exciting, safety procedures. Sure, why not?
+Text: My very first taste of app creation involved a gamification of, often less-than-exciting, safety procedures. Sure, sounds fun!
 
 This project with a quick design that we worked with an entrepreneur to create based off of his scientific studies and offer a product to companies that have employees using dangerous equipment or driving trucks, planes, or other vehicles for a potentially substantial number of hours. With a tool like this, a company can use a simple website to login and review employee submitted data to verify that they should indeed be on the road or carrying on with other activities.
 

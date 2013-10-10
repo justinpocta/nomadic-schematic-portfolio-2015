@@ -30,7 +30,7 @@ Text: After lots of hard work, our team was able to catch its breath from tons o
 
 Alongside a new, responsive framework for the marketing site, I wanted to better capture the essence of what our services offer the courier community, while balancing out the reality that we needed to be sensitive to the local mom and pop shops that have dealt with a lot of businesses similar to our come in and push them around. Something I really value about company's positioning was it was more of a partnership than a threat, and a partner that really benefits couriers with more visibility and powerful tools.
 
-<span class="detail-title">Moving Local Delivery Forward</span>
+<small>Moving Local Delivery Forward</small>
 Not just moving packages from here to there, but moving an industry into the modern era. Digital tools for a very real world business. The 1990s offered lots of work to couriers, but as digital documents cut down work there was a challenge in keeping relevant and having money to create an online presence. I saw a strong positivity to this relationship dynamic being offered and an element of the future finally enabling an industry to succeed, and to thrive.
 
 ----

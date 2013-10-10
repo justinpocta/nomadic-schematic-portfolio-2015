@@ -12,7 +12,7 @@ headercss: background-color:rgba(255,255,255,1.0);background-size:auto;backgroun
 ----
 headerwidth: max-width:100%;
 ----
-headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; /* if one slide: */ leftX: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:600px; /* if one slide: */ left: 0 !important;
 ----
 slides2: max-height: 600px;
 ----
@@ -27,11 +27,9 @@ paginateslide: false
 Tags: Print, Illustration, Album Design, Art Direction
 ----
 Text:
-
+This was an album design I created for a good friend of mine. The project ended up getting scrapped but I really loved what came out and enjoyed the exploration of life and death. The music that it represents has a beautiful haunting sound that is really rich. These types of dychotomies are the sorts visual puzzles I love solving, so I figured it was worth sharing.
 ----
-Created: ?? 2011/12
-----
-Credits:
+Created:  May 2010
 ----
 Related: ($random.project_app)*3
 
