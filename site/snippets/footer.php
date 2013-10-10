@@ -4,7 +4,7 @@
 	  <a class="notch get-up-there" name="bottom" href="#start"></a>
 	  <h2>Nomadic Schematic is the wandering studio of <a href="/projects/about">Justin Pocta</a>, an independent designer living in Brooklyn, NY.</h2>
 	  <hr style="border:1px dotted #FFF;opacity:.1;">
-	  <p class="footer-description">These case studies are from projects created for clients at various studios and <span class="nowrap">in-house</span> at a startup, with a few personal projects intersperse.</p>
+	  <p style="display:none;" class="footer-description">These case studies are from projects created for clients at various studios and <span class="nowrap">in-house</span> at a startup, with a few personal projects intersperse.</p>
 
 	  <ul class="exits">
 	    <ul style="float:left">

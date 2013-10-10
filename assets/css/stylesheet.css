@@ -303,7 +303,7 @@ div.main-nav {
 	color: #60605b;
 	display: inline-block;
 	height:150px;
-	margin-bottom: 100px;
+	margin-bottom: 70px; /* 100px */
 	width:150px;
 }
 #nav-list a:hover {
@@ -365,11 +365,11 @@ div.main-nav {
 .project-mask, .link-button {
 	margin:0 25px 30px 25px;
 }
-div.profile-mask {background:url('http://dev.nomadic-schematic.com/content/01-projects/about/justin.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:0 20px 0 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom:50px;}
-span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.45em; line-height: 1.35em; display:block; max-width:630px; padding-top:0px; fXloat:left; }
-a.profile-mask {padding:15px 22px !important;color:#FFF; clear:both; floatX:left; position:relative; border:0;background-color:#FF7E00; font-size: .8em; font-family:sans-serif;font-weight: lighter;font-style:normal; text-transform: uppercase; margin-top:-15px; margin-left:-5px; border-radius:30px; -webkit-border-radius: 30px;}
+div.profile-mask {background:url('http://dev.nomadic-schematic.com/content/01-projects/about/justin.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:-5px 30px 0 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom:50px;}
+span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.2em; display:block; max-width:630px; padding-top:0px; fXloat:left; text-alignX:center;  }
+a.profile-mask {padding:15px 22px !important;color:#FFF; clear:both; floatX:left; position:relative; border:0;background-color:#FF7E00; font-size: .75em; font-family:sans-serif;font-weight: lighter;font-style:normal; text-transform: uppercase; margin-top:-15px; margin-left:-5px; border-radius:30px; -webkit-border-radius: 30px;}
 a.profile-mask:hover {background-color:#454545; }
-.profile-copy {font-size:1.4em; line-height:1.35em;}
+.profile-copy {font-size:1.1em; line-height:1.35em;}
 hr.profile-mask {top:10px; position:relative; top:25px; padding-top:20px; Xpadding-bottom:15px;}
 a.thanks {color:#FF7E00;}
 
@@ -521,7 +521,7 @@ div.logo-intro span {
 }
 
 #main-intro-footer {
-  padding: 70px 10% 40px 6%;
+  padding: 30px 10% 105px 6%;
 }
 #main-intro-footer p {
 	display:inline-block;
@@ -721,9 +721,12 @@ and (orientation : landscape) {
   .project-mask:hover {
     background-size:auto 120% !important;
   }
-  div.profile-mask {width:200px; height: 200px; background-size:100%; border:1px solid #efefef; float:none; margin:0 auto 15px auto;  -webkit-border-radius:300px !important; -moz-border-radius:300px !important; border-radius:300px !important;}
+  div.profile-mask {width:200px; height: 200px; background-size:100%; border:1px solid #efefef; float:none; margin:0 auto 5px auto;  -webkit-border-radius:300px !important; -moz-border-radius:300px !important; border-radius:300px !important;}
   span.profile-mask {padding-top:0; floatX:left; clear:right; text-align:center; margin:0 auto; }
-  a.profile-mask {clear:both !important; margin:15px auto; width:100%; Xfloat:left; font-size:.85em; }
+
+p.profile-links {text-align:center; }
+a.profile-mask {clear:both !important; margin:5px auto; max-widthX:none !important; widXth:100%; text-align:center; Xfloat:left; font-size:.65em !important; display:inline-block;}
+span.profile-mask p {font-size:1.35em !important;}
 
 	#nav-list a {
 		margin-bottom: 70px;
@@ -910,6 +913,7 @@ border: 2px solid rgba(0,0,0,.0);
   .footer-navigation {display:block;background-color:rgba(0,0,0,.45);display:block;width:100%;position:absolute;height:50px;}
 	.intro-secondary {}
   .nomadic-footer p {margin:0 auto; width:100%; text-align:center;}
+  #main-intro-footer {padding: 70px 10% 40px 6%;}
   #main-intro-footer p {max-width:none;}
   #main-intro-footer > p,
 	#main-intro-footer hr,
