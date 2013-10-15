@@ -26,6 +26,7 @@
 </head>
 
 <body>
+<?php include_once("analyticstracking.php") ?>
 <a href="" name="start" style="position:absolute;top:-10px;"></a>
 
   <header>
