@@ -123,11 +123,12 @@
         nextButton = $("<a>", {
           "class": "slidesjs-next slidesjs-navigation",
           href: "#",
-          // onclick: "_gaq.push(['_trackEvent', 'project-SlidesNext', 'clicked'])"
-          // ^^ above made my slide not show up...what about it is incorrect?
           title: "Next",
           text: "Next"
         }).appendTo($element);
+        nextButton.on("click", function() {
+            _gaq.push(['_trackEvent', 'project-SlidesNext', 'clicked'])
+        });
       }
       $(".slidesjs-next", $element).click(function(e) {
         e.preventDefault();
