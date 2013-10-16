@@ -31,7 +31,8 @@ $tags = tagcloud($blog);
 
 		<?php foreach($projects as $project): ?>
 
-<?php if ($project->projecttype=='app') { ?>
+<?php if ($project->projecttype=='aboutme') { ?>
+<?php } elseif ($project->projecttype=='app') { ?>
 <a href="<?php echo $project->url() ?>" onclick="_gaq.push(['_trackEvent', 'appFront', 'clicked'])" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?><?php echo $project->thumbtype ?>')" title="App: <?php echo html($project->title()) ?>" class="tip-top link-button <?php echo $project->projecttype_button ?>" data-tooltip="<?php echo $project->title ?>" data-options="disable-for-touch:true"><p><?php echo html($project->title()) ?></p></a>
 <?php } elseif ($project->projecttype=='web') { ?>
 <a href="<?php echo $project->url() ?>" onclick="_gaq.push(['_trackEvent', 'webFront', 'clicked'])" style="background-image:url('/assets/img/thumb-<?php echo $project->projecttype ?>_<?php echo $project->thumb ?><?php echo $project->thumbtype ?>')" title="Website: <?php echo html($project->title()) ?>" class="tip-top link-button <?php echo $project->projecttype_button ?>" data-tooltip="<?php echo $project->title ?>" data-tooltip="<?php echo $project->title ?>" data-options="disable-for-touch:true"><p><?php echo html($project->title()) ?></p></a>
@@ -57,7 +58,9 @@ $tags = tagcloud($blog);
   <?php }
 endforeach ?>
 
+<!--//
 <a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'about4', 'clicked'])" style="background-image:url('/assets/img/button-info_white.png')" title="About Justin" class="info-cat" id="button-info" data-tooltip="About Justin" data-options="disable-for-touch:true"><p>About Justin</p></a>
+//-->
 <!--//
 <a href="/apps" style="background-image:url('/assets/img/thumb-Category_button-app_white.png')" title="Apps" class="link-button button-category" data-tooltip="<?php echo $project->title ?>"><p>Apps</p></a>
 <a href="/websites" style="background-image:url('/assets/img/thumb-Category_button-web_white.png')" title="Websites" class="link-button button-category" data-tooltip="<?php echo $project->title ?>"><p>Websites</p></a>

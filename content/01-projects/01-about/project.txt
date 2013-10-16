@@ -83,4 +83,6 @@ headerheight: max-height:500px; background-size: auto 100%; /* if one slide: */ 
 ----
 paginateslide: false
 ----
+projecttype: aboutme
+----
 Related: ($random.project_app)*3
