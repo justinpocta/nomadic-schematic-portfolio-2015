@@ -225,8 +225,8 @@ restartDelay: 2500
         <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeFirstFooter', 'clicked'])" class="button-home-left" title="Home"></a>
           <?php }; ?>
               <span style="text-transform:capitalize;text-align:center;width:100%;display:block;line-height:3em;color:#FFF">
-                      <?php echo $page->title ?> <?php if ($page->projecttype()) { echo "- "; echo h($page->projecttype()); } else { }; ?>
-                                </span>
+                <?php echo $page->title ?> <?php if ($page->projecttype() != 'aboutme') { echo "- "; echo h($page->projecttype()); } else { }; ?>
+              </span>
                                           <?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" onclick="_gaq.push(['_trackEvent', 'project-NextFooter', 'clicked'])" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>
                                                       <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeLastFooter', 'clicked'])" class="button-home-right" title="Home"></a>
                                                                   <?php }; ?>

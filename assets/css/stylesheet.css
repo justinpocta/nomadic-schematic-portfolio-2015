@@ -526,15 +526,15 @@ div.logo-intro span {
 }
 
 #main-intro-footer {
-  padding: 30px 10% 105px 6%;
+  padding: 30px 0 105px 0;
 }
 #main-intro-footer p {
 	display:inline-block;
 	max-width:450px;
-  Xpadding-left:20px;
-  Xfloat:left;
   font-size: 1.35em;
 }
+.footer-container {max-width:970px; margin:0 auto;}
+.footer-container h2 {padding:0 70px 0 0px;}
 .notch {
 	display:block;
 	background-image:url('/assets/img/logo-top2.png');
