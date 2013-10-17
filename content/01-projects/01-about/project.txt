@@ -10,12 +10,9 @@ Textabout:
 
 <p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UI and UX for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for the day.</p>
 
-<p>My aim is to continue sharpening my skills and working with more great people on meaningful projects.</p></div>
+<p>My aim is to continue sharpening my skills and working with more great people on meaningful projects.</p></div><!--//<hr class="profile-mask"><br>//-->
 
-<hr class="profile-mask">
-<br>
 <div class="profile-mask"></div>
-
 <span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> roles & freelance opportunities with startups, studios, and individual clients. <p class="profile-links"><a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin-right:10px;max-width:350px;" class="profile-mask button primary">Send Message</a><a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin-right:10px;max-width:350px;" class="profile-mask button primary">Download Résumé</a></p></span>
 
 <hr class="profile-mask">
