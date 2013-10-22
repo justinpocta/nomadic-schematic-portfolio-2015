@@ -39,8 +39,8 @@ The project has been featured on (link: http://www.thedieline.com/blog/2012/1/13
 Created: May 2011
 ----
 Credits: (link: http://francesyllana.com text: Frances Yllana - Creative Director),
-Shirley Richardson - Packaging Consultant,
-(link: http://www.artifacturestudios.com/ text: Artifacture Studios - Lasercutting),
+(link: http://www.bigbox-littlebox.com text: Shirley Richardson - Packaging Consultant),
+(link: http://www.artifacturestudios.com text: Artifacture Studios - Lasercutting),
 Created for (link: http://dsvc.org text: DSVC)
 ----
 Related: ($random.project_app)*3
