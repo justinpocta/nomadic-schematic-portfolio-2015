@@ -291,7 +291,7 @@ div.main-nav {
 	margin-top:-123px;
 }
 
-#nav-list2 {display:block; padding:0px;z-index:10;height:175px;overflow-x:scroll;overflow-y:hidden;}
+#nav-list2 {display:block; padding:0px;z-index:10;height:210px;overflow-x:scroll;-webkit-overflow-scrolling: touch;overflow-y:hidden;}
 #nav-list-box2 {margin-top:0px !important;width:7000px;} /*34 projects x 150 + padding */
 #nav-list2 a {
   color: #60605b;
@@ -738,7 +738,7 @@ and (orientation : landscape) {
 		display: block;
 	}
 
-  #nav-list2 {height:200px;overflow-x:scroll;-webkit-overflow-scrolling: touch;}
+  #nav-list2 {height:235px;}
   #nav-list-box2 {padding-left:10px; margin-top:0px !important;width:4750px;} /*34 projects x 150 + padding */
 
 	#nav-list div {}
