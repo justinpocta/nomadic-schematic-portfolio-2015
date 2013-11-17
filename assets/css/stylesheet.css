@@ -290,6 +290,31 @@ div.main-nav {
 #nav-list-box {
 	margin-top:-123px;
 }
+
+#nav-list2 {display:block; padding:0px;z-index:10;height:175px;overflow-x:scroll;overflow-y:hidden;}
+#nav-list-box2 {margin-top:0px !important;width:7000px;} /*34 projects x 150 + padding */
+#nav-list2 a {
+  color: #60605b;
+  display: inline-block;
+  height:150px;
+  margin-bottom: 0px; /* 100px */
+  width:150px;
+}
+#secondary .link-button p
+{
+  text-indent:-99999px !important;
+}
+#nav-list2 a:hover {
+  color: #FFF;
+}
+#nav-list a > p, #button-app a > p, #button-brand a > p, #button-illos a > p, #button-print a > p, #button-web a > p, #button-info a > p {
+  color: #FFF;
+  font-family: "brandon-grotesque",sans-serif;
+  margin: 61px 15px 0 15px;
+  text-transformX: lowercase;
+  width:100%;
+}
+
 .project-box {
 	width:100%;
 	overflow-y: hidden;
@@ -712,6 +737,10 @@ and (orientation : landscape) {
 		position: relative;
 		display: block;
 	}
+
+  #nav-list2 {height:200px;overflow-x:scroll;-webkit-overflow-scrolling: touch;}
+  #nav-list-box2 {padding-left:10px; margin-top:0px !important;width:4750px;} /*34 projects x 150 + padding */
+
 	#nav-list div {}
 	#nav-list div a {}
 	#nav-list a > p {margin-top: 0;}
@@ -753,6 +782,9 @@ span.profile-mask p {font-size:1.35em !important;}
 	.link-button p {
 		color: #FFF !important;
 	}
+  #secondary .link-button p
+  { text-indent:0 !important;}
+
   a.project-mask, a.project-mask p {z-index:999;}
 	.project-mask p {
 		color: #60605b !important;

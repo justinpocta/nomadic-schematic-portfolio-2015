@@ -14,7 +14,7 @@ Textabout:
 <center>
 <div class="profile-mask" style="float:none;"></div>
 
-<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;"></span> contract and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span>
+<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span>
 
 <p class="profile-links"><a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">Send Email</a>
 <a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">View Résumé</a></p>
