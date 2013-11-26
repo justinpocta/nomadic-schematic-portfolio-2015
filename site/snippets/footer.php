@@ -19,7 +19,8 @@
       <li><a href="http://dribbble.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'footer-Dribbble', 'clicked'])" >Dribbble</a></li>
 	    <li><a href="http://github.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'footer-GitHub', 'clicked'])">Github</a></li>
 	    <li><a href="http://instagram.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'footer-Instagram', 'clicked'])" >Instagram</a></li>
-	    </ul>
+	    <li><a href="http://blog.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'footer-Blog', '    clicked'])" >Blog</a></li>
+      </ul>
     </ul>
     </div>
 
