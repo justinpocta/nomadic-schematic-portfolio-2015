@@ -141,11 +141,11 @@ span.nomad-intro {display: none;}
 
 /* INTRO PAGE */
 .main-intro {
-	background-color:rgba(0,0,0,0.75);
+	background-color:rgba(0,0,0,0.65);
 	/*rgba(55,51,38,.8);*/
 	color:#c1c1bf;
 	margin: 0px;
-	padding: 30px 10% 120px 6%; /* was 140 instead of 50px */
+	padding: 30px 0 0 0;
 	line-height: 1.4em;
 	width: 100%;
 }
@@ -157,15 +157,16 @@ span.nomad-intro {display: none;}
 }
 div.main-intro a {color:#FF7E00;}
 #main-intro-header {
-	padding-bottom:150px;
+	padding-bottom:120px;
 }
 #main-intro-header div {
-	font-size: .7em;
+	font-size: 1em;
 	padding: 0;
-	position: absolute;
-	right: 15px;
-	text-align: right;
-	top:10px;
+	/* position: absolute; */
+	/* right: 15px; */
+	text-align: center;
+	top:0px;
+  width:100%;
 }
 .download-app {
 	background-image: url('../img/app-store.png');
@@ -278,7 +279,7 @@ div.main-intro a {color:#FF7E00;}
 
 /* PROJECTS - CONTAINERS */
 div.main-nav {
-	background-color: rgba(170,170,158,.5);
+	background-color: rgba(0,0,0,.8);
 	display: block;
 	width: 100%;
 }
@@ -365,7 +366,7 @@ div.main-nav {
 .project-mask {
 	-webkit-border-radius:150px;
 	-moz-border-radius:150px;
-	background-color: rgba(150,150,150,.35);
+	background-color: rgba(150,150,150,.12);
 	/*background-color: rgba(55,51,38,.65) !important;*/
 	background-clip:content-box;
 	background-position: center center;
@@ -391,7 +392,7 @@ div.main-nav {
 	margin:0 25px 30px 25px;
 }
 .profiler-box {padding-left:20px; border-left:1px dotted solid #ebebeb; }
-div.profile-mask {background:url('http://www.nomadic-schematic.com/content/01-projects/01-about/justin.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:0px 30px 10px 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom: 0px;}
+div.profile-mask {background:url('https://dl.dropboxusercontent.com/u/576792/website-profile.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:0px 30px 10px 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom: 0px;}
 span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.2em; display:block; width:100%; padding-bottom:35px; padding-top:0px; float:left; text-alignX:center;  }
 a.profile-mask {padding:15px 22px !important;color:#FFF; clear:both; float:left; position:relative; border:0; width:100%; background-color:#FF7E00; font-size: .6em; font-family:sans-serif;font-weight: lighter;font-style:normal; text-transform: uppercase; margin-top:-5px; margin-left:-5px; border-radius:30px; -webkit-border-radius: 30px;}
 a.profile-mask:hover {background-color:#454545; }
@@ -787,7 +788,7 @@ span.profile-mask p {font-size:1.35em !important;}
 
   a.project-mask, a.project-mask p {z-index:999;}
 	.project-mask p {
-		color: #60605b !important;
+		color: rgba(255,255,255,.5) !important;
 		width: 100%;
 		font-size: 1.5em !important;
 		line-height: 1.2em !important;

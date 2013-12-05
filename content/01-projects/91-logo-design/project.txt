@@ -1,0 +1,57 @@
+Title: Logo Design
+----
+projecttype: brand
+----
+projecttype_button: project-mask
+----
+Thumb: stash
+----
+Thumbtype: .png
+----
+headercss: background-color:rgba(255,255,255,1.0) !important;background-size:0%;background-position:top center !important; border-bottom: 3px #efefef solid; pXadding-bottom: 30px;
+----
+headerwidth: max-width:800px;
+----
+headerheight: background-repeat: no-repeat; background-size: 100%; background-position: center center; max-height:600px; /* if one slide: */ lXeft: 0 !important;
+----
+slides2: max-height: 600px;
+----
+slides3: max-height: 600px;
+----
+slidesheight2: background-size: 90%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
+----
+slidesheight3: background-size: 90%; background-repeat: no-repeat; background-position: center center;  /* if one slide: */ Xeft: 0 !important;
+----
+paginateslide: false
+----
+Tags: Brand, Identity, Logo, Illustration, Art Director
+----
+Text:
+<small>Logo design from various studios, freelance, and personal projects.</small>
+
+<b>Cameron Breen</b> Realty advisor (Dodd Creative)
+
+<b>Sandbox Productions</b> Leadership management consultants (freelance)
+
+<b>Lake of Stars</b> Malawi non-profit music festival (student)
+
+<b>Midtown</b> Student housing (Dodd Creative)
+
+<b>Purus</b> Water filtration company (student)
+
+<b>Dog Point</b> New Zealand wine company (student)
+
+<b>Stash</b> Memphis furniture store (Deluge Studio)
+
+<b>The Villages</b> - Airforce housing (Dodd Creative)
+
+<b>REI</b> - Recreational Equipment Inc rebrand (student)
+
+<b>Kroger</b> - Large grocery rebrand (student)
+
+<b>Hebron 121 Station</b> - Apartments in Dallas (Dodd Creative)
+
+<b>Crown Heights Culture Club</b> - Youth community program (Freelance)
+<br>
+----
+Related: ($random.project_app)*3
