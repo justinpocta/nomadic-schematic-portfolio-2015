@@ -336,14 +336,15 @@ div.main-nav {
 	color: #FFF;
 }
 .link-button p {
-	text-indent: -9999px;
+	text-indentX: -9999px;
 	display: block;
 	width: 150px;
 	height: auto;
+  padding-top:100px;
 	white-space: normal;
 }
 #nav-list a > p, #button-app a > p, #button-brand a > p, #button-illos a > p, #button-print a > p, #button-web a > p, #button-info a > p {
-	color: #FFF;
+	color: #9c9c9c;
   font-family: "brandon-grotesque",sans-serif;
 	margin: 61px 15px 0 15px;
   text-transformX: lowercase;
@@ -374,7 +375,8 @@ div.main-nav {
 	background-size:auto 100%;
 	border:0px solid #FFF;
 	border-radius:150px;
-	font-size: .7em;
+	font-size: 1.05em;
+  text-transform: lowercase;
 }
 .project-mask:hover { /* LATER */
 	background-position: center center;
@@ -790,10 +792,11 @@ span.profile-mask p {font-size:1.35em !important;}
 	.project-mask p {
 		color: rgba(255,255,255,.5) !important;
 		width: 100%;
-		font-size: 1.5em !important;
+		font-size: 1em !important;
 		line-height: 1.2em !important;
 		text-indent: 0;
 		margin-top: 135px !important;
+    padding-top:0;
 		text-align: center;
 	}
 	.project-maskX:hovXer p {
