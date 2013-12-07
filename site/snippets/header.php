@@ -14,7 +14,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <link id="favicon" rel="shortcut icon" href="http://www.nomadic-schematic.com/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="http://files.justinpocta.com/apple-touch-icon-01.png"/>
+  <link rel="apple-touch-icon-precomposed" href="https://dl.dropboxusercontent.com/u/576792/apple-touch-icon-01.png" />
 
   <script src="/assets/js/vendor/custom.modernizr.js"></script>
   <script src="/assets/js/vendor/jquery.js"></script>
