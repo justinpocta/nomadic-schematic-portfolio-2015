@@ -288,6 +288,7 @@ div.main-nav {
 	display: block;
 	padding:50px 20px;
 	z-index: 10;
+  max-width: 1255px;
 }
 #nav-list-box {
 	margin-top:-123px;
