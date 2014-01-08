@@ -5,7 +5,7 @@ $tags = tagcloud($blog);
 ?>
 
 <div class="main-intro" id="main-intro-header">
-  <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the design portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>.</h2></div>
+  <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
 </div>
 
 <div class="main-nav">
