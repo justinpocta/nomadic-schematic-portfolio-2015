@@ -126,9 +126,9 @@
           title: "Next",
           text: "Next"
         }).appendTo($element);
-        nextButton.on("click", function() {
-            _gaq.push(['_trackEvent', 'project-SlidesNext', 'clicked'])
-        });
+
+
+
       }
       $(".slidesjs-next", $element).click(function(e) {
         e.preventDefault();
