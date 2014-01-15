@@ -1,122 +1,26 @@
 <?php snippet('header') ?>
 
+<link rel="stylesheet" href="http://www.nomadic-schematic.com/assets/css/carousel.css">
+<script type="text/javascript" language="javascript" src="http://www.nomadic-schematic.com/assets/js/vendor/jquery.carousel.js"></script>
 <script type="text/javascript" language="javascript" src="http://www.nomadic-schematic.com/assets/js/vendor/jquery.carouFredSel-6.2.1.js"></script>
-<style type="text/css">
-#wrapper2 {
-  background-color: #fff;
-  width: 100%;
-  height: 450px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  overflow: hidden;
-  position: absolute;
-  top: 110px;
-  left: 0;
-}
-#carousel {
-  height: 450px;
-  widthX:100%;
-  floatX:left;
-}
-#carousel a {
-  display: block;
-  float: left;
-  height: 450px;
-  z-index:10;
-}
-#carousel img {
-
-}
-#prever, #nexter {
-  background-color: rgba(255, 255, 255, 0.25);
-  display: block !important;
-  height: 450px;
-  width: 50%;
-  top: 0;
-  position: absolute;
-  z-index: 100 !important;
-}
-#prever:hover, #nexter:hover {
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-#prever {
-  left: -495px;
-}
-#nexter {
-  right: -495px;
-}
-#pager {
-  display: none !important;
-  margin-left: -470px;
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-}
-#pager a {
-  border: 2px solid #fff;
-  border-radius: 10px;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 0 5px 0 0;
-}
-#pager a:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-#pager a span {
-  display: none;
-}
-#pager a.selected {
-  background-color: #fff;
-}
-</style>
-
-<script type="text/javascript">
-<!--//
-$(function() {
-  $('#carousel').carouFredSel({
-    width: '100%',
-    items: {
-      visible: 3,
-      start: -1
-    },
-    scroll: {
-      items: 1,
-      duration: 1000,
-      timeoutDuration: 3000
-    },
-    prev: '#prever',
-    next: '#nexter',
-    pagination: {
-      container: '#pager',
-      deviation: 1
-    }
-  });
-});
-//-->
-</script>
 
 <?php
 $blog = $pages->find('projects');
 $tags = tagcloud($blog);
 ?>
 
-
 <div class="main-intro" id="main-intro-header">
   <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
   </div>
 
-
-
 <div id="wrapper2" style="widthX:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">
   <div id="carousel" style="">
-    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
-    <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
-    <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="990" height="450" /></a>
-    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
-  <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
-      <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd" title="Zipments Responsive Redesign"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate" title="Zephyr Real Estate Launched on Mobile"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/liquid-finance" title="Liquid - Find Your Finances More Fun"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd" title="Zipments Responsive Redesign"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
+  <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate" title="Zephyr Real Estate Launched on Mobile"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
+      <a href="http://www.nomadic-schematic.com/projects/liquid-finance" title="Liquid - Find Your Finances More Fun"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="990" height="450" /></a>
   </div>
   <a href="#" id="prever" title="Show previous"> </a>
   <a href="#" id="nexter" title="Show next"> </a>

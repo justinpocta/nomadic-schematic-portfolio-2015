@@ -1,0 +1,67 @@
+#wrapper2 {
+background-color: #fff;
+width: 100%;
+height: 450px;
+margin-top: 20px;
+margin-bottom: 50px;
+overflow: hidden;
+position: absolute;
+top: 110px;
+left: 0;
+}
+#carousel {
+height: 450px;
+widthX:100%;
+floatX:left;
+}
+#carousel a {
+display: block;
+float: left;
+height: 450px;
+z-index:10;
+}
+#carousel img {
+}
+#prever, #nexter {
+background-color: rgba(255, 255, 255, 0.25);
+display: block !important;
+height: 450px;
+width: 50%;
+top: 0;
+position: absolute;
+z-index: 100 !important;
+}
+#prever:hover, #nexter:hover {
+background-color: #fff;
+background-color: rgba(255, 255, 255, 0.8);
+}
+#prever {
+left: -495px;
+}
+#nexter {
+right: -495px;
+}
+#pager {
+display: none !important;
+margin-left: -470px;
+position: absolute;
+left: 50%;
+bottom: 10px;
+}
+#pager a {
+border: 2px solid #fff;
+border-radius: 10px;
+display: inline-block;
+width: 10px;
+height: 10px;
+margin: 0 5px 0 0;
+}
+#pager a:hover {
+background-color: rgba(255, 255, 255, 0.5);
+}
+#pager a span {
+display: none;
+}
+#pager a.selected {
+background-color: #fff;
+}
