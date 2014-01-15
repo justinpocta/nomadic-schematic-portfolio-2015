@@ -14,13 +14,15 @@
   left: 0;
 }
 #carousel {
+  height: 450px;
   widthX:100%;
   floatX:left;
 }
 #carousel a {
   display: block;
   float: left;
-    z-index:10;
+  height: 450px;
+  z-index:10;
 }
 #carousel img {
 
@@ -45,6 +47,7 @@
   right: -495px;
 }
 #pager {
+  display: none !important;
   margin-left: -470px;
   position: absolute;
   left: 50%;
@@ -108,14 +111,12 @@ $tags = tagcloud($blog);
 
 <div id="wrapper2" style="widthX:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">
   <div id="carousel" style="">
-    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" /></a>
-    <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" /></a>
-    <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
-<!--//
-  <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" /></a>
-  <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" /></a>
-  <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
-//-->
+    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="990" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
+  <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
+      <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="990" height="450" /></a>
   </div>
   <a href="#" id="prever" title="Show previous"> </a>
   <a href="#" id="nexter" title="Show next"> </a>
