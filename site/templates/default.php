@@ -1,8 +1,102 @@
 <?php snippet('header') ?>
+
+<style type="text/css">
+#wrapper {
+  background-color: #fff;
+  width: 100%;
+  height: 450px;
+  margin-top: -225px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#carousel img {
+  display: block;
+  float: left;
+}
+#prever, #nexter {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block;
+  height: 450px;
+  width: 50%;
+  top: 0;
+  position: absolute;
+}
+#prever:hover, #nexter:hover {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+#prever {
+  left: -495px;
+}
+#nexter {
+  right: -495px;
+}
+#pager {
+  margin-left: -470px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+}
+#pager a {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px 0 0;
+}
+#pager a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#pager a span {
+  display: none;
+}
+#pager a.selected {
+  background-color: #fff;
+}
+</style>
+
+<script type="text/javascript">
+$(function() {
+  $('#carousel').carouFredSel({
+    width: '100%',
+    items: {
+      visible: 3,
+      start: -1
+    },
+    scroll: {
+    items: 1,
+    duration: 1000,
+    timeoutDuration: 3000
+    },
+    prev: '#prever',
+    next: '#nexter',
+    pagination: {
+      container: '#pager',
+      deviation: 1
+    }
+  });
+});
+</script>
+
 <?php
 $blog = $pages->find('projects');
 $tags = tagcloud($blog);
 ?>
+
+<div id="wrapper">
+  <div id="carousel">
+    <img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" />
+    <img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" />
+    <img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" />
+  </div>
+  <a href="#" id="prever" title="Show previous"> </a>
+  <a href="#" id="nexter" title="Show next"> </a>
+  <div id="pager"></div>
+</div>
+
 
 <div class="main-intro" id="main-intro-header">
   <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>

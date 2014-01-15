@@ -4,8 +4,8 @@ Author: Justin Pocta
 ----
 Mail: justin@nomadic-schematic.com
 ----
-Description: Justin Pocta is an freelance designer based in Brooklyn, NY.
+Description: Justin Pocta is an interactive product designer based in Brooklyn, NY.
 ----
-Keywords: freelance, designer, interactive, apps, product designer
+Keywords: designer, interactive, apps, product designer
 ----
 Copyright: &copy; (date: Year) (email: justin@nomadic-schematic.com text: Justin Pocta)
