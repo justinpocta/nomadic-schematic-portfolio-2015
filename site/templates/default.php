@@ -1,13 +1,13 @@
 <?php snippet('header') ?>
 
-<script type="text/javascript" language="javascript" src="/js/jquery.carouFredSel.js"></script>
+<script type="text/javascript" language="javascript" src="http://www.nomadic-schematic.com/assets/js/vendor/jquery.carouFredSel-6.2.1.js"></script>
 <style type="text/css">
 #wrapper2 {
   background-color: #fff;
-  Xdisplay:block;
   width: 100%;
-  height: 398px;
-  margin-top: -110px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   overflow: hidden;
   position: absolute;
   top: 110px;
@@ -20,17 +20,19 @@
 #carousel a {
   display: block;
   float: left;
+    z-index:10;
 }
 #carousel img {
 
 }
 #prever, #nexter {
-  background-color: rgba(255, 255, 255, 0.1);
-  display: block;
-  height: 390px;
+  background-color: rgba(255, 255, 255, 0.25);
+  display: block !important;
+  height: 450px;
   width: 50%;
   top: 0;
   position: absolute;
+  z-index: 100 !important;
 }
 #prever:hover, #nexter:hover {
   background-color: #fff;
@@ -97,25 +99,29 @@ $blog = $pages->find('projects');
 $tags = tagcloud($blog);
 ?>
 
-<div style="position:relative;height:450px;padding-bottomX:200px;">
+
+<div class="main-intro" id="main-intro-header">
+  <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
+  </div>
+
+
+
 <div id="wrapper2" style="widthX:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">
   <div id="carousel" style="">
     <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" /></a>
     <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" /></a>
-    <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-03.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
+<!--//
   <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" /></a>
   <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" /></a>
   <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
+//-->
   </div>
   <a href="#" id="prever" title="Show previous"> </a>
   <a href="#" id="nexter" title="Show next"> </a>
   <div id="pager"></div>
 </div>
-</div>
 
-<div class="main-intro" id="main-intro-header">
-  <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
-</div>
 
 <div class="main-nav">
 

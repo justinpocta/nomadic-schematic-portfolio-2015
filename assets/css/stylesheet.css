@@ -142,7 +142,7 @@ span.nomad-intro {display: none;}
 
 /* INTRO PAGE */
 .main-intro {
-	background-color:rgba(0,0,0,0.65);
+	background-color:rgba(0,0,0,0.8); /* .65 */
 	/*rgba(55,51,38,.8);*/
 	color:#c1c1bf;
 	margin: 0px;
@@ -158,7 +158,7 @@ span.nomad-intro {display: none;}
 }
 div.main-intro a {color:#FF7E00;}
 #main-intro-header {
-	padding-bottom:120px;
+	padding-bottom: 120px;
 }
 #main-intro-header div {
 	font-size: 1em;
@@ -283,6 +283,8 @@ div.main-nav {
 	background-color: rgba(0,0,0,.8);
 	display: block;
 	width: 100%;
+  /* for front carousel */
+  padding-top:465px;
 }
 #nav-list {
 	display: block;
@@ -730,7 +732,11 @@ and (orientation : landscape) {
 	}
 
 	/* PROJECT - ELEMENTS MOBILE */
-	.main-nav,#nav-list {}
+	.main-nav {
+     /* for front carousel */
+     padding-top:0px !important;
+  }
+  #nav-list {}
 
 	#nav-list {
 		width: 100%;
