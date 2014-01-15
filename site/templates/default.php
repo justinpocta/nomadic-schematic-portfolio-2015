@@ -1,24 +1,33 @@
 <?php snippet('header') ?>
 
+<script type="text/javascript" language="javascript" src="/js/jquery.carouFredSel.js"></script>
 <style type="text/css">
-#wrapper {
+#wrapper2 {
   background-color: #fff;
+  Xdisplay:block;
   width: 100%;
-  height: 450px;
-  margin-top: -225px;
+  height: 398px;
+  margin-top: -110px;
   overflow: hidden;
   position: absolute;
-  top: 50%;
+  top: 110px;
   left: 0;
 }
-#carousel img {
+#carousel {
+  widthX:100%;
+  floatX:left;
+}
+#carousel a {
   display: block;
   float: left;
 }
+#carousel img {
+
+}
 #prever, #nexter {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.1);
   display: block;
-  height: 450px;
+  height: 390px;
   width: 50%;
   top: 0;
   position: absolute;
@@ -59,6 +68,7 @@
 </style>
 
 <script type="text/javascript">
+<!--//
 $(function() {
   $('#carousel').carouFredSel({
     width: '100%',
@@ -67,9 +77,9 @@ $(function() {
       start: -1
     },
     scroll: {
-    items: 1,
-    duration: 1000,
-    timeoutDuration: 3000
+      items: 1,
+      duration: 1000,
+      timeoutDuration: 3000
     },
     prev: '#prever',
     next: '#nexter',
@@ -79,6 +89,7 @@ $(function() {
     }
   });
 });
+//-->
 </script>
 
 <?php
@@ -86,17 +97,21 @@ $blog = $pages->find('projects');
 $tags = tagcloud($blog);
 ?>
 
-<div id="wrapper">
-  <div id="carousel">
-    <img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" />
-    <img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" />
-    <img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" />
+<div style="position:relative;height:450px;padding-bottomX:200px;">
+<div id="wrapper2" style="widthX:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">
+  <div id="carousel" style="">
+    <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" /></a>
+    <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
+  <a href="http://www.nomadic-schematic.com/projects/zipments-rwd"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="900" height="450" /></a>
+  <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="900" height="450" /></a>
+  <a href="http://www.nomadic-schematic.com/projects/liquid-finance"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Liquid Find Your Finances More Fun" width="900" height="450" /></a>
   </div>
   <a href="#" id="prever" title="Show previous"> </a>
   <a href="#" id="nexter" title="Show next"> </a>
   <div id="pager"></div>
 </div>
-
+</div>
 
 <div class="main-intro" id="main-intro-header">
   <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
