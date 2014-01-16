@@ -14,7 +14,7 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
   <link id="favicon" rel="shortcut icon" href="http://www.nomadic-schematic.com/favicon.ico">
-  <link rel="apple-touch-icon-precomposed" href="https://dl.dropboxusercontent.com/u/576792/apple-touch-icon-01.png" />
+  <link rel="apple-touch-icon-precomposed" href="https://dl.dropboxusercontent.com/sh/5e911y3f20886fi/jye8-vXKZv/apple-touch-icon-01.png" />
 
   <script src="/assets/js/vendor/custom.modernizr.js"></script>
   <script src="/assets/js/vendor/jquery.js"></script>
@@ -34,9 +34,11 @@
 	<div class="topbar-container">
 
 		<a href="/" class="nomadic-logo"></a>
-		<a id="button" class="nav-mobile show-for-small">nav</a>
+		<!--//
+      <a id="button" class="nav-mobile show-for-small">nav</a>
+    //-->
 
-		<!-- MOBILE NAV -->
+		<!--// MOBILE NAV
 		<ul class="toggler dropdown-nav" id="effect">
 			<li><a href="/apps">App Design</a></li>
 			<li><a href="/websites">Websites</a></li>
@@ -44,7 +46,7 @@
 			<li><a href="/print">Print Design</a></li>
 			<li><a href="/illustration">Illustration</a></li>
 			<li><a href="/projects/about">About Justin</a></li>
-		</ul>
+		</ul> //-->
 
 	</div>
 	<!-- end NAV -->

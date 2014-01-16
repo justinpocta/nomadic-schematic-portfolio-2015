@@ -18,7 +18,7 @@
 <?php } else { ?>
 <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeFirst', 'clicked'])" class="button-home-left" title="Home"></a>
 <?php }; ?>
-  <span style="text-transform:capitalize;">
+  <span id="project-headline">
     <?php echo $page->title ?> <?php if ($page->projecttype() != 'aboutme') { echo "- "; echo h($page->projecttype()); } else { }; ?>
   </span>
 <?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" onclick="_gaq.push(['_trackEvent', 'project-Next', 'clicked'])" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>

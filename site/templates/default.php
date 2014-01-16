@@ -10,10 +10,10 @@ $tags = tagcloud($blog);
 ?>
 
 <div class="main-intro" id="main-intro-header">
-  <div class="tk-jubilat"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#FFF;font-weight:lighter;text-decoration:none">Nomadic Schematic</a> <span style="font-weight:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
-  </div>
+    <div class="go-nomadic"></div>
+</div>
 
-<div id="wrapper2" style="widthX:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">
+<div id="wrapper2" style="width:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">
   <div id="carousel" style="">
     <a href="http://www.nomadic-schematic.com/projects/zipments-rwd" title="Zipments Responsive Redesign"><img src="http://www.nomadic-schematic.com/assets/img/slide-01.png" alt="Zipments Responsive Redesign" width="990" height="450" /></a>
     <a href="http://www.nomadic-schematic.com/projects/zephyr-real-estate" title="Zephyr Real Estate Launched on Mobile"><img src="http://www.nomadic-schematic.com/assets/img/slide-02.png" alt="Zephyr Real Estate Launched on Mobile" width="990" height="450" /></a>
@@ -27,13 +27,15 @@ $tags = tagcloud($blog);
   <div id="pager"></div>
 </div>
 
-
 <div class="main-nav">
 
 <center>
-	<div id="nav-list"><div id="nav-list-box">
 
-		<a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'about3', 'clicked'])" id="nomadic-schematic" class="link-button"><p></p></a>
+<div class="tk-jubilat main-intro" style="padding:20px 0;background-color:#FFF;"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', '    clicked'])" style="color:#545454;text-decoration:none">Nomadic Schematic</a> <span style="font-wei    ght:lighter;">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href    ="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
+
+  <div id="nav-list"><div id="nav-list-box">
+
+		<a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'about3', 'clicked'])" id="nomadic-schematic" class="link-button project-mask"><p>info + contact</p></a>
 
 	 <?php if(param('tag')) {
 

@@ -4,8 +4,8 @@
 	  <a class="notch get-up-there" name="bottom" href="#start" onclick="_gaq.push(['_trackEvent', 'footer-Notch', 'clicked'])" ></a>
 
     <div class="footer-container">
-    <h2>Nomadic Schematic is the wandering studio of <a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'footer-AboutDescript', 'clicked'])" >Justin Pocta</a>, an independent designer living in Brooklyn, NY.</h2>
-	  <hr style="border:1px dotted #FFF;opacity:.1;">
+    <!--// <h2>Nomadic Schematic is the wandering studio of <a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'footer-AboutDescript', 'clicked'])" >Justin Pocta</a>, an independent designer living in Brooklyn, NY.</h2>
+	  <hr style="border:1px dotted #FFF;opacity:.1;"> //-->
 	  <p style="display:none;" class="footer-description">These case studies are from projects created for clients at various studios and <span class="nowrap">in-house</span> at a startup, with a few personal projects intersperse.</p>
 
 	  <ul class="exits">
