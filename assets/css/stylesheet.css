@@ -95,32 +95,38 @@ span.tooltip > .nub {
 }
 
 .go-nomadic {
-background-image:url('../img/logo-top.png');
-Xopacity: .3;
-background-repeat: no-repeat;
-background-position: center;
-background-size: 70px auto;
-display: block;
-margin:0 auto;
-Xmargin-right:20px;
-floatX:left;
-Xposition:absolute;
-text-indent: -9999px;
-height:80px !important;
-width:80px !important;
-border:2px solid #252525;
--webkit-border-radius: 80px;
--moz-border-radius: 80px;
-border-radius: 80px;
+  background-image:url('../img/logo-top.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: block;
+  text-indent: -9999px;
 }
-
+.nomadic-large {
+  margin:3px auto 3px auto;
+  background-position: 3px center;
+  height:75px;
+  width:75px !important;
+  border:2px solid #aeaeae;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  border-radius: 75px;
+}
+.nomadic-small {
+  margin:3px auto 3px auto;
+  background-position: 3px center;
+  height:20px;
+  width:70px !important;
+  border:0px solid #aeaeae;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
 #project-headline {
   text-transform: Capitalize;
   font-family: "brandon-grotesque",sans-serif;
   font-weight: normal;
   color:#FFF;
 }
-
 
 /* TOP MENU - ELEMENTS */
 .main-intro a, .main-intro span, .main-intro > *, .main-intro h2, .intro-secondary {
@@ -185,6 +191,8 @@ span.nomad-intro {display: none;}
 div.main-intro a {color:#FF7E00;}
 #main-intro-header {
 	XXXXpadding-bottom: 120px;
+  positionX: fixed;
+  z-index: 101;
 }
 #main-intro-header div {
 	font-size: 1em;
@@ -312,7 +320,7 @@ div.main-nav {
 	display: block;
 	width: 100%;
   /* for front carousel */
-  padding-top:445px;
+  padding-top:460px;
 }
 #nav-list {
 	display: block;

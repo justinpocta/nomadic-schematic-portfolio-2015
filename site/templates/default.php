@@ -4,13 +4,32 @@
 <script type="text/javascript" language="javascript" src="http://www.nomadic-schematic.com/assets/js/vendor/jquery.carousel.js"></script>
 <script type="text/javascript" language="javascript" src="http://www.nomadic-schematic.com/assets/js/vendor/jquery.carouFredSel-6.2.1.js"></script>
 
+<script type="text/javascript">
+$(window).on('scroll', function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 150;
+    if(y_scroll_pos > scroll_pos_test) {
+        $('#deskHeaderX').removeClass('nomadic-large').addClass('nomadic-small');
+        $('nomadic-large').css(
+          "-webkit-transform": "rotate(90deg)",
+          "-moz-transform": "rotate(90deg)",
+          "-ms-transform": "rotate(90deg)",
+          "-o-transform": "rotate(90deg)",
+          "transform": "rotate(90deg)"
+    )}
+    else{
+       $('#deskHeaderX').removeClass('nomadic-small').addClass('nomadic-large');
+    }
+})
+</script>
+
 <?php
 $blog = $pages->find('projects');
 $tags = tagcloud($blog);
 ?>
 
 <div class="main-intro" id="main-intro-header">
-    <div class="go-nomadic"></div>
+    <div id="deskHeader" class="go-nomadic nomadic-large"></div>
 </div>
 
 <div id="wrapper2" style="width:100%;background-color:#000;" class="Xsmall-12 Xlarge-12 hide-for-small">

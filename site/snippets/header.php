@@ -10,6 +10,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=false;">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/qii5wec.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
