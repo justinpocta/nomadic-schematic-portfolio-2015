@@ -1,4 +1,13 @@
-  <footer>
+<!--//
+<ul class="social-links ss-icon ss-social-regular">
+  <li><a href="http://twitter.com/jordanstephens" title="Twitter">&#xF611;</a></li>
+  <li><a href="http://github.com/jordanstephens" title="Github">&#xF671;</a></li>
+  <li><a href="http://www.rdio.com/people/iamjordanstephens/" title="Rdio">&#xF6B0;</a></li>
+  <li><a href="mailto:iam@jordanstephens.net" title="Email">&#x2709;</a></li>
+</ul>
+//-->  
+
+<footer>
 
 	<div class="main-intro" id="main-intro-footer">
 	  <a class="notch get-up-there" name="bottom" href="#start" onclick="_gaq.push(['_trackEvent', 'footer-Notch', 'clicked'])" ></a>
