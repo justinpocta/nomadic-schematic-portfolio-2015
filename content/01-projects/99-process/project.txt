@@ -1,0 +1,19 @@
+Title: Process
+----
+Textabout:
+<div class="profile-copy large-8 small-12" style="float:left">
+<p>My process has adapted alongside the style of companies I have worked.</p>
+</div>
+
+----
+headercss: background-color:rgba(0,0,0,1.0);background-size: cover;background-position: top center;
+----
+headerwidth: max-height:500px;
+----
+headerheight: max-height:500px; background-size: auto 100%; /* if one slide: */ left: 0 !important;
+----
+paginateslide: false
+----
+projecttype: aboutme
+----
+Related: ($random.project_app)*3
