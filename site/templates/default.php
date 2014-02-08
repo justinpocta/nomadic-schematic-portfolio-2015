@@ -50,11 +50,11 @@ $tags = tagcloud($blog);
 
 <center>
 
-<div class="tk-jubilat main-intro" style="padding:20px 0;background-color:#FFF;"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#545454;text-decoration:none">Nomadic Schematic</a> <span style="">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
+<div class="tk-jubilat main-intro" style="padding:20px 0;background-color:#FFF;"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#545454;text-decoration:none">Nomadic Schematic</a> <span style="">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
 
   <div id="nav-list"><div id="nav-list-box">
 
-		<a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'about3', 'clicked'])" id="nomadic-schematic" class="link-button project-mask"><p>About Justin</p></a>
+		<a href="/about" onclick="_gaq.push(['_trackEvent', 'about3', 'clicked'])" id="nomadic-schematic" class="link-button project-mask"><p>About Justin</p></a>
 
 	 <?php if(param('tag')) {
 

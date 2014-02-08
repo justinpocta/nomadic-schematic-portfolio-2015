@@ -21,8 +21,11 @@
   <span id="project-headline">
     <?php echo $page->title ?> <?php if ($page->projecttype() != 'aboutme') { echo "- "; echo h($page->projecttype()); } else { }; ?>
   </span>
-<?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" onclick="_gaq.push(['_trackEvent', 'project-Next', 'clicked'])" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>
-  <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeFinal', 'clicked'])" class="button-home-right" title="Home"></a>
+<?php if ($page->projecttype() != 'aboutme' && $page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" onclick="_gaq.push(['_trackEvent', 'project-Next', 'clicked'])" class="button-next" style="right:0;" title="Next"></a><?php } elseif ($page->projecttype() != 'aboutme') { ?>
+<a href="/projects/zipments-delivery" class="button-next" style="right:0;" title="Next"></a>
+<?php } else { ?>
+  <a href="<?php echo $page->next()->url() ?>" class="button-next" style="right:0;" title="Next"></a>
+  <!-- <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeFinal', 'clicked'])" class="button-home-right" title="Home"></a> -->
 <?php }; ?>
 </div>
 
