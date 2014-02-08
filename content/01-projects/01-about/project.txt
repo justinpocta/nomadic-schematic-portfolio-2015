@@ -2,82 +2,75 @@ Title: About Justin Pocta
 ----
 Textabout:
 <div class="profile-copy large-8 small-12" style="float:left">
-<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent hailing from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense, while being simultaneously baffling in many ways. (maybe that's the secret to its magnetism?) In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I <span class="nowrap">have made.</span></p>
+	<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent hailing from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense, while being simultaneously baffling in many ways. (maybe that's the secret to its magnetism?) In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I <span class="nowrap">have made.</span></p>
 
-<p>The past 10+ years I have been soaking up design from every source I could find. I'm fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great <span class="nowrap">print work.</span></p>
+	<p>The past 10+ years I have been soaking up design from every source I could find. I'm fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great <span class="nowrap">print work.</span></p>
 
-<p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UI and UX for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for <span class="nowrap">the day.</span></p>
+	<p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UI and UX for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for <span class="nowrap">the day.</span></p>
 
-<p>My aim is to continue sharpening my skills and working with more great people on <span class="nowrap">meaningful projects.</span></p></div>
-
-<div class="large-4 small-12 profiler-box" style="float:left;">
-<center>
-<div class="profile-mask" style="float:none;"></div>
-
-<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span>
-
-<p class="profile-links"><a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">Send Email</a>
-<a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">View Résumé</a></p>
+	<p>My aim is to continue sharpening my skills and working with more great people on <span class="nowrap">meaningful projects.</span></p>
 
 </div>
 
+<div class="large-4 small-12 profiler-box" style="float:left;">
+	<center>
+
+	<div class="profile-mask" style="float:none;"></div>
+
+	<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span>
+
+	<p class="profile-links"><a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">Send Email</a>
+	<a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">View Résumé</a></p>
+
+</div>
 <hr class="profile-mask">
+</div><!-- ends profiler box -->
+</div><!-- ends #detail-main which is outside of this file
+		whatever has content width limit -->
+<div class="large-12 small-12 column about-knowledge"><div class="large-12 row" style="max-width:970px">
 
-<span class="detail-title">Knowledge</span>
+<div class="large-6 small-12 left">
+<span class="detail-title-light">Knowledge</span>
+<span class="nowrap"><h3>Adobe Photoshop <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>Adobe Illustrator <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>Adobe InDesign <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>HTML / CSS <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>Git <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>JQuery <span class="social-links ss-icon ss-social-regular">&#x2665;&#xE1A0;<span></h3></span><br>
+</div><div class="large-6 small-12 left">
+<span class="detail-title-light">Skills</span>
+<span class="nowrap"><h3>UI Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>UX Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#xE1A0;<span></h3></span>
+<span class="nowrap"><h3>Branding/Identity <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>Print Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
+<!-- <span class="nowrap"><h3>Photography <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span> -->
+<span class="nowrap" style="display:none"><h3>Email <span class="social-links ss-icon ss-social-regular">&#x2665;&#xE1A0;<span></h3></span>
+</div>
 
-Adobe Photoshop <!-- (BFFs) -->
-Adobe Illustrator <!-- (BFFs/Close Friends) -->
-Adobe InDesign <!-- (Friends with a secret handshake) -->
-HTML/CSS <!-- (Friends) -->
-Javascript/jQuery <!-- (Good acquaintances, but we're awkward some days) -->
-Git/Github
+</div></div>
 
-<hr class="profile-mask">
-
-<span class="detail-title">Recognition</span>
-
-<small>HOW Magazine - 2012 Interactive Design Awards</small>
-Merit, LoyalTree Rewards App - March 2012 Issue
-Art Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta
-March 2012
-
-<small>FPO - Blog ((link:http://www.underconsideration.com/fpo/archives/2012/02/dallas-society-of-visual-communications-invitation.php text: link))</small>
-Feature, DSVC 2011 Dallas Show Invitation
-Art Director: Frances Yllana; Designer: Justin Pocta
-February 2012
-
-<small>The Dieline - Blog ((link: http://www.thedieline.com/blog/2012/1/13/dallas-show-invitation.html text: link))</small>
-Feature, DSVC 2011 Dallas Show Invitation
-Art Director: Frances Yllana; Designer: Justin Pocta
-January 2012
-
-<small>UNT Old+New - Comm. Design Alumni Retrospective Exhibition</small>
-Red Mountain Album Cover - Showcase
-Zephyr Real Estate iPhone App - Showcase
-Music iPhone App - Showcase
-October 2011
-
-<small>W³ Awards - 2011 W³ Awards</small>
-Silver Award Winner, Alertometer App
-Art/Creative Director: Jason Franzen; Designer: Justin Pocta
-
-<small>DSVC - 2011 Dallas Show</small>
-Bronze Award, LoyalTree Rewards App
-Showcase, Zephyr Real Estate App
-Art/Creative Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta
-June 2011
-
-<small>DSVC - 2007 National Student Show</small>
-Showcase, The Butcher's Wife Poster
-March 2007
-
-<small>University of North Texas - 2006 Sophomore Year</small>
-Top 10 Portfolio, Midpoint Review
-May 2006
-
-<hr class="profile-mask">
-
-<small>I built my site using (link: http://foundation.zurb.com text: Foundation class: thanks) Responsive Framework, (link: http://getkirby.com text: Kirby class: thanks) customizable CMS, (link: http://slidesjs.com text: SlidesJS class: thanks) jQuery slideshow. Thanks to (link: http://jordanstephens.net text: Jordan Stephens class: thanks) for development help + guidance with Git, Vim, Terminal and other random crazy hacker things.</small>
+<div class="large-12 small-12 column about-recognition"><div class="large-12 row" style="max-width:970px">
+<span class="detail-title-light">Recognition</span>
+<span><h3><a href="http://www.howdesign.com/how-interactive-design-awards-2012-winners/attachment/m-app-loyaltree_2/">2012 <span class="hide-for-small"> Mar -</span> HOW Magazine<span class="hide-for-small">, Interactive Design Awards</span> <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
+<small>Merit, LoyalTree Rewards App - March 2012 Issue; Art Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta</small></span> 
+<span><h3><a href="http://www.underconsideration.com/fpo/archives/2012/02/dallas-society-of-visual-communications-invitation.php">2012 <span class="hide-for-small"> Feb - </span>For Print Only <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
+<small>Feature, DSVC Dallas Show Invitation; Art Director: Frances Yllana; Designer: Justin Pocta</small></span>
+<span><h3><a href="http://www.thedieline.com/blog/2012/1/13/dallas-show-invitation.html">2012 <span class="hide-for-small"> Jan -</span> The Dieline <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
+<small>Feature, DSVC 2011 Dallas Show Invitation; Art Director: Frances Yllana; Designer: Justin Pocta</small></span>
+<span><h3>2011 <span class="hide-for-small"> Oct -</span> UNT <span class="hide-for-small">Old+New: Comm. Design</span> Alumni Exhibition</h3>
+<small>Red Mountain Album Cover - Showcase, Zephyr Real Estate iPhone App - Showcase, Sourcetone iPhone App - Showcase</small></span>
+<span><h3><a href="http://www.w3award.com/winners/list/?l=All&pageNum_winners=21&totalRows_winners=647&event=6&category=&award=S&form=2">2011 <span class="hide-for-small"> -</span> W³ Awards <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
+<small>Silver Award Winner, Alertometer App; Art/Creative Director: Jason Franzen; Designer: Justin Pocta</small></span>
+<span><h3><a href="http://dsvc.org/about-dsvc/dsvc-news/06/2011/congratulations-2011-dallas-show-medal-winners">2011 <span class="hide-for-small"> Jun -</span> DSVC Show <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
+<small>Bronze Award, LoyalTree Rewards App; Showcase, Zephyr Real Estate App; Art/Creative Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta</small></span>
+<span><h3>2007 <span class="hide-for-small"> Mar -</span> DSVC National <span class="nowrap" style="display:inline-block;">Student Show</span></h3>
+<small>Showcase, The Butcher's Wife Poster</small></span>
+<span><h3>2006 <span class="hide-for-small"> May -</span> University of <span class="nowrap" style="display:inline-block;">North Texas</span></h3>
+<small>UNT Top 10 Portfolio, Sophomore Midpoint Review</small></span>
+</div></div>
+<div class="large-12 small-12"><div class="large-10 row about-thanks" style="max-width:970px;">
+<span class="detail-title">Thank You</span><p>I built my site using (link: http://foundation.zurb.com text: Foundation class: thanks) Responsive Framework, (link: http://getkirby.com text: Kirby class: thanks) customizable CMS, (link: http://slidesjs.com text: SlidesJS class: thanks) jQuery slideshow. Thanks to my friend, (link: http://jordanstephens.net text: Jordan Stephens class: thanks), for development help and guidance with Git, Vim, Terminal and other random crazy hacker things.</p>
+</div></div><!-- end #detail-mainAGAIN  -->
 ----
 headercss: background-color:rgba(0,0,0,1.0);background-size: cover;background-position: top center;
 ----

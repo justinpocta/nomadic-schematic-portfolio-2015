@@ -105,9 +105,9 @@
 
 	  <?php if($page->applink()) {?>
       <div style="margin-top:15px;"><?php echo kirbytext($page->applink()) ?></div>
-      <div style="padding-bottom:100px;"></div>
+      <div class="project-detail-sidebar-space"></div>
    <?php } else { ?>
-      <div style="padding-bottom:100px;"></div>
+      <div class="project-detail-sidebar-space"></div>
       <?php }; ?>
     </div>
   </div>
@@ -218,8 +218,10 @@ restartDelay: 2500
   <!-- End SlidesJS Required -->
 
 <div id="nav-list2" style="background-color:rgba(0,0,0,.1);padding-top:10px;">
-<p style="font-size:1em;padding-left:20px;margin-bottom:.7em !important;"><i>View Another Project</i></p>
+<!-- <p style="font-size:1em;padding-left:20px;margin-bottom:.7em !important;"><i>View Another Project</i></p> -->
 <div id="nav-list-box2">
+
+<a name="#" id="view-more" class="link-button project-mask"><p></p></a>
 
 <?php if(param('tag')) {
   $projects = $pages->find('projects')

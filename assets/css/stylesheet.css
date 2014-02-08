@@ -236,6 +236,7 @@ div.main-intro a {color:#FF7E00;}
 .link-button:hover { /*project and category*/}
 #nomadic-schematic {background-image:url('https://dl.dropboxusercontent.com/u/576792/website-profile.jpg'); background-repeat: no-repeat; background-position: center center; background-size: 100%; }
 #nomadic-schematic:hover {background-size: 150% !important;}
+#view-more {background-color:#FF7E00; background-image:url('/assets/img/button-next.png'); background-repeat:no-repeat; background-size:auto;}
 #OLDnomadic-schematic {background-image:url('../img/logo_small2b.png'); background-position: top center; background-size: 100%; background-color: rgba(255,255,255,1.0); margin-bottomX: 70px; }
 #OLDnomadic-schematic:hover {background-position: bottom center; background-size: 100%; background-color:rgba(242,101,34,1.0);}
 #button-app {background-image:url('../img/button-app_white.png'); }
@@ -333,7 +334,7 @@ div.main-nav {
 }
 
 #nav-list2 {display:block; padding:0px;z-index:10;height:210px;overflow-x:scroll;-webkit-overflow-scrolling: touch;overflow-y:hidden;}
-#nav-list-box2 {margin-top:0px !important;width:7000px;} /*34 projects x 150 + padding */
+#nav-list-box2 {margin-top:20px !important;width:7150px;} /*34+1 projects x 150 + padding */
 #nav-list2 a {
   color: #60605b;
   display: inline-block;
@@ -419,7 +420,7 @@ div.main-nav {
   text-transform: lowercase;
 	transition: background-size 200ms ease;
 }
-.project-mask:hover { /* LATER */
+.project-mask:hover {
   background-position: center center;
 	background-size: auto 150% !important;
 	transition: background-size 300ms ease;
@@ -435,6 +436,7 @@ div.main-nav {
 .project-mask, .link-button {
 	margin:0px 25px 70px 25px;
 }
+#view-more.project-mask:hover {background-size:auto !important; cursor:default; }
 .profiler-box {padding-left:20px; border-left:1px dotted solid #ebebeb; }
 div.profile-mask {background:url('https://dl.dropboxusercontent.com/u/576792/website-profile.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:0px 30px 10px 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom: 0px;}
 span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.2em; display:block; width:100%; padding-bottom:35px; padding-top:0px; float:left; text-alignX:center;  }
@@ -502,15 +504,19 @@ div.logo-intro span {
 	top: 0;
 	right: 0px;
 }
-.detail-title {
+.detail-title, .detail-title-light {
 	color:#FF7E00;
 	display:block;
 	font-family:Helvetica,Verdana,sans-serif;
-  letter-spacing:.15em;
-  padding-top:10px;
+  	font-size:16px;
+	letter-spacing:.15em;
+  	padding-top:10px;
 	padding-bottom:10px;
 	text-transform:uppercase;
 	clear:left;
+}
+.detail-title-light {
+        color:#FFFFFF !important;
 }
 .slide-backgrounder { background-position:center top; background-size:100%; display:block; width:100%; height:100%; top:0; margin:0;}
 #secondary p, .detail-description {
@@ -539,6 +545,7 @@ div.logo-intro span {
 	line-height:1.5em !important;
 	margin-top:8px;
 }
+.project-detail-sidebar-space {padding-bottom:75px;}
 .project-credits p a {color:#222222;}
 .letsgetthisgoing div {padding:15px 0;}
 .quotes p {
@@ -599,6 +606,24 @@ div.logo-intro span {
 	background-color: rgba(255,255,255,1.0);
   text-decorationX: underline;
 }
+
+div.about-knowledge {color:#FFF; font-size: 1em; line-height:.3em; float: left; background-color: rgba(0,0,0,.65); padding: 30px 50px 40px 50px;}
+div.about-recognition {color:#FFF; font-size: .85em; float: left; background-color: rgba(255,126,0,1.0); padding: 25px 50px;}
+div.about-thanks {line-height:1.5em !important; display:block;}
+
+div.about-knowledge span {clear:right;display:block; }
+div.about-knowledge h3 {color:#FFF; display:inline-block; }
+div.about-knowledge small {padding-right:10px; display: NONE; }
+div.about-knowledge .ss-social-regular {display:inline-block; font-size:.65em; vertical-alignX:-10%; color:rgba(255,255,255,.5); }
+
+div.about-recognition h3 {color:#FFF; display:inline-block; }
+div.about-recognition span {clear:both !important; display:block; }
+div.about-recognition h3 a {color:#FFF; background-colorX: rgba(255,255,255,.25); padding:2px; }
+div.about-recognition h3 a:hover {text-decoration:underline; }
+div.about-recognition a .ss-social-regular {display:inline-block; font-size:.7em; color:rgba(255,255,255,.5); }
+div.about-recognition small {font-size:1em !important; clear:right !important; display:block; line-height:1.5em; max-width:75%; padding-bottom:10px; }
+
+div.about-knowledge small, div.about-recognition small {color:rgba(0,0,0,.65); text-transform: capitalize; }
 
 #main-intro-footer {
   background-color: #000;
@@ -794,7 +819,7 @@ and (orientation : landscape) {
 	}
 
   #nav-list2 {height:235px;}
-  #nav-list-box2 {padding-left:10px; margin-top:0px !important;width:4750px;} /*34 projects x 150 + padding */
+  #nav-list-box2 {padding-left:10px; margin-top:20px !important;width:4900px;} /*34+1 projects x 150 + padding */
 
 	#nav-list div {}
 	#nav-list div a {}
@@ -1005,11 +1030,24 @@ border: 2px solid rgba(0,0,0,.0);
 		/*padding:0 20px;*/
 	}
 	.letsgetthisgoing div {padding:50px 0;}
+	.project-detail-sidebar-space {padding-bottom:0px;}
 	.quotes p {
 		background-color: rgba(0,0,0,.2);
 		border-left:0px;
 		padding:35px;
 	}
+  div.about-knowledge, div.about-recognition {padding:35px 25px; } 
+  div.about-thanks {padding:0px 25px 0 25px; }
+  div.about-thanks .detail-title {font-size:1em; }
+  div.about-knowledge h3 {display:block; clear:left; border-bottom: 1px solid rgba(255,255,255,.5); padding-bottom:10px; }
+  /* div.about-knowledge h3:last-child {border-bottom: none !important;} */
+  div.about-knowledge small {display:none;}
+  div.about-knowledge .ss-social-regular {display:none;}
+
+  div.about-recognition a:hover {opacityX:.75;text-decoration:underline;}
+  div.about-recognition h3 {border-bottom: 1px solid rgba(255,255,255,.5); clear:right; display:block; padding-bottom:10px; }
+  div.about-recognition small {display:none;}
+
   .footer-navigation {display:block;background-color:rgba(0,0,0,.85);display:block;width:100%;position:relative /* absolute */;height:50px;}
 	.intro-secondary {}
   .nomadic-footer p {margin:20px auto; width:100%; text-align:center;}
