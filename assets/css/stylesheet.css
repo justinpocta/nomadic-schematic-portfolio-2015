@@ -1010,7 +1010,7 @@ border: 2px solid rgba(0,0,0,.0);
 		border-left:0px;
 		padding:35px;
 	}
-  .footer-navigation {display:block;background-color:rgba(0,0,0,.45);display:block;width:100%;position:absolute;height:50px;}
+  .footer-navigation {display:block;background-color:rgba(0,0,0,.85);display:block;width:100%;position:relative /* absolute */;height:50px;}
 	.intro-secondary {}
   .nomadic-footer p {margin:20px auto; width:100%; text-align:center;}
   #main-intro-footer {padding: 30px 10% 30px 10%;}
