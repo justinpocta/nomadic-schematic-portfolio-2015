@@ -23,6 +23,7 @@
 
   <?php echo css('/assets/css/stylesheet.css') ?>
   <?php echo css('/assets/css/foundation.css') ?>
+  <?php echo css('/assets/css/ss-social.css') ?>
 
 </head>
 
