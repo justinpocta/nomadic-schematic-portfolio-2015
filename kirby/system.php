@@ -34,13 +34,13 @@ load::config();
 load::parsers();
 load::plugins();
 
-// check for an exisiting content dir 
+// check for an exisiting content dir
 if(!is_dir(c::get('root.content'))) die('The Kirby content directory could not be found');
 
-// check for an exisiting site dir 
+// check for an exisiting site dir
 if(!is_dir(c::get('root.site'))) die('The Kirby site directory could not be found');
 
-// set the timezone to make sure we 
+// set the timezone to make sure we
 // avoid errors in php 5.3
 @date_default_timezone_set(c::get('timezone'));
 
