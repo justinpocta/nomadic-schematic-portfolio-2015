@@ -54,7 +54,7 @@ $tags = tagcloud($blog);
 
   <div id="nav-list"><div id="nav-list-box">
 
-		<a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'about3', 'clicked'])" id="nomadic-schematic" class="link-button project-mask"><p>info + contact</p></a>
+		<a href="/projects/about" onclick="_gaq.push(['_trackEvent', 'about3', 'clicked'])" id="nomadic-schematic" class="link-button project-mask"><p>About Justin</p></a>
 
 	 <?php if(param('tag')) {
 
