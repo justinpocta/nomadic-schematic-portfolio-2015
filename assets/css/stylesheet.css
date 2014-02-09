@@ -1047,7 +1047,7 @@ border: 2px solid rgba(0,0,0,.0);
 		/*padding:0 20px;*/
 	}
 	.letsgetthisgoing div {padding:50px 0;}
-	.project-detail-sidebar-space {padding-bottom:0px;}
+	.project-detail-sidebar-space {padding-bottom: 50px;}
 	.quotes p {
 		background-color: rgba(0,0,0,.2);
 		border-left:0px;
