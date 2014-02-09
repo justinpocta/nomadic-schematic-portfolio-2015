@@ -105,7 +105,7 @@ div.nomadic-large span {
   background-position: 3px center;
   height:75px;
   width:75px !important;
-  border:3px solid #aeaeae;
+  border:2px solid #aeaeae;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
   border-radius: 75px;
@@ -196,12 +196,12 @@ span.nomad-intro {display: none;}
         border-color:#000;
 	/*rgba(55,51,38,.8);*/
         color:#c1c1bf;
-        margin: 0px; 
+        margin: 0px;
         padding: 5px 0 5px 0;
         line-height: 1.5em;
         width: 100%;
         position: fixed;
-        z-index: 101; 
+        z-index: 101;
 }
 #main-intro-header, .go-nomadic, .nomadic-large, .nomadic-small {
   transition: all 1s;
@@ -645,9 +645,11 @@ div.about-knowledge small, div.about-recognition small {color:rgba(0,0,0,.65); t
   padding: 30px 0 105px 0;
 }
 #main-intro-footer p {
-	display:inline-block;
+	color:#FFF;
+  display:inline-block;
 	max-width:450px;
   font-size: 1.35em;
+  padding-top:10px;
 }
 .footer-container {max-width:970px; margin:0 auto;}
 .footer-container h2 {padding:0 70px 0 0px;}
