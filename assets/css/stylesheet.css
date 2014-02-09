@@ -93,30 +93,29 @@ span.tooltip > .nub {
 	text-decoration: underline;
 	padding-top:10px;
 }
-
-.go-nomadic {
+#main-intro-header span {
   background-image:url('../img/logo-top.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   display: block;
   text-indent: -9999px;
 }
-.nomadic-large {
+div.nomadic-large span {
   margin:3px auto 3px auto;
   background-position: 3px center;
   height:75px;
   width:75px !important;
-  border:2px solid #aeaeae;
+  border:3px solid #aeaeae;
   -webkit-border-radius: 75px;
   -moz-border-radius: 75px;
   border-radius: 75px;
 }
-.nomadic-small {
+div.nomadic-small span {
   margin:3px auto 3px auto;
   background-position: 3px center;
   height:20px;
   width:70px !important;
-  border:0px solid #aeaeae;
+  border:0px solid #000;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   border-radius: 35px;
@@ -173,14 +172,42 @@ span.nomad-intro {display: none;}
 }
 
 /* INTRO PAGE */
-.main-intro {
+#main-intro-foundation {
+	background-color:#000;
+	display:block;
+	height:100px;
+	position:absolute;
+	width:100%;
+	z-index:0;
+}
+#main-intro-header.nomadic-large {
 	background-color:rgba(0,0,0,1.0); /* .65 */
 	/*rgba(55,51,38,.8);*/
 	color:#c1c1bf;
 	margin: 0px;
-	padding: 10px 0 10px 0;
+	padding: 10px 0 9px 0;
 	line-height: 1.5em;
 	width: 100%;
+	position: fixed;
+	z-index: 101;
+}
+#main-intro-header.nomadic-small {
+        background-color:rgba(0,0,0,1.0); /* .65 */
+        border-color:#000;
+	/*rgba(55,51,38,.8);*/
+        color:#c1c1bf;
+        margin: 0px; 
+        padding: 5px 0 5px 0;
+        line-height: 1.5em;
+        width: 100%;
+        position: fixed;
+        z-index: 101; 
+}
+#main-intro-header, .go-nomadic, .nomadic-large, .nomadic-small {
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
 }
 .main-intro h2 {
 	color:#545454;
@@ -189,20 +216,7 @@ span.nomad-intro {display: none;}
 	line-height: 1.5em;
 }
 div.main-intro a {color:#FF7E00;}
-#main-intro-header {
-	XXXXpadding-bottom: 120px;
-  positionX: fixed;
-  z-index: 101;
-}
-#main-intro-header div {
-	font-size: 1em;
-	padding: 0;
-	/* position: absolute; */
-	/* right: 15px; */
-	text-align: center;
-	top:0px;
-  width:100%;
-}
+
 .download-app {
 	background-image: url('../img/app-store.png');
 	display: block;
@@ -692,6 +706,7 @@ and (orientation : landscape) {
   #secondary .topbar-container {
     top:-50px;
   }
+  #main-intro-header,#main-intro-foundation {display:none !important;}
 	.nomadic-logo {
 		background:url('../img/logo-top.png') no-repeat center center;
 		/*background-color:#373326;*/
