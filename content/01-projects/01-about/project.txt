@@ -37,14 +37,14 @@ Textabout:
 <span class="nowrap"><h3>HTML / CSS <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
 <span class="nowrap"><h3>Git <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
 <span class="nowrap"><h3>JQuery <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;<span></h3></span><br>
-</div><div class="large-6 small-12 left">
+<div style="display:block;border-bottom:1px dotted rgba(255,255,255,.5);width:100%;height:10px;margin-bottom:10px;"></div>
 <span class="detail-title-light">Skills</span>
-<span class="nowrap"><h3>UI Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;<span></h3></span>
-<span class="nowrap"><h3>UX Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;<span></h3></span>
-<span class="nowrap"><h3>Branding/Identity <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
-<span class="nowrap"><h3>Print Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
-<!-- <span class="nowrap"><h3>Photography <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span> -->
-<span class="nowrap" style="display:none"><h3>Email <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;<span></h3></span>
+<span class="nowrap"><h3>UI Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;</span></h3></span>
+<span class="nowrap"><h3>UX Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;</span></h3></span>
+<span class="nowrap"><h3>Branding/Identity <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;</span></h3></span>
+<span class="nowrap"><h3>Print Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;</span></h3></span>
+<!-- <span class="nowrap"><h3>Photography <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;</span></h3></span> -->
+<span class="nowrap" style="display:none"><h3>Email <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;</span></h3></span>
 </div>
 
 </div></div>
