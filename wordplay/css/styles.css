@@ -1,0 +1,115 @@
+body {
+  border-top: 5px solid rgba(60,80,160,1.0);
+    /*rgba(59,80,137,1.0)*/
+    /*rgba(60,81,162,1.0)*/
+    /*#008cba*/
+}
+
+body, h1 {
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+/* SHADOW */
+hr,h1,.button,.introduction h2,.introduction h3 {text-shadow: 0px 2px rgba(0,0,0,.2);} /* RETINA BUTTON SHADOW DISTANCE to 2PX */
+h2 {line-height: 1.3em !important; }
+hr {border: 1px solid rgba(255,255,255,.5)}
+.nowrap {white-space: nowrap; }
+
+#logo {
+  background-image: url(../img/logo.svg);
+  background-size: 100%;
+  display:block;
+  width:120px;
+  height:70px;
+  text-indent: -9999px;
+}
+#logo:hover {
+  opacity: .5 !important;
+}
+.topbar {
+  padding-top: 20px;
+  /*  border-bottom: 0px solid rgba(255,255,255,.25);*/
+}
+.intro-box {
+  /*background-image: url(../img/seeds.jpg);
+  background-size: 100% auto;
+  background-position: center 30%;*/
+  /*background-color:rgba(97,172,74,1.0);*/
+  /*background-color: rgba(59,80,137,1.0);*/
+  background-color: rgba(216,68,22,1.0);
+  margin-bottom: 25px;
+ /* min-height: 500px;*/
+}
+
+/* REVISIONS */
+.addNew, button.addNew {
+  /*background-color: rgba(60,81,162,1.0) !important;*/
+  background-color: rgba(60,80,160,1.0);
+  border-color: none !important; 
+  color: #FFF !important;
+  text-shadow: 0px 1px rgba(0,0,0,.15);
+}
+.addNew:hover, button.addNew:hover {
+  background-color: rgba(60,80,160,.5);
+}
+.buttonLight, button.buttonLight {
+  background-color: #FFFFFF !important; 
+  color: orange;
+  /*color: rgba(32,107,209,1.0) !important;*/
+
+  border-color: none !important; 
+  text-shadow: 0px 1px rgba(0,0,0,.15);
+}
+
+
+.intro-box .panel {
+  border-radius: 15px;
+  border-style: none;
+  background-color: rgba(216,68,22,1.0);
+  /*rgba(59,80,137,.5)*/
+  /*background-color: rgba(255,255,255,.5);*/
+  margin: 30px 0 50px 0;
+}
+.intro-box .panel h1,.intro-box .panel h2,.intro-box .panel h3,.intro-box .panel h4,.intro-box .panel h5,.intro-box .panel h6,
+.intro-box .panel p {
+  color:#FFFFFF !important;
+}
+.introduction diXv>span {background-color: rgba(60,81,162,1.0); color:#FFF; display: none; /*inline-block*/ padding:5px;}
+
+.resource {
+  float:left; /*margin-right:15px;*/
+  border-bottom: 1px #bdbdbd solid;
+  border-top: 0 #FFF solid;
+  border-left: .5em #FFF solid;
+  border-right: 1px #bdbdbd solid;
+}
+.resource .button {
+  background-color: green;
+}
+
+.footer {
+  background-color:rgba(97,172,74,1.0);
+  /*background-color:#454545;*/
+  margin:auto 0;
+  padding:50px 0;
+}
+.footer p {color:#FFF;}
+
+/* SIDEBAR */
+.tabs dd {border-top: 1px solid #454545;
+          text-transform: uppercase; 
+          letter-spacing: 1px; } /*rgba(0,140,186,.9) rgba(97,172,74,1.0) */
+.tabs dd.active a {font-weight: bold; background-color: #FFF !important; color: #000 !important; }
+.tabs dd > a {
+  background-color: rgba(60,81,162,1.0); 
+  /*background-color:rgba(0,140,186,.75) !important; */
+  color: #FFF !important;  }
+.tabs a.active :after {content: "»"; float:left; display: none; }
+
+
+.special-copy {display:none !important;}
+
+@media screen and (min-width: 650px) {
+  .special-copy {display:inline !important;}
+}

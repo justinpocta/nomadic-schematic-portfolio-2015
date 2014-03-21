@@ -1,0 +1,138 @@
+/* Stop OSX Elastic Scroll... */
+html, body {margin: 0; padding: 0; overflow: hidden}
+
+html {
+  margin: 0; padding: 0;
+  font-size: 1.0em;
+  height: 100%;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+
+body {
+  margin: 0; padding: 0;
+  height: 100%;
+  width: 100%;
+ /* overflow: auto;*/
+}
+
+body {
+  border-top: 0px solid rgba(60,80,160,1.0);
+}
+
+body, h1 {
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+input {border-radius: 0;}
+
+/* SHADOW */
+hr,h1,.button,.introduction h2,.introduction h3 {
+  text-shadow: 0px 2px rgba(0,0,0,.2);
+  /* RETINA BUTTON SHADOW DISTANCE to 2PX */
+}
+h2 {
+  line-height: 1.3em !important;
+}
+hr {
+  border: 1px solid rgba(255,255,255,.5);
+}
+.nowrap {
+  white-space: nowrap;
+}
+
+.container {
+  height: 92%;
+  left:0;
+  margin-left: 0px;
+  margin-top: 35px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.container ul {
+  margin-left:0;
+}
+
+.words li {
+  border-bottom: 0px dotted rgba(0,255,0,.1);
+  display: -webkit-box;
+  /*display: block;*/
+  font-size: 1.5em;
+  padding-bottom:25px;
+  padding-top:25px;
+  width:100%;
+}
+.words {
+  height: 100% !important;
+}
+.words li:hover {
+  color:red;
+  text-decoration:line-through;
+}
+#WordsLeft {
+  -webkit-overflow-scrolling: touch;
+  background-color: rgba(0,0,0,.05);
+  float:left;
+  height:500px;
+  overflow: scroll !important;
+  text-align: right;
+  width: 50%;
+}
+#WordsRight {
+  -webkit-overflow-scrolling: touch;
+  float:left;
+  height:500px;
+  overflow: scroll !important;
+  width: 50%;
+}
+
+#WordsLeft li {
+  clear:left;
+  display: inline;
+  float: right;
+  padding-right: 10px;
+}
+#WordsRight li {
+  clear:right;
+  display: inline;
+  float: left;
+  padding-left: 10px;
+}
+
+#WordInput {
+  position:fixed !important;
+  top:0;
+  width:100%;
+  z-index: 10;
+}
+#AddAWord {
+  color: #aeaeae;
+  font-size: 1.1em;
+  font-weight:bold;
+  height:40px;
+  max-width:80%;
+  min-width:80%;
+}
+#SaveAWord {
+  background-color:green;
+  border:0;
+  color:#FFF;
+  display:block;
+  font-size:1em;
+  height:40px;
+  max-width:10%;
+  min-width:20%;
+  padding-top: 10px;
+  position:absolute;
+  right:0;
+  text-align:center;
+}
+#SaveAWord:hover {
+  opacity: .5;
+}
+
+@media screen and (min-width: 650px) {
+
+}

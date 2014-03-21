@@ -1,0 +1,147 @@
+
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <meta name="viewport" content="initial-scale=2.3, user-scalable=no"> -->
+    <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <title>WordPlay</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles_mixmaster.css" />
+    <link rel="stylesheet" href="css/ss-standard.css" />
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+    <!-- // <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/increment.js"></script> //-->
+    <script type="text/javascript" src="js/jquery.endless-scroll.js"></script>
+    <script type="text/javascript">
+    // UL listing via Array
+    $(function() {
+      var llist = [];
+      var rlist = llist.reverse
+
+      var leftlist = $('ul#WordsLeft')
+      var rightlist = $('ul#WordsRight')
+
+      $.each(llist, function(i)
+      {
+          var li1 = $('<li onClick=\'javascript\:this.remove()\;\' />')
+              .appendTo(leftlist);
+              // .addClass('ui-menu-item') .attr('role', 'menuitem')
+
+          var aaa = $('<span/>')
+              .text(llist[i])
+              .appendTo(li1);
+              // .addClass('ui-all')
+      // })
+
+      });
+    });
+
+    function randomResponse()
+    {
+      var response1 = new Array(
+        "How should this feel?",
+        "What's a fitting Spirit Animal?",
+        "What's a key attribute?",
+        "Name a related famous person?",
+        "Any food group/item?",
+        "Associated facial expression?",
+        "Analogous gesture?",
+        "Any rhyming word from the topic name?",
+        "What is the main topic?",
+        "What object could represent this?",
+        "An analogy to describe your product's function?",
+        "What related phrases do you know?",
+        "Name an element from and analogous historical moment?",
+        "A unique characteristic versus competitors?",
+        "A unique quality you want to impact users?",
+        "Does any color express this?",
+        "Spelling variation of topik?",
+        "Can you make a short joke?",
+        ""
+        )
+      var randomNum = Math.floor(Math.random() * 5)
+      document.getElementById('AddAWord').value = response1[randomNum];
+    };
+
+    function fieldPrep()
+    {
+      var response2 = new Array(
+        "How should this feel?",
+        "What's a fitting Spirit Animal?",
+        "What's a key attribute?",
+        "Name a related famous person?",
+        "Any food group/item?",
+        "Associated facial expression?",
+        "Analogous gesture?",
+        "Any rhyming word from the topic name?",
+        "What is the main topic?",
+        "What object could represent this?",
+        "An analogy to describe your product's function?",
+        "What related phrases do you know?",
+        "Name an element from and analogous historical moment?",
+        "A unique characteristic versus competitors?",
+        "A unique quality you want to impact users?",
+        "Does any color express this?"
+        )
+      var randomNum = Math.floor(Math.random() * 5)
+      document.getElementById('AddAWord').value = 'e.g. ' + response2[randomNum];
+    }
+
+
+     </script>
+  </head>
+  <body onLoad="fieldPrep()">
+  <script>
+  // no elastic bounce on ipad
+    document.body.addEventListener('touchmove', function(event) {
+      console.log(event.source);
+      //if (event.source == document.body)
+        event.preventDefault();
+    }, false);
+ 
+    window.onresize = function() {
+      $(document.body).width(window.innerWidth).height(window.innerHeight);
+    }
+ 
+    $(function() {
+      window.onresize();
+    });
+  </script>
+
+<div>
+  <!-- form method="get" -->
+  <div  id="WordInput">
+    <input id="AddAWord" autocomplete="off" type="text" name="" 
+    onkeydown="if (event.keyCode == 13) { $('.words').append('<li onClick=\'javascript:this.remove();\'>'+$('#AddAWord').val()+'</li>'); this.value = ''; };"
+    type="hidden"
+    onblur="randomResponse()" 
+    onfocus="this.value=''"
+    style="z-index:3"
+    >
+    <a href="javascript:randomResponse()" class="hide-for-small"><span class="ss-icon" style="font-size:1.3em;z-index:100;position:absolute;top:12px;right:20%;padding-right:10px;">Sync</span></a>
+    <a href="javascript:;" id="SaveAWord" style="z-index:101;top:0;right:0;" onClick="javascript:
+      $('.words').append('<li onClick=\'javascript:this.remove();\'>'+$('#AddAWord').val()+'</li>');
+      "><span class="show-for-large">Add Word</span><span class="hide-for-large">+ Word</span></a>
+  </div>
+</div>
+
+<div class="container">
+
+  <ul class="words" id="WordsLeft" data-options="disable-for-touch:true">
+
+  </ul>
+  
+  <ul class="words" id="WordsRight" data-options="disable-for-touch:true">
+
+  </ul>
+
+
+</div>
+
+  </body>
+  </html>
