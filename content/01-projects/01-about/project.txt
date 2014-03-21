@@ -37,7 +37,7 @@ Textabout:
 <span class="nowrap"><h3>HTML / CSS <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
 <span class="nowrap"><h3>Git <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;<span></h3></span>
 <span class="nowrap"><h3>JQuery <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;<span></h3></span><br>
-<div style="display:block;border-bottom:1px dotted rgba(255,255,255,.5);width:100%;height:10px;margin-bottom:10px;"></div>
+<hr style="width:80%;opacity:.5;margin:5px 0 25px 0;" class="hide-for-small">
 <span class="detail-title-light">Skills</span>
 <span class="nowrap"><h3>UI Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;</span></h3></span>
 <span class="nowrap"><h3>UX Design <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;&#x2665;</span></h3></span>
@@ -46,13 +46,22 @@ Textabout:
 <!-- <span class="nowrap"><h3>Photography <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;&#x2665;</span></h3></span> -->
 <span class="nowrap" style="display:none"><h3>Email <span class="social-links ss-icon ss-social-regular">&#x2665;&#x2665;</span></h3></span>
 </div>
+<div class="large-6 hide-for-small left" style="z-index:10;">
+<span class="detail-title-light">Currently Reading</span>
+<span class="nowrap"><a href="http://www.abookapart.com/products/just-enough-research"><h3>Just Enough Research <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
+<span class="nowrap"><a href="http://www.kernandburnbook.com/"><h3>Kern and Burn <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
+<span class="nowrap"><a href="http://rosenfeldmedia.com/books/prototyping/"><h3>Prototyping: A Practitioner’s Guide <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
+<span class="nowrap"><a href="http://bradfrostweb.com/blog/post/atomic-web-design/"><h3>Atomic Web Design <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
+<span class="nowrap"><a href="https://www.goodreads.com/book/show/16035510-a-brief-history-of-time"><h3>A Brief History of Time <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
+
+</div>
 
 </div></div>
 
 <div class="large-12 small-12 column about-recognition"><div class="large-12 row" style="max-width:970px">
 <span class="detail-title-light">Recognition</span>
 <span><h3><a href="http://www.howdesign.com/how-interactive-design-awards-2012-winners/attachment/m-app-loyaltree_2/">2012 <span class="hide-for-small"> Mar -</span> HOW Magazine<span class="hide-for-small">, Interactive Design Awards</span> <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
-<small>Merit, LoyalTree Rewards App - March 2012 Issue; Art Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta</small></span> 
+<small>Merit, LoyalTree Rewards App - March 2012 Issue; Art Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta</small></span>
 <span><h3><a href="http://www.underconsideration.com/fpo/archives/2012/02/dallas-society-of-visual-communications-invitation.php">2012 <span class="hide-for-small"> Feb - </span>For Print Only <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
 <small>Feature, DSVC Dallas Show Invitation; Art Director: Frances Yllana; Designer: Justin Pocta</small></span>
 <span><h3><a href="http://www.thedieline.com/blog/2012/1/13/dallas-show-invitation.html">2012 <span class="hide-for-small"> Jan -</span> The Dieline <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
