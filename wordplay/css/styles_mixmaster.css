@@ -62,7 +62,7 @@ hr {
   font-size: 1.5em;
   padding-bottom:25px;
   padding-top:25px;
-  width:100%;
+  width:80%;
 }
 .words {
   height: 100% !important;
@@ -72,11 +72,11 @@ hr {
   text-decoration:line-through;
 }
 #WordsLeft {
-  -webkit-overflow-scrolling: touch;
+  /*-webkit-overflow-scrolling: touch;*/
   background-color: rgba(0,0,0,.05);
   float:left;
   height:500px;
-  overflow: scroll !important;
+  overflow: auto !important;
   text-align: right;
   width: 50%;
 }
