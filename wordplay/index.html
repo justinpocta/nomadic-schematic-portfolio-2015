@@ -1,45 +1,54 @@
-
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <!-- <meta name="viewport" content="initial-scale=2.3, user-scalable=no"> -->
     <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>WordPlay</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles_mixmaster.css" />
     <link rel="stylesheet" href="css/ss-standard.css" />
     <script src="js/vendor/modernizr.js"></script>
-
-    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
-    <!-- // <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
-    <script type="text/javascript" src="js/increment.js"></script> //-->
+    <script type='text/javascript' src="js/jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="js/increment.js"></script>
     <script type="text/javascript" src="js/jquery.endless-scroll.js"></script>
     <script type="text/javascript">
-    // UL listing via Array
-    $(function() {
-      var llist = [];
-      var rlist = llist.reverse
+    // document.ontouchmove = function (event) {
+    //  event.preventDefault();
+    // };
+    // $(this).fadeOut(function(){$(this).remove()};
 
-      var leftlist = $('ul#WordsLeft')
-      var rightlist = $('ul#WordsRight')
-
-      $.each(llist, function(i)
-      {
-          var li1 = $('<li onClick=\'javascript\:this.remove()\;\' />')
-              .appendTo(leftlist);
-              // .addClass('ui-menu-item') .attr('role', 'menuitem')
-
-          var aaa = $('<span/>')
-              .text(llist[i])
-              .appendTo(li1);
-              // .addClass('ui-all')
-      // })
-
+    $(function(){
+      $(".listitem").bind("click", "*", function(e) {
+        $(".listitem").click(function() {
+          $(this).fadeOut(function(){$(this).remove();})
+          // $(this).remove();
+        });
       });
     });
+
+    // $(function(){
+    //  $('li').click( function(e){
+    //        $(this).remove();
+    //  });
+    // });
+
+    // $('.word').click
+    //    {
+    //      $(this).fadeOut();
+    //      $(this).remove();
+    //    };
+    //  });
+
+    // $(function(killIt2){
+    //    $(this).fadeOut(function(){$(this).remove();})
+    // });
+
+    // jQuery.fn.fadeOutAndRemove = function(speed){
+      // $(this).fadeOut(speed,function(){
+      //  $(this).remove();
+      // })
+    // };
 
     function randomResponse()
     {
@@ -61,8 +70,7 @@
         "A unique quality you want to impact users?",
         "Does any color express this?",
         "Spelling variation of topik?",
-        "Can you make a short joke?",
-        ""
+        "Can you make a short joke?"
         )
       var randomNum = Math.floor(Math.random() * 5)
       document.getElementById('AddAWord').value = response1[randomNum];
@@ -90,54 +98,56 @@
         )
       var randomNum = Math.floor(Math.random() * 5)
       document.getElementById('AddAWord').value = 'e.g. ' + response2[randomNum];
-    }
-
+    };
+    // });
 
      </script>
   </head>
   <body onLoad="fieldPrep()">
-  <script>
+
+  <script type="text/javascript">
   // no elastic bounce on ipad
     document.body.addEventListener('touchmove', function(event) {
       console.log(event.source);
-      //if (event.source == document.body)
+      if (event.source == document.body)
         event.preventDefault();
     }, false);
- 
+
     window.onresize = function() {
       $(document.body).width(window.innerWidth).height(window.innerHeight);
     }
- 
-    $(function() {
-      window.onresize();
-    });
+
+     $(function() {
+        window.onresize();
+     });
   </script>
 
 <div>
-  <!-- form method="get" -->
+
   <div  id="WordInput">
-    <input id="AddAWord" autocomplete="off" type="text" name="" 
-    onkeydown="if (event.keyCode == 13) { $('.words').append('<li onClick=\'javascript:this.remove();\'>'+$('#AddAWord').val()+'</li>'); this.value = ''; };"
+    <input id="AddAWord" autocomplete="off" type="text" name=""
+    onkeydown="if (event.keyCode == 13) { $('.words').append('<li class=\'listitem\'>'+$('#AddAWord').val()+'</li>');
+              this.value = ''; };"
     type="hidden"
-    onblur="randomResponse()" 
-    onfocus="this.value=''"
+    onblur="randomResponse()"
+    onfocus="this.value=\'\'"
     style="z-index:3"
     >
     <a href="javascript:randomResponse()" class="hide-for-small"><span class="ss-icon" style="font-size:1.3em;z-index:100;position:absolute;top:12px;right:20%;padding-right:10px;">Sync</span></a>
     <a href="javascript:;" id="SaveAWord" style="z-index:101;top:0;right:0;" onClick="javascript:
-      $('.words').append('<li onClick=\'javascript:this.remove();\'>'+$('#AddAWord').val()+'</li>');
-      "><span class="show-for-large">Add Word</span><span class="hide-for-large">+ Word</span></a>
+      $('.words').append('<li class=\'listitem\'>'+$('#AddAWord').val()+'</li>');
+      "><span class="show-for-large">Add Word</span><span class="hide-for-large">+ Add</span></a>
   </div>
 </div>
 
 <div class="container">
 
   <ul class="words" id="WordsLeft" data-options="disable-for-touch:true">
-
+     <li style="height:0"></li>
   </ul>
-  
-  <ul class="words" id="WordsRight" data-options="disable-for-touch:true">
 
+  <ul class="words" id="WordsRight" data-options="disable-for-touch:true">
+     <li style="height:0"></li>
   </ul>
 
 
