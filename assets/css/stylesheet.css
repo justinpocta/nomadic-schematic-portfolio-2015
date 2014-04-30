@@ -13,6 +13,18 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased; */
 }
+
+/* JS special items */
+.Xfade-in-object {
+  opacity:0;
+}
+@media only screen and (max-width: 767px) {
+  .fade-in-object {
+    opacity:1.0;
+  }
+}
+
+
 #secondary {
 	Xbackground-image: url('../img/background-secondary.jpg');
   background-position: top center;
@@ -39,6 +51,7 @@ span.tooltip {
 span.tooltip > .nub {
   left: 72px;
 }
+
 /* TOP MENU */
 .topbar-container {
 	clear:both;
@@ -93,14 +106,14 @@ span.tooltip > .nub {
 	text-decoration: underline;
 	padding-top:10px;
 }
-#main-intro-header span {
+#main-intro-header>* {
   background-image:url('../img/logo-top.png');
   background-repeat: no-repeat;
   background-size: 100% auto;
   display: block;
   text-indent: -9999px;
 }
-div.nomadic-large span {
+div.nomadic-large>* {
   margin:3px auto 3px auto;
   background-position: 3px center;
   height:75px;
@@ -110,7 +123,7 @@ div.nomadic-large span {
   -moz-border-radius: 75px;
   border-radius: 75px;
 }
-div.nomadic-small span {
+div.nomadic-small>* {
   margin:3px auto 3px auto;
   background-position: 3px center;
   height:20px;
@@ -120,7 +133,7 @@ div.nomadic-small span {
   -moz-border-radius: 35px;
   border-radius: 35px;
 }
-#project-headline {
+.project-headline {
   text-transform: Capitalize;
   font-family: "brandon-grotesque",sans-serif;
   font-weight: normal;
@@ -248,7 +261,7 @@ div.main-intro a {color:#FF7E00;}
 	width:150px;
 }
 .link-button:hover { /*project and category*/}
-#nomadic-schematic {background-image:url('https://dl.dropboxusercontent.com/u/576792/website-profile.jpg'); background-repeat: no-repeat; background-position: center center; background-size: 100%; }
+#nomadic-schematic {background-image:url('/assets/img/me%20website-profile.jpg'); background-repeat: no-repeat; background-position: center center; background-size: 100%; }
 #nomadic-schematic:hover {background-size: 150% !important;}
 #view-more {background-color:#FF7E00; background-image:url('/assets/img/button-next.png'); background-repeat:no-repeat; background-size:auto;}
 #OLDnomadic-schematic {background-image:url('../img/logo_small2b.png'); background-position: top center; background-size: 100%; background-color: rgba(255,255,255,1.0); margin-bottomX: 70px; }
@@ -452,7 +465,7 @@ div.main-nav {
 }
 #view-more.project-mask:hover {background-size:auto !important; cursor:default; }
 .profiler-box {padding-left:20px; border-left:1px dotted solid #ebebeb; }
-div.profile-mask {background:url('https://dl.dropboxusercontent.com/u/576792/website-profile.jpg') no-repeat center center; display:block; width:150px; height: 150px; background-size:100%; border:1px solid #efefef; position:relativeX; float:left; margin:0px 30px 10px 0; -webkit-border-radius:125px !important; -moz-border-radius:125px !important; border-radius:125px !important; padding-top:50px; padding-bottom: 0px;}
+div.profile-mask {background:url('/assets/img/me%20website-profile.jpg') no-repeat center center; display:block; width:175px; height: 175px; background-size:100%; border:3px solid #efefef; position:relativeX; float:left; margin:0px 30px 10px 0; -webkit-border-radius:150px !important; -moz-border-radius:150px !important; border-radius:150px !important; padding-top:50px; padding-bottom: 0px;}
 span.profile-mask {font-family:Times,Georgia; font-style:italic; font-size:1.25em; line-height: 1.2em; display:block; width:100%; padding-bottom:35px; padding-top:0px; float:left; text-alignX:center;  }
 a.profile-mask {padding:15px 22px !important;color:#FFF; clear:both; float:left; position:relative; border:0; width:100%; background-color:#FF7E00; font-size: .6em; font-family:sans-serif;font-weight: lighter;font-style:normal; text-transform: uppercase; margin-top:-5px; margin-left:-5px; border-radius:30px; -webkit-border-radius: 30px;}
 a.profile-mask:hover {background-color:#454545; }
@@ -498,7 +511,7 @@ div.logo-intro div div {
 	height:50px;
 	top:50px;
 }
-div.logo-intro span {
+div.logo-intro span,div.footer-navigation span {
 	color:#efefef;
 	display:block;
 	font-size: 1.65em;
@@ -697,21 +710,59 @@ and (orientation : landscape) {
 		border-top: 0px;
     padding-top:0px !important;
 	}
-	.go-home {display: none;}
+	.Xgo-home {display: none;}
 
 	/* TOP BAR */
 	.topbar-container {
-		padding:0;
-		position: absolute;
+		display:none;
+    /*
+    padding:0;
+		position: fixed;
 		z-index: 9999;
+    */
 	}
   #secondary .topbar-container {
-    top:-50px;
+    display:none;
+    /*top:-50px;*/
   }
-  #main-intro-header,#main-intro-foundation {display:none !important;}
-	.nomadic-logo {
+  #secondary div.logo-intro {
+    margin-top:0;
+  }
+  #secondary .go-home {
+    display:none !important;
+  }
+  #secondary #main-intro-header {
+    display:noneX;
+  }
+  #main-intro-foundation {
+    display:none;
+  }
+  #main-intro-header {
+    position:fixed;
+    z-index:100;
+  }
+  #main-intro-header.nomadic-small {
+    height:40px;
+  }
+  #main-intro-header.nomadic-large  {
+    height:90px;
+  }
+  div.nomadic-large>* {
+    height: 60px !important;
+    width: 60px !important;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+  }
+  #main-intro-header, .go-nomadic, .nomadic-large, .nomadic-small {
+    transition: all .5s;
+    -moz-transition: all .5s; /* Firefox 4 */
+    -webkit-transition: all .5s; /* Safari and Chrome */
+    -o-transition: all .5s; /* Opera */
+  }
+
+  .nomadic-logo {
 		background:url('../img/logo-top.png') no-repeat center center;
-		/*background-color:#373326;*/
 		background-color: #000;
 		background-position: center center;
 		background-size:100px auto;
@@ -799,12 +850,12 @@ and (orientation : landscape) {
 	}
 
 	#main-intro-header {height:0; padding:0;}
-	#main-intro-header div {display: none !important;}
+	#main-intro-header div {displayX: none !important;}
 	.main-intro {
 		color:#FFF;
 	}
 	.main-intro h2 {
-	  margin-top:70px;
+	  margin-top: 110px;
     padding: 0px 55px;
 		font-size: 1.1em;
 		line-height: 1.75em;
@@ -856,11 +907,11 @@ and (orientation : landscape) {
   }
   .profiler-box {padding-left:0px; border:0; }
   .profile-copy {padding:0px 5px; text-align:left; }
-  div.profile-mask {width:200px; height: 200px; background-size:100%; border:1px solid #efefef; float:none; margin:0 auto 10px auto;  -webkit-border-radius:300px !important; -moz-border-radius:300px !important; border-radius:300px !important;}
-  span.profile-mask {padding-top:0; floatX:left; clear:right; text-align:center; margin:0 auto;}
+  div.profile-mask {width:200px; height: 200px; background-size:100%; border:3px solid #efefef; float:none; margin:0 auto 10px auto;  -webkit-border-radius:300px !important; -moz-border-radius:300px !important; border-radius:300px !important;}
+  span.profile-mask {padding:0 10px 0 10px; floatX:left; clear:right; text-alignX:center; margin:0 auto;}
 
 .profile-links {text-align:center; padding-top:10px;}
-a.profile-mask {clear:both !important; margin:5px auto; max-widthX:none !important; widXth:100%; text-align:center; Xfloat:left; font-size:.55em !important; display:inline-block;}
+a.profile-mask {clear:both !important; margin:5px auto; max-width:none !important; width:100%; text-align:center; Xfloat:left; font-size:.55em !important; display:inline-block;}
 span.profile-mask p {font-size:1.35em !important;}
 
 	#nav-list a {
@@ -984,7 +1035,7 @@ border: 2px solid rgba(0,0,0,.0);
 		height:30px;
 		top:10px;
 	}
-	div.logo-intro span {
+	div.logo-intro span, div.footer-navigation span {
 		font-size: 1em;
 		padding-top:15px;
 	}

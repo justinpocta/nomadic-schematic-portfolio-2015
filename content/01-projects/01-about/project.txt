@@ -1,30 +1,32 @@
 Title: About Justin Pocta
 ----
 Textabout:
-<div class="profile-copy large-8 small-12" style="float:left">
-	<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent hailing from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense, while being simultaneously baffling in many ways. (maybe that's the secret to its magnetism?) In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I <span class="nowrap">have made.</span></p>
+<div class="large-12 small-12 profiler-box" style="float:leftX;max-width:600px;margin:-120px auto 0 auto;z-index:100;padding:0px;">
+  <center>
 
-	<p>The past 10+ years I have been soaking up design from every source I could find. I'm fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great <span class="nowrap">print work.</span></p>
+  <div class="profile-mask" style="float:none;margin:0 0 15px 0;"></div>
 
-	<p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UI and UX for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for <span class="nowrap">the day.</span></p>
+  <span class="profile-mask">
 
-	<p>My aim is to continue sharpening my skills and working with more great people on <span class="nowrap">meaningful projects.</span></p>
-
-</div>
-
-<div class="large-4 small-12 profiler-box" style="float:left;">
-	<center>
-
-	<div class="profile-mask" style="float:none;"></div>
-
-	<span class="profile-mask">Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span>
-
-	<p class="profile-links"><a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">Send Email</a>
-	<a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin-right:10px;mXax-width:350px;" class="profile-mask button primary left">View Résumé</a></p>
+    <p style="font-size:1.2em !important;margin-bottom:10px;max-width:500px">I&#8217;m a designer at <a href="http://switch.is">Switch</a>, working in Brooklyn, NY. Currently unavailable for freelance work, but always up for friendly emails. <!--// Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span> //--></p>
+  <p class="profile-links" style="max-width:600px;">
+    <a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">Email Me</a><a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">My Résumé</a>
+  </p>
 
 </div>
 
-</div><!-- ends profiler box -->
+<div class="profile-copy large-12 small-12" style="padding:0 30px;Xfloat:left">
+	<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent hailing from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense, while being simultaneously baffling in many ways. (maybe that&#8217;s the secret to its magnetism?) In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I <span class="nowrap">have made.</span></p>
+
+	<p>The past 10+ years I have been soaking up design from every source I could find. I&#8217;m fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great <span class="nowrap">print work.</span></p>
+
+	<p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UX and UI for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for <span class="nowrap">the day.</span></p>
+
+	<p>My aim is to continue sharpening my skills and working with more great people on <span class="nowrap">meaningful projects.</span> I am excited to be doing exactly this with my good friends at <a href="http://switch.is">Switch Creative.</a></p>
+
+</div>
+
+</div>
 </div><!-- ends #detail-main which is outside of this file
 		whatever has content width limit -->
 <div class="large-12 small-12 column about-knowledge"><div class="large-12 row" style="max-width:970px">
@@ -73,7 +75,7 @@ Textabout:
 <span><h3><a href="http://dsvc.org/about-dsvc/dsvc-news/06/2011/congratulations-2011-dallas-show-medal-winners">2011 <span class="hide-for-small"> Jun -</span> DSVC Show <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></a></h3>
 <small>Bronze Award, LoyalTree Rewards App; Showcase, Zephyr Real Estate App; Art/Creative Director: Jason Franzen; Designer: Becky Carlson, Justin Pocta</small></span>
 <span><h3>2007 <span class="hide-for-small"> Mar -</span> DSVC National <span class="nowrap" style="display:inline-block;">Student Show</span></h3>
-<small>Showcase, The Butcher's Wife Poster</small></span>
+<small>Showcase, The Butcher&#8217;s Wife Poster</small></span>
 <span><h3>2006 <span class="hide-for-small"> May -</span> University of <span class="nowrap" style="display:inline-block;">North Texas</span></h3>
 <small>UNT Top 10 Portfolio, Sophomore Midpoint Review</small></span>
 </div></div>

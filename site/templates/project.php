@@ -18,7 +18,7 @@
 <?php } else { ?>
 <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeFirst', 'clicked'])" class="button-home-left" title="Home"></a>
 <?php }; ?>
-  <span id="project-headline">
+  <span class="project-headline">
     <?php echo $page->title ?> <?php if ($page->projecttype() != 'aboutme') { echo "- "; echo h($page->projecttype()); } else { }; ?>
   </span>
 <?php if ($page->projecttype() != 'aboutme' && $page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" onclick="_gaq.push(['_trackEvent', 'project-Next', 'clicked'])" class="button-next" style="right:0;" title="Next"></a><?php } elseif ($page->projecttype() != 'aboutme') { ?>
@@ -270,7 +270,8 @@ restartDelay: 2500
       <?php } else { ?>
         <a href="/" onclick="_gaq.push(['_trackEvent', 'project-HomeFirstFooter', 'clicked'])" class="button-home-left" title="Home"></a>
           <?php }; ?>
-              <span style="text-transform:capitalize;text-align:center;width:100%;display:block;line-height:3em;color:#FFF">
+              <span class="project-headline" style="textX-transform:capitalize;
+              text-align:centerX;Xwidth:100%;dXisplay:block;liXne-height:3em;coXlor:#FFF">
                 <?php echo $page->title ?> <?php if ($page->projecttype() != 'aboutme') { echo "- "; echo h($page->projecttype()); } else { }; ?>
               </span>
                                           <?php if($page->hasNext()) { ?><a href="<?php echo $page->next()->url() ?>" onclick="_gaq.push(['_trackEvent', 'project-NextFooter', 'clicked'])" class="button-next" style="right:0;" title="Next"></a><?php } else { ?>

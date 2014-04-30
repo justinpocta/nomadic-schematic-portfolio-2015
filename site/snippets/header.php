@@ -29,28 +29,24 @@
 
 <body>
 <?php include_once("analyticstracking.php") ?>
-<a href="" name="start" style="position:absolute;top:-10px;"></a>
+<a href="/" name="start" style="position:absolute;top:-10px;"></a>
 
   <header>
 	<!-- NAV -->
-	<div class="topbar-container">
+	<nav class="topbar-container">
 
 		<a href="/" class="nomadic-logo"></a>
-		<!--//
-      <a id="button" class="nav-mobile show-for-small">nav</a>
-    //-->
 
 		<!--// MOBILE NAV
-		<ul class="toggler dropdown-nav" id="effect">
+		<nav class="toggler dropdown-nav" id="effect">
 			<li><a href="/apps">App Design</a></li>
 			<li><a href="/websites">Websites</a></li>
 			<li><a href="/projects/logo-design">Branding</a></li>
 			<li><a href="/print">Print Design</a></li>
 			<li><a href="/illustration">Illustration</a></li>
 			<li><a href="/projects/about">About Justin</a></li>
-		</ul> //-->
+		</nav> //-->
 
-	</div>
-	<!-- end NAV -->
-	<!--     <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/img/logo.png') ?>" width="115" height="41" alt="<?php echo html($site->title()) ?>" /></a></h1> -->
+	</nav>
+
   </header>
