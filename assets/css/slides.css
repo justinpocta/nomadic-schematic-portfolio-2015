@@ -96,7 +96,7 @@
       display: inline-block;
       /*width: 22px;
       height: 22px;*/
-      background: url(../img/pagination.png) no-repeat;
+      background: url(../img/pagination.svg) no-repeat;
       background-size: 33.3333%;
       text-indent: -9999px;
       border: 0;
@@ -109,7 +109,7 @@
 
       /*display: block;
       padding-top: 13px;
-      background-image: url('../img/pagination.png');
+      background-image: url('../img/pagination.svg');
 */
     }
     .slidesjs-pagination a.current {
