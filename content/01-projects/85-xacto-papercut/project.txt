@@ -12,11 +12,11 @@ headercss: background-color:rgba(0,0,0,.25);background-size:auto;background-posi
 ----
 headerwidth: max-width:1000px;
 ----
-headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:900px; /* if one slide: */ leftX: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: auto 100%; background-position: center center; max-height:450px; /* if one slide: */ leftX: 0 !important;
 ----
-slides2: max-height: 600px;
+slides2: max-height: 450px;
 ----
-slides3: max-height: 600px;
+slides3: max-height: 450px;
 ----
 slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
 ----

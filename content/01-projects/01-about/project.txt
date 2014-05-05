@@ -1,18 +1,16 @@
 Title: About Justin Pocta
 ----
 Textabout:
-<div class="large-12 small-12 profiler-box" style="float:leftX;max-width:600px;margin:-120px auto 0 auto;z-index:100;padding:0px;">
+<div class="large-12 small-12 profiler-box">
   <center>
-
   <div class="profile-mask" style="float:none;margin:0 0 15px 0;"></div>
-
   <span class="profile-mask">
-
-    <p style="font-size:1.2em !important;margin-bottom:10px;max-width:500px">I&#8217;m a designer at <a href="http://switch.is">Switch</a>, working in Brooklyn, NY. Currently unavailable for freelance work, but always up for friendly emails. <!--// Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span> //--></p>
-  <p class="profile-links" style="max-width:600px;">
-    <a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">Email Me</a><a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">My Résumé</a>
-  </p>
-
+    <p style="font-size:1.2em !important;line-height:1.9em;margin-bottom:10px;max-width:500px">I&#8217;m a designer at <a href="http://switch.is">Switch</a> and working from Brooklyn, New York. Currently unavailable for freelance, but always up for friendly emails. <!--// Yes, I am interested in discussing <span style="white-space:nowrap;">full-time</span> and freelance opportunities with startups, studios, and <span class="nowrap">individual clients.</span> //--></p>
+    <p class="profile-links" style="max-width:600px;">
+      <a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">Email Me</a><a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">My Résumé</a>
+    </p>
+  </span>
+  </center>
 </div>
 
 <div class="profile-copy large-12 small-12" style="padding:0 30px;Xfloat:left">
@@ -52,7 +50,7 @@ Textabout:
 <span class="detail-title-light">Currently Reading</span>
 <span class="nowrap"><a href="http://www.abookapart.com/products/just-enough-research"><h3>Just Enough Research <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
 <span class="nowrap"><a href="http://www.kernandburnbook.com/"><h3>Kern and Burn <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
-<span class="nowrap"><a href="http://rosenfeldmedia.com/books/prototyping/"><h3>Prototyping: A Practitioner’s Guide <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
+<span class="nowrap" style="max-width:500px;text-overflow:ellipsis;overflow:hidden;"><a href="http://rosenfeldmedia.com/books/prototyping/"><h3>Prototyping: A Practitioner’s Guide <span class="social-links ss-icon ss-social-regular" style="display:none">&#x1F517;</span></h3></a></span>
 <span class="nowrap"><a href="http://bradfrostweb.com/blog/post/atomic-web-design/"><h3>Atomic Web Design <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
 <span class="nowrap"><a href="https://www.goodreads.com/book/show/16035510-a-brief-history-of-time"><h3>A Brief History of Time <span class="social-links ss-icon ss-social-regular">&#x1F517;</span></h3></a></span>
 
@@ -83,7 +81,7 @@ Textabout:
 <span class="detail-title">Thank You</span><p>I built my site using (link: http://foundation.zurb.com text: Foundation class: thanks) Responsive Framework, (link: http://getkirby.com text: Kirby class: thanks) customizable CMS, (link: http://slidesjs.com text: SlidesJS class: thanks) jQuery slideshow. Thanks to my friend, (link: http://jordanstephens.net text: Jordan Stephens class: thanks), for development help and guidance with Git, Vim, Terminal and other random crazy hacker things.</p>
 </div></div><!-- end #detail-mainAGAIN  -->
 ----
-headercss: background-color:rgba(0,0,0,1.0);background-size: cover;background-position: top center;
+headercss: background-color:rgba(0,0,0,1.0);background-size: auto 100%;background-position: top center;
 ----
 headerwidth: max-height:500px;
 ----
@@ -92,5 +90,3 @@ headerheight: max-height:500px; background-size: auto 100%; /* if one slide: */ 
 paginateslide: false
 ----
 projecttype: aboutme
-----
-Related: ($random.project_app)*3

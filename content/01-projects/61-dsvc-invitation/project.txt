@@ -10,13 +10,13 @@ Thumbtype: .jpg
 ----
 headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position: top 80%;border-bottom:3px solid #efefef;
 ----
-headerwidth: max-width: 1000px; max-height:600px; background-size:100% !important;
+headerwidth: max-width: 900px; max-height:450px; background-size:100% !important;
 ----
-headerheight: max-height:500px; background-size:auto 100% !important;background-position:top center !important;
+headerheight: max-height:450px; background-size:auto 100% !important;background-position:top center !important;
 ----
-slides2: max-height: 600px;
+slides2: max-height: 450px;
 ----
-slides3: max-height: 600px;
+slides3: max-height: 450px;
 ----
 slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
 ----

@@ -32,7 +32,7 @@
 </div>
 
 <!-- objective -->
-<div class="small-12 large-12" style="margin:0 auto; display:block; background-image:url('<?php echo $page->images()->find('bg.png')->url() ?>'); background-repeat:no-repeat; <?php echo $page->headercss ?>">
+<div class="small-12 large-12 slideshowFixed" style="margin:0 auto; display:block; background-image:url('<?php echo $page->images()->find('bg.png')->url() ?>'); background-repeat:no-repeat; <?php echo $page->headercss ?>;">
 
      <!--// GALLERY 1 //-->
      <div class="container slidesPrimary" style="<?php echo $page->headerwidth ?>">
@@ -50,7 +50,7 @@
   <article>
 
 <!-- content intro -->
-<div class="large-12 small-12" style="padding-top:25px;">
+<div class="large-12 small-12 slideshowFixedContent" style="padding-top:25px;z-index:100;background-color:#FFF;">
 
   <div class="large-12 small-12"> <!-- MAIN 1 -->
 	<div class="row">
@@ -220,7 +220,7 @@ restartDelay: 2500
   </script>
   <!-- End SlidesJS Required -->
 
-<div id="nav-list2" style="background-color:rgba(0,0,0,.1);padding-top:10px;">
+<div id="nav-list2" style="background-color:rgba(235,235,235,1.0);padding-top:10px;">
 <!-- <p style="font-size:1em;padding-left:20px;margin-bottom:.7em !important;"><i>View Another Project</i></p> -->
 <div id="nav-list-box2">
 

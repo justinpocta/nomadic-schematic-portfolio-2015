@@ -10,15 +10,15 @@ Thumb: viridian
 ----
 Thumbtype: .jpg
 ----
-headercss: background-color:rgba(255,255,255,1.0);background-size:auto;background-position:bottom center; border-bottom: 3px solid #efefef; height: 100%;
+headercss: background-color:rgba(255,255,255,1.0);background-size:85%;background-position:bottom center; border-bottom: 3px solid #efefef; height: 100%;
 ----
-headerwidth: max-width: 900px; max-height: 600px; background-position: bottom center !important;
+headerwidth: max-width: 800px; max-height: 450px; background-position: top bottom center !important;
 ----
-headerheight: background-repeat: no-repeat; background-size: 87%; background-position: bottom center !important; max-heightX: 100%; /* if one slide: */ lXeft: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 85%; background-position: bottom center !important; max-heightX: 100%; /* if one slide: */ lXeft: 0 !important;
 ----
-slides2: max-height: 600px;
+slides2: max-height: 450px;
 ----
-slides3: max-height: 600px;
+slides3: max-height: 450px;
 ----
 slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
 ----

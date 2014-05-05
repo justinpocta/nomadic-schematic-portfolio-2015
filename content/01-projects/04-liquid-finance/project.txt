@@ -4,7 +4,7 @@ projecttype: app
 ----
 projecttype_button: project-mask
 ----
-AppLink: (link: https://itunes.apple.com/us/app/liquid-personal-finance-drag/id500159071 text: Download App class: download-app)
+AppLink: (link: https://itunes.apple.com/us/app/liquid-personal-finance-drag/id450159071 text: Download App class: download-app)
 ----
 Thumb: liquid
 ----
@@ -14,11 +14,11 @@ headercss: background-color:rgba(26,127,185,1.0); background-size:auto; backgrou
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: background-repeat: no-repeat; background-size: 100%; background-position: bottom center; max-height:500px; /* if one slide: */ left: 0 !important;
+headerheight: background-repeat: no-repeat; background-size: 100%; background-position: bottom center; max-height:450px; /* if one slide: */ left: 0 !important;
 ----
-slides2: max-height: 600px;
+slides2: max-height: 450px;
 ----
-slides3: max-height: 600px;
+slides3: max-height: 450px;
 ----
 slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
 ----

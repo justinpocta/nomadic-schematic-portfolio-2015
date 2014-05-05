@@ -8,17 +8,17 @@ Thumb: butcherswife
 ----
 Thumbtype: .jpg
 ----
-slidecss: #slide .slidesjs-control, #slide .slidesjs-container {min-height:500px !important; max-height:500px !important;} .slidesjs-container {min-height:500px;}
+slidecss: #slide .slidesjs-control, #slide .slidesjs-container {min-height:450px !important; max-height:450px !important;} .slidesjs-container {min-height:450px;}
 ----
 headercss: width:100%; height:100%; background-color:rgba(255,255,255,1.0);background-size:auto;background-position: top center; border-bottom: 3px solid #efefef;
 ----
-headerwidth: mXax-width:800px; min-height:500px; max-height: 500px;
+headerwidth: mXax-width:800px; min-height:450px; max-height: 450px;
 ----
-headerheight: min-height:500px; max-height:500px; background-size: auto 100%; /* if one slide: */ left: 0 !important;
+headerheight: min-height:450px; max-height:450px; background-size: auto 100%; /* if one slide: */ left: 0 !important;
 ----
-slides2: max-height: 600px;
+slides2: max-height: 450px;
 ----
-slides3: max-height: 600px;
+slides3: max-height: 450px;
 ----
 slidesheight2: background-size: 90%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
 ----

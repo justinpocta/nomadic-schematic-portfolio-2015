@@ -14,11 +14,11 @@ headercss: background-color:rgba(74,98,141,1.0);background-size:auto;background-
 ----
 headerwidth: max-width:800px;
 ----
-headerheight: max-height:500px; background-size: contain; /* if one slide: */ left: 0 !important;
+headerheight: max-height:450px; background-size: contain; /* if one slide: */ left: 0 !important;
 ----
-slides2: max-height: 600px;
+slides2: max-height: 450px;
 ----
-slides3: max-height: 600px;
+slides3: max-height: 450px;
 ----
 slidesheight2: background-size: auto 100%;  background-repeat: no-repeat; background-position: center center; /* if one slide: */ lXeft: 0 !important;
 ----
