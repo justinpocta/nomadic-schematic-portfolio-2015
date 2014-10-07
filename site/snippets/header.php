@@ -9,6 +9,7 @@
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, user-scalable=false;">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="p:domain_verify" content="bdc378f8517d85ef396835db311368b7"/>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/qii5wec.js"></script>
