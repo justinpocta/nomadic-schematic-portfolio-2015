@@ -82,7 +82,7 @@ $tags = tagcloud($blog);
     <div class="profile-mask" style="display:block;float:none;position:relative;margin:100px 0 15px 0;"></div>
 
     <span class="profile-mask">
-      <p style="font-size:1.2em !important;line-height:1.9em;margin-bottom:10px;max-width:500px">Justin Pocta is designer at <a href="http://switch.is">Switch</a> and working from Brooklyn, New York. Currently unavailable for freelance, but always up for friendly emails.</p>
+      <p style="font-size:1.2em !important;line-height:1.9em;margin-bottom:10px;max-width:500px">Justin Pocta is designer at <a href="http://switch.is">Switch</a> and working in Dallas, TX again after 2 wonderful years in NYC. Currently unavailable for freelance, but always up for friendly emails.</p>
       <p class="profile-links" style="max-width:600px;">
         <a href="mailto:justin@nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutEmail', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">Email Me</a><a href="http://resume.nomadic-schematic.com" onclick="_gaq.push(['_trackEvent', 'aboutResume', 'clicked'])" style="margin:0px 5px 5px 5px;clear:none !important;float:none !important;max-width:250px;" class="profile-mask button primary left">My Résumé</a>
       </p>
@@ -91,7 +91,7 @@ $tags = tagcloud($blog);
   </div>
 </div> -->
 
-<div class="tk-jubilat main-intro" style="padding:20px 0;background-color:#FFF;"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#545454;text-decoration:none">Nomadic Schematic</a> <span style="">is the portfolio of <a class="nowrap" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="/projects/about">Justin Pocta</span></a>,<br>an interactive product designer living in new york city.</h2></div>
+<div class="tk-jubilat main-intro" style="padding:20px 0;background-color:#FFF;"><h2><a href="/" onclick="_gaq.push(['_trackEvent', 'about1', 'clicked'])" style="color:#545454;text-decoration:none">Nomadic Schematic</a> <span style="">is the portfolio of <a class="nowrapX" onclick="_gaq.push(['_trackEvent', 'button2', 'clicked'])" href="/projects/about">Justin Pocta</span></a>, an interactive product designer living in dallas, tx.</h2></div>
 
   <div id="nav-list" style="clear:left;display:block;"><div id="nav-list-box">
 

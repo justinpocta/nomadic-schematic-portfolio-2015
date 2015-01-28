@@ -1,0 +1,17 @@
+body {
+	background-color:#454545;
+  color:#FFFFFF;
+}
+a,a:visited,a:hover {
+  color:#efefef;
+  text-decoration:none;
+}
+#logo {
+	background-image:url('/assets/img/logo-top.png');
+	background-repeat:no-repeat;
+	background-size:100% auto;
+  display:block;
+  height:150px;
+	text-indent:-9999px;
+  width:150px;
+}
