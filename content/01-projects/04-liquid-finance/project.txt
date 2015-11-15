@@ -50,7 +50,7 @@ Text: Liquid was definitely one of the heaviest projects I worked on while at [x
 Created: March 2012
 ----
 Credits: Creative Director - Jason Franzen,
-Initial Design Comps - Coby Almond,
+Initial Design Comps - (link: http://www.cobyalmond.com/#/liquid/ text: Coby Almond),
 Created at (link: http://xcubelabs.com text: [x]cube LABS)
 ----
 Related: ($random.project_app)*3
