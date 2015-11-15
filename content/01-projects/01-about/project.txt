@@ -14,8 +14,10 @@ Textabout:
 </div>
 
 <div class="profile-copy large-12 small-12" style="padding:0 30px;Xfloat:left">
-	<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent hailing from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense, while being simultaneously baffling in many ways. (maybe that&#8217;s the secret to its magnetism?) In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I <span class="nowrap">have made.</span></p>
-
+<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent and an insatiable appetite for learning.</p>
+<!--//
+<p>Thanks for taking the time to check out my work. I am a multidisciplinary designer with an interactive bent hailing from Texas. I must have been born with a bit of Brooklyn in my veins because no city has ever made as much sense, while being simultaneously baffling in many ways. (maybe that&#8217;s the secret to its magnetism?) In early 2012, after years of planning, I finally dropped everything, sold my car and most of my things, and launched myself out to New York, jobless with two bags to my name. It has been one of the best decisions I <span class="nowrap">have made.</span></p>
+//-->
 	<p>The past 10+ years I have been soaking up design from every source I could find. I&#8217;m fascinated with the potential of technology, which led me to learn HTML when I was in high school and has kept me closely tied in with the interactive side of the design field, but I do love getting my hands on great <span class="nowrap">print work.</span></p>
 
 	<p>Thus far, I have had the pleasure of working in studios designing and hand-coding websites, creating UX and UI for mobile apps, developing print pieces as well as working in-house at a startup doing all of the above&mdash;and wearing any other hat needed for <span class="nowrap">the day.</span></p>
